@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="16" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <HyperskillCourse>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="customPresentableName" />
+          <option name="description" value="For those who are learning a foreign language, it’s a challenge to remember new words, which is exactly what flashcards are for. Typically, flashcards show a hint (a task or a picture) on the one side and the right answer on the reverse. Flashcards can be used to remember any other sort of data: so if you want to create something useful and enhance your programming skills, this project is just right.&lt;br/&gt;&lt;br/&gt;Learn more at &lt;a href=&quot;https://hyperskill.org&quot;&gt;https://hyperskill.org/projects/44&lt;/a&gt;" />
+          <option name="environment" value="" />
+          <option name="id" value="0" />
+          <option name="index" value="-1" />
+          <option name="language" value="JAVA 11" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Flashcards" />
+          <option name="stages">
+            <list>
+              <HyperskillStage>
+                <option name="id" value="232" />
+                <option name="stepId" value="5343" />
+                <option name="title" value="Stage one, card one" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="233" />
+                <option name="stepId" value="5344" />
+                <option name="title" value="What’s on the card?" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="234" />
+                <option name="stepId" value="5345" />
+                <option name="title" value="Make it your own" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="235" />
+                <option name="stepId" value="5346" />
+                <option name="title" value="A good stack" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="236" />
+                <option name="stepId" value="5347" />
+                <option name="title" value="Menu, please!" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="237" />
+                <option name="stepId" value="5348" />
+                <option name="title" value="Statistics" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="238" />
+                <option name="stepId" value="5349" />
+                <option name="title" value="IMPORTant" />
+              </HyperskillStage>
+            </list>
+          </option>
+          <option name="taskToTopics">
+            <map>
+              <entry key="0">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="259" />
+                      <option name="theoryId" value="3805" />
+                      <option name="title" value="IDE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="15" />
+                      <option name="theoryId" value="3500" />
+                      <option name="title" value="Introduction to Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="147" />
+                      <option name="theoryId" value="3522" />
+                      <option name="title" value="Basic literals" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="148" />
+                      <option name="theoryId" value="3521" />
+                      <option name="title" value="The first program" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="193" />
+                      <option name="theoryId" value="3749" />
+                      <option name="title" value="Printing data" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="260" />
+                      <option name="theoryId" value="3801" />
+                      <option name="title" value="IntelliJ IDEA" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="1">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="480" />
+                      <option name="theoryId" value="6577" />
+                      <option name="title" value="Command line overview" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="14" />
+                      <option name="theoryId" value="3518" />
+                      <option name="title" value="Types and variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="30" />
+                      <option name="theoryId" value="3520" />
+                      <option name="title" value="Comments" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="112" />
+                      <option name="theoryId" value="3513" />
+                      <option name="title" value="Naming variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="146" />
+                      <option name="theoryId" value="3519" />
+                      <option name="title" value="Arithmetic operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="191" />
+                      <option name="theoryId" value="3739" />
+                      <option name="title" value="Write, compile and run" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="149" />
+                      <option name="theoryId" value="3499" />
+                      <option name="title" value="JVM, JRE and JDK" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="192" />
+                      <option name="theoryId" value="3746" />
+                      <option name="title" value="Running programs on your computer" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="113" />
+                      <option name="theoryId" value="3603" />
+                      <option name="title" value="Scanning the input" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="27" />
+                      <option name="theoryId" value="3565" />
+                      <option name="title" value="Integer types and operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="87" />
+                      <option name="theoryId" value="3516" />
+                      <option name="title" value="Boolean and logical operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="88" />
+                      <option name="theoryId" value="3512" />
+                      <option name="title" value="Relational operators" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="307" />
+                      <option name="theoryId" value="5008" />
+                      <option name="title" value="Increment and decrement" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="31" />
+                      <option name="theoryId" value="3514" />
+                      <option name="title" value="Characters" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="9" />
+                      <option name="theoryId" value="3523" />
+                      <option name="title" value="String" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="25" />
+                      <option name="theoryId" value="3503" />
+                      <option name="title" value="Conditional statement" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="2">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="309" />
+                      <option name="theoryId" value="5035" />
+                      <option name="title" value="Primitive and reference types" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="4" />
+                      <option name="theoryId" value="3511" />
+                      <option name="title" value="Array" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="89" />
+                      <option name="theoryId" value="3505" />
+                      <option name="title" value="The for-loop" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="90" />
+                      <option name="theoryId" value="3498" />
+                      <option name="title" value="The while and do-while loops" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="19" />
+                      <option name="theoryId" value="3507" />
+                      <option name="title" value="Branching statements" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="97" />
+                      <option name="theoryId" value="3602" />
+                      <option name="title" value="Iterating over arrays" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="3">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="117" />
+                      <option name="theoryId" value="3614" />
+                      <option name="title" value="Introduction to OOP" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="502" />
+                      <option name="theoryId" value="6865" />
+                      <option name="title" value="Units of information" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="362" />
+                      <option name="theoryId" value="5544" />
+                      <option name="title" value="Binary numbers" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="60" />
+                      <option name="theoryId" value="3497" />
+                      <option name="title" value="What is an exception" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="59" />
+                      <option name="theoryId" value="3570" />
+                      <option name="title" value="Hierarchy of exceptions" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="65" />
+                      <option name="theoryId" value="3552" />
+                      <option name="title" value="Exception handling" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="164" />
+                      <option name="theoryId" value="1945" />
+                      <option name="title" value="NPE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="167" />
+                      <option name="theoryId" value="3492" />
+                      <option name="title" value="Generic programming" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="43" />
+                      <option name="theoryId" value="3591" />
+                      <option name="title" value="Basics of collections" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="40" />
+                      <option name="theoryId" value="3575" />
+                      <option name="title" value="Set" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="46" />
+                      <option name="theoryId" value="3558" />
+                      <option name="title" value="Map" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="161" />
+                      <option name="theoryId" value="3532" />
+                      <option name="title" value="Sizes and ranges" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="32" />
+                      <option name="theoryId" value="3510" />
+                      <option name="title" value="Type casting" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="163" />
+                      <option name="theoryId" value="3536" />
+                      <option name="title" value="Errors in programs" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="152" />
+                      <option name="theoryId" value="3506" />
+                      <option name="title" value="Ternary operator" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="94" />
+                      <option name="theoryId" value="3590" />
+                      <option name="title" value="Defining methods" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="115" />
+                      <option name="theoryId" value="3618" />
+                      <option name="title" value="Defining classes" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="7" />
+                      <option name="theoryId" value="3621" />
+                      <option name="title" value="Package" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="17" />
+                      <option name="theoryId" value="3535" />
+                      <option name="title" value="Constructor" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="96" />
+                      <option name="theoryId" value="4727" />
+                      <option name="title" value="Objects" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="4">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="172" />
+                      <option name="theoryId" value="3635" />
+                      <option name="title" value="Files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="173" />
+                      <option name="theoryId" value="3636" />
+                      <option name="title" value="Reading files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="177" />
+                      <option name="theoryId" value="3652" />
+                      <option name="title" value="Writing files" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="301" />
+                      <option name="theoryId" value="4910" />
+                      <option name="title" value="Random" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="5">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="266" />
+                      <option name="theoryId" value="4953" />
+                      <option name="title" value="Computer algorithms" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="263" />
+                      <option name="theoryId" value="4991" />
+                      <option name="title" value="The big O notation" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="267" />
+                      <option name="theoryId" value="5161" />
+                      <option name="title" value="Data structures" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="346" />
+                      <option name="theoryId" value="5357" />
+                      <option name="title" value="Dynamic array" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="166" />
+                      <option name="theoryId" value="3567" />
+                      <option name="title" value="ArrayList" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="6">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="1" />
+                      <option name="theoryId" value="3489" />
+                      <option name="title" value="The main method" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="99" />
+                      <option name="theoryId" value="3594" />
+                      <option name="title" value="Arrays as parameters" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="111" />
+                      <option name="theoryId" value="3566" />
+                      <option name="title" value="Command-line arguments" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="updateDate" value="0" />
+          <option name="hyperskillProject">
+            <HyperskillProject>
+              <option name="description" value="For those who are learning a foreign language, it’s a challenge to remember new words, which is exactly what flashcards are for. Typically, flashcards show a hint (a task or a picture) on the one side and the right answer on the reverse. Flashcards can be used to remember any other sort of data: so if you want to create something useful and enhance your programming skills, this project is just right." />
+              <option name="id" value="44" />
+              <option name="ideFiles" value="https://stepik.org/media/attachments/lesson/208224/additional_files.json" />
+              <option name="language" value="java" />
+              <option name="templateBased" value="false" />
+              <option name="title" value="Flashcards" />
+              <option name="useIde" value="true" />
+            </HyperskillProject>
+          </option>
+          <option name="items">
+            <list>
+              <FrameworkLesson>
+                <option name="currentTaskIndex" value="1" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Flashcards" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage1" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Implement a program that outputs a card and its definition. You can print a card and a definition you like.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;How to submit?&lt;/h2&gt;&#10;&#10;&lt;p&gt;This stage is auto-graded. The grader will check that:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;    &lt;li&gt;you output 4 lines,&lt;/li&gt;&#10;    &lt;li&gt;the first line is &lt;code&gt;Card:&lt;/code&gt;,&lt;/li&gt;&#10;    &lt;li&gt;the third line is &lt;code&gt;Definition:&lt;/code&gt;.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output examples&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Card:&#10;purchase&#10;Definition:&#10;buy&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt; &lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Card:&#10;cos'(x)&#10;Definition:&#10;-sin(x)&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/44/stages/232/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5343" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Stage one, card one" />
+                      <option name="record" value="1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/flashcards/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/flashcards/Main.java" />
+                                <option name="text" value="package flashcards;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/FlashcardsTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/FlashcardsTest.java" />
+                                <option name="text" value="import common.FlashcardsStage1Test;&#10;&#10;public class FlashcardsTest extends FlashcardsStage1Test {&#10;    // just empty class, but not abstract so it can be run&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/common/FlashcardsStage1Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/FlashcardsStage1Test.kt" />
+                                <option name="text" value="package common&#10;&#10;import flashcards.Main&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;&#10;abstract class FlashcardsStage1Test : BaseStageTest&lt;Nothing?&gt;(Main::class.java) {&#10;&#10;    override fun generate(): List&lt;TestCase&lt;Nothing?&gt;&gt; {&#10;        return listOf(&#10;                TestCase()&#10;        )&#10;    }&#10;&#10;    override fun check(reply: String, clue: Nothing?): CheckResult {&#10;        val lines = reply.lines().filter { it.isNotEmpty() }&#10;&#10;        if (lines.size != LINE_COUNT) {&#10;            return CheckResult(&#10;                    false,&#10;                    &quot;Your program prints ${lines.size} ${lineOrLines(lines.size)}.\n&quot; +&#10;                            &quot;$LINE_COUNT lines were expected.&quot;&#10;            )&#10;        }&#10;&#10;        val firstLine = lines[0].trim()&#10;&#10;        if (firstLine != FIRST_LINE) {&#10;            return CheckResult(&#10;                    false,&#10;                    &quot;Your first line is \&quot;$firstLine\&quot; but \&quot;$FIRST_LINE\&quot; was expected.&quot;&#10;            )&#10;        }&#10;&#10;        val thirdLine = lines[2].trim()&#10;&#10;        if (thirdLine != THIRD_LINE) {&#10;            return CheckResult(&#10;                    false,&#10;                    &quot;Your third line is \&quot;$thirdLine\&quot; but \&quot;$THIRD_LINE\&quot; was expected.&quot;&#10;            )&#10;        }&#10;&#10;        return CheckResult(true)&#10;    }&#10;&#10;    private fun lineOrLines(lineCount: Int): String {&#10;        if (lineCount == 1) {&#10;            return &quot;line&quot;&#10;        }&#10;        return &quot;lines&quot;&#10;    }&#10;&#10;    companion object {&#10;        private const val LINE_COUNT = 4&#10;        private const val FIRST_LINE = &quot;Card:&quot;&#10;        private const val THIRD_LINE = &quot;Definition:&quot;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/flashcards/Card.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/flashcards/Card.java" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1566903880000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage2" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Implement a custom card creation mechanism.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;How to submit?&lt;/h2&gt;&#10;&#10;&lt;p&gt;This stage is auto-graded. The grader will input 3 lines (card, definition, answer) and check that your output contains a word:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;    &lt;li&gt;&lt;code&gt;wrong&lt;/code&gt; if the answer isn't equal to the definition,&lt;/li&gt;&#10;    &lt;li&gt;&lt;code&gt;right&lt;/code&gt; if the answer is equal to the definition.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Input example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;a purring animal&#10;cat&#10;cat&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Your answer is right!&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Input example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;a barking animal&#10;dog&#10;cat&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Output example&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Your answer is wrong...&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/44/stages/233/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5344" />
+                      <option name="index" value="2" />
+                      <option name="name" value="What’s on the card?" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/FlashcardsTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/FlashcardsTest.java" />
+                                <option name="text" value="import common.FlashcardsStage2Test;&#10;&#10;public class FlashcardsTest extends FlashcardsStage2Test {&#10;    // just empty class, but not abstract so it can be run&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/common/FlashcardsStage2Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/FlashcardsStage2Test.kt" />
+                                <option name="text" value="package common&#10;&#10;import flashcards.Main&#10;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;import common.FlashcardsStage2Answer.RIGHT&#10;import common.FlashcardsStage2Answer.WRONG&#10;&#10;data class FlashcardsStage2Clue(&#10;        val consoleInput: String,&#10;        val answer: FlashcardsStage2Answer,&#10;        val revealTest: Boolean = false&#10;)&#10;&#10;enum class FlashcardsStage2Answer(val word: String) {&#10;    RIGHT(&quot;right&quot;),&#10;    WRONG(&quot;wrong&quot;);&#10;}&#10;&#10;abstract class FlashcardsStage2Test : BaseStageTest&lt;FlashcardsStage2Clue&gt;(Main::class.java) {&#10;&#10;    override fun generate(): List&lt;TestCase&lt;FlashcardsStage2Clue&gt;&gt; {&#10;        return listOf(&#10;                createTestCase(&quot;a purring animal\ncat\ncat\n&quot;, RIGHT, true),&#10;                createTestCase(&quot;a purring animal\ncat\n????\n&quot;, WRONG, true),&#10;                createTestCase(&quot;a barking animal\ndog\ncat\n&quot;, WRONG),&#10;                createTestCase(&quot;a barking animal\ndog\ndog\n&quot;, RIGHT)&#10;        )&#10;    }&#10;&#10;    override fun check(reply: String, clue: FlashcardsStage2Clue): CheckResult {&#10;        val words = reply.lowerWords()&#10;&#10;        val hasRight = RIGHT.word.toLowerCase() in words&#10;        val hasWrong = WRONG.word.toLowerCase() in words&#10;&#10;        if ((hasRight || !hasWrong) &amp;&amp; clue.answer == WRONG) {&#10;            return if (clue.revealTest) {&#10;                CheckResult(&#10;                        false,&#10;                        revealRawTest(clue.consoleInput, reply) + &quot;Expected the \&quot;${WRONG.word}\&quot; word.&quot;&#10;                )&#10;            } else {&#10;                CheckResult(false)&#10;            }&#10;        }&#10;&#10;        if ((hasWrong || !hasRight) &amp;&amp; clue.answer == RIGHT) {&#10;            return if (clue.revealTest) {&#10;                CheckResult(&#10;                        false,&#10;                        revealRawTest(clue.consoleInput, reply) + &quot;Expected the \&quot;${RIGHT.word}\&quot; word.&quot;&#10;                )&#10;            } else {&#10;                CheckResult(false)&#10;            }&#10;        }&#10;&#10;        return CheckResult(true)&#10;    }&#10;&#10;    companion object {&#10;        private fun createTestCase(&#10;                consoleInput: String,&#10;                answer: FlashcardsStage2Answer,&#10;                revealTest: Boolean = false&#10;        ): TestCase&lt;FlashcardsStage2Clue&gt; {&#10;            return TestCase&lt;FlashcardsStage2Clue&gt;()&#10;                    .setInput(consoleInput)&#10;                    .setAttach(FlashcardsStage2Clue(consoleInput, answer, revealTest))&#10;        }&#10;    }&#10;}&#10;&#10;fun revealRawTest(consoleInput: String, reply: String): String {&#10;    return &quot;Input:\n$consoleInput\nYour output:\n$reply\n\n&quot;&#10;}&#10;&#10;fun String.lowerWords(): Set&lt;String&gt; {&#10;    val lowerReply = this.trim().toLowerCase()&#10;&#10;    val onlyLetters = lowerReply.map { if (it.isLetter()) it else ' ' }.joinToString(&quot;&quot;)&#10;&#10;    return onlyLetters.split(&quot; &quot;).filter { it.isNotEmpty() }.toSet()&#10;}&#10;&#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/flashcards/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/flashcards/Main.java" />
+                                <option name="text" value="package flashcards;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/flashcards/Card.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/flashcards/Card.java" />
+                                <option name="text" value="package flashcards;&#10;&#10;public class Card {&#10;    private String name;&#10;    private String subject;&#10;    private String theme;&#10;    private String definition;&#10;&#10;    public String getName() {&#10;        return name;&#10;    }&#10;&#10;    public void setName(String name) {&#10;        this.name = name;&#10;    }&#10;&#10;    public String getSubject() {&#10;        return subject;&#10;    }&#10;&#10;    public void setSubject(String subject) {&#10;        this.subject = subject;&#10;    }&#10;&#10;    public String getTheme() {&#10;        return theme;&#10;    }&#10;&#10;    public void setTheme(String theme) {&#10;        this.theme = theme;&#10;    }&#10;&#10;    public String getDefinition() {&#10;        return definition;&#10;    }&#10;&#10;    public void setDefinition(String definition) {&#10;        this.definition = definition;&#10;    }&#10;&#10;    public Card(String name, String subject, String theme, String definition) {&#10;        this.name = name;&#10;        this.subject = subject;&#10;        this.theme = theme;&#10;        this.definition = definition;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return &quot;Card{&quot; +&#10;                &quot;name='&quot; + name + '\'' +&#10;                &quot;, subject='&quot; + subject + '\'' +&#10;                &quot;, theme='&quot; + theme + '\'' +&#10;                &quot;, definition='&quot; + definition + '\'' +&#10;                '}';&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1566903882000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage3" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Implement a working application now! Add support for addition of multiple cards. Then ask the user to answer all the definitions.&lt;/p&gt;&#10;&#10;&lt;p&gt;You can follow the algorithm. First, ask the user to enter the desired number of cards. Then create two string arrays (&lt;code&gt;String[]&lt;/code&gt;): &lt;code&gt;cards&lt;/code&gt; and &lt;code&gt;definitions&lt;/code&gt;. Process all entered cards and save the i-th card to &lt;code&gt;cards[i]&lt;/code&gt; and &lt;code&gt;definitions[i]&lt;/code&gt;. Finally iterate over saved cards and ask the user to answer.&lt;/p&gt;&#10;&#10;&lt;p&gt;When you ask the card definition, you should write the card label in quotes. (Example: &lt;code&gt;Print the definition of &quot;black&quot;:&lt;/code&gt;). If the answer is correct, you should print &lt;code&gt;Correct answer.&lt;/code&gt;. And if the answer is wrong, you should print &lt;code&gt;Wrong answer. (The correct one is &quot;black&quot;).&lt;/code&gt;, where &lt;code&gt;&quot;black&quot;&lt;/code&gt; is an example of the correct definition.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Console example&lt;/h2&gt;&#10;&#10;&lt;p&gt; The symbol &lt;code&gt;&amp;gt;&lt;/code&gt; represents the user input. Notice that it's not the part of the input.&lt;/p&gt;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Input the number of cards:&#10;&amp;gt; 2&#10;The card #1:&#10;&amp;gt; black&#10;The definition of the card #1:&#10;&amp;gt; white&#10;The card #2:&#10;&amp;gt; white&#10;The definition of the card #2:&#10;&amp;gt; black&#10;Print the definition of &quot;black&quot;:&#10;&amp;gt; white&#10;Correct answer.&#10;Print the definition of &quot;white&quot;:&#10;&amp;gt; blue&#10;Wrong answer. (The correct one is &quot;black&quot;.)&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;&lt;i&gt;Note, that all your outputs and user inputs should be on separate lines.&lt;/i&gt;&lt;/p&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/44/stages/234/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5345" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Make it your own" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/common/FlashcardsStage3Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/FlashcardsStage3Test.kt" />
+                                <option name="text" value="package common&#10;&#10;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;import flashcards.Main&#10;&#10;class CardsClue(&#10;        val cardCount: Int,&#10;        val cards: List&lt;String&gt;,&#10;        val defs: List&lt;String&gt;,&#10;        val answers: List&lt;String&gt;&#10;) {&#10;    init {&#10;        require(cardCount == cards.size)&#10;        require(cards.size == defs.size)&#10;        require(defs.size == answers.size)&#10;    }&#10;&#10;    fun makeText() = listOf(&#10;            listOf(cardCount.toString()),&#10;            cards.zip(defs).flatMap { (c, d) -&gt; listOf(c, d) },&#10;            answers&#10;    )&#10;            .flatten()&#10;            .joinToString(&quot;\n&quot;, postfix = &quot;\n&quot;)&#10;}&#10;&#10;abstract class FlashcardsStage3Test : BaseStageTest&lt;CardsClue&gt;(Main::class.java) {&#10;&#10;    override fun generate() = listOf(&#10;            CardsClue(2,&#10;                    cards = listOf(&quot;black&quot;, &quot;white&quot;),&#10;                    defs = listOf(&quot;white&quot;, &quot;black&quot;),&#10;                    answers = listOf(&quot;white&quot;, &quot;blue&quot;)&#10;            ),&#10;            CardsClue(5,&#10;                    cards = listOf(&quot;a&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;),&#10;                    defs = listOf(&quot;a&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;),&#10;                    answers = listOf(&quot;a&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;)&#10;            ),&#10;            CardsClue(5,&#10;                    cards = listOf(&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;),&#10;                    defs = listOf(&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;),&#10;                    answers = listOf(&quot;5&quot;, &quot;4&quot;, &quot;3&quot;, &quot;2&quot;, &quot;1&quot;)&#10;            ),&#10;            CardsClue(4,&#10;                    cards = listOf(&quot;11&quot;, &quot;12&quot;, &quot;13&quot;, &quot;14&quot;),&#10;                    defs = listOf(&quot;21&quot;, &quot;22&quot;, &quot;23&quot;, &quot;24&quot;),&#10;                    answers = listOf(&quot;21&quot;, &quot;22&quot;, &quot;333333&quot;, &quot;34&quot;)&#10;            ),&#10;            CardsClue(2,&#10;                    cards = listOf(&quot;a brother of one's parent&quot;, &quot;a part of the body where the foot and the leg meet&quot;),&#10;                    defs = listOf(&quot;uncle&quot;, &quot;ankle&quot;),&#10;                    answers = listOf(&quot;ankle&quot;, &quot;??&quot;)&#10;            )&#10;&#10;    ).map { clue -&gt;&#10;        TestCase&lt;CardsClue&gt;()&#10;                .setInput(clue.makeText())&#10;                .setAttach(clue)&#10;    }&#10;&#10;    override fun check(reply: String, clue: CardsClue): CheckResult {&#10;        val userLines = reply.lines().filter { it.isNotEmpty() }&#10;&#10;&#10;        if (userLines.size &lt; clue.cardCount * 2) {&#10;            return CheckResult.FALSE(&quot;Your output should contain at least ${clue.cardCount * 2} lines, but contains only ${userLines.size}. &quot; +&#10;                    &quot;Check, that you output your lines with println, not print.&quot;)&#10;        }&#10;&#10;        val askLines = userLines.takeLast(clue.cardCount * 2)&#10;        println(&quot;askLines:\n${askLines.joinToString(&quot;\n&quot;)}&quot;)&#10;&#10;&#10;        val questToAns = askLines.windowed(2, 2)&#10;        for (i in 0 until clue.cardCount) {&#10;            val (quest, feedback) = questToAns[i]&#10;            val card = clue.cards[i]&#10;            val def = clue.defs[i]&#10;            val ans = clue.answers[i] // user answer&#10;&#10;            if (!quest.contains(&quot;\&quot;$card\&quot;&quot;)) {&#10;                return CheckResult.FALSE(&quot;Question \&quot;$quest\&quot; should contain the card \&quot;$card\&quot; in quotes.&quot;)&#10;            }&#10;&#10;            if (ans == def) {&#10;                // should be correct&#10;                if (!feedback.toLowerCase().contains(&quot;correct answer&quot;)) {&#10;                    return CheckResult.FALSE(&quot;Feedback \&quot;$feedback\&quot; should be positive for card \&quot;$card\&quot; and answer \&quot;$ans\&quot;.&quot;)&#10;                }&#10;            } else {&#10;                // should be wrong&#10;                if (!feedback.toLowerCase().contains(&quot;wrong answer&quot;) || !feedback.contains(&quot;\&quot;$def\&quot;&quot;)) {&#10;                    return CheckResult.FALSE(&quot;Feedback \&quot;$feedback\&quot; should be negative for the card \&quot;$card\&quot; &quot; +&#10;                            &quot;and contain the right definition \&quot;$def\&quot; in quotes.&quot;)&#10;                }&#10;            }&#10;&#10;        }&#10;&#10;        return CheckResult.TRUE&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/FlashcardsTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/FlashcardsTest.java" />
+                                <option name="text" value="import common.FlashcardsStage3Test;&#10;&#10;public class FlashcardsTest extends FlashcardsStage3Test {&#10;    // just empty class, but not abstract so it can be run&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/flashcards/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/flashcards/Main.java" />
+                                <option name="text" value="package flashcards;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1566903883000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage4" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;There is a common situation that the answer is wrong for the given card but it's correct for another card. Let's consider situations like this.&lt;/p&gt;&#10;&#10;&lt;p&gt;Remove array-based storage. Use two maps (&lt;code&gt;Map&amp;lt;String, String&amp;gt;&lt;/code&gt;): &lt;code&gt;cardToDefinition&lt;/code&gt; and &lt;code&gt;definitionToCard&lt;/code&gt;. Ask all cards in the order of addition. (&lt;code&gt;LinkedHashMap&lt;/code&gt; class helps you to save the order.) If the definition is wrong but it is presented in &lt;code&gt;definitionToCard&lt;/code&gt;, output the original card.&lt;/p&gt;&#10;&#10;&lt;p&gt;When the user tries to add a duplicated card or a definition, forbid it and ask again, until the user inputs a correct card. For now you are able to implement this without a &lt;code&gt;try catch&lt;/code&gt; construction. Use the rule: if you can avoid exception-based logic, avoid it!&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Examples&lt;/h2&gt;&#10;&lt;p&gt; The symbol &lt;code&gt;&amp;gt;&lt;/code&gt; represents the user input. Notice that it's not the part of the input.&lt;/p&gt;&#10;Example 1:&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Input the number of cards:&#10;&amp;gt; 2&#10;The card #1:&#10;&amp;gt; black&#10;The definition of the card #1:&#10;&amp;gt; white&#10;The card #2:&#10;&amp;gt; black&#10;The card &quot;black&quot; already exists. Try again:&#10;&amp;gt; red&#10;The definition of the card #2:&#10;&amp;gt; white&#10;The definition &quot;white&quot; already exists. Try again:&#10;&amp;gt; green&#10;Print the definition of &quot;black&quot;:&#10;&amp;gt; white&#10;Correct answer.&#10;Print the definition of &quot;red&quot;:&#10;&amp;gt; green&#10;Correct answer.&#10;&lt;/code&gt;&lt;/pre&gt;&#10;Example 2:&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Input the number of cards:&#10;&amp;gt; 2&#10;The card #1:&#10;&amp;gt; a brother of one's parent&#10;The definition of the card #1:&#10;&amp;gt; uncle&#10;The card #2:&#10;&amp;gt; a part of the body where the foot and the leg meet&#10;The definition of the card #2:&#10;&amp;gt; ankle&#10;Print the definition of &quot;a brother of one's parent&quot;:&#10;&amp;gt; ankle&#10;Wrong answer. (The correct one is &quot;uncle&quot;, you've just written the definition of &quot;a part of the body where the foot and the leg meet&quot;.)&#10;Print the definition of &quot;a part of the body where the foot and the leg meet&quot;:&#10;&amp;gt; ???&#10;Wrong answer. (The correct one is &quot;ankle&quot;.)&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;&lt;i&gt;Note, that all your outputs and user inputs should be on separate lines.&lt;/i&gt;&lt;/p&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/44/stages/235/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5346" />
+                      <option name="index" value="4" />
+                      <option name="name" value="A good stack" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/common/DialogClue.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/DialogClue.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;&#10;&#10;// ---- DialogClue ----&#10;&#10;/** May be several lines or just one. */&#10;interface Phrase {&#10;    fun toPhraseLines(): List&lt;PhraseLine&gt;&#10;}&#10;&#10;/** list of input and output lines, combined together. */&#10;fun compositePhrase(block: () -&gt; List&lt;Phrase&gt;) = object : Phrase {&#10;    override fun toPhraseLines() = block().flatMap { it.toPhraseLines() }&#10;}&#10;&#10;fun compositePhrase(vararg phrases: Phrase) = object : Phrase {&#10;    override fun toPhraseLines() = phrases.flatMap { it.toPhraseLines() }&#10;}&#10;&#10;/** Either user (input) or output phrase. Each phrase should be a line. */&#10;sealed class PhraseLine : Phrase {&#10;    override fun toPhraseLines() = listOf(this)&#10;}&#10;&#10;/** Some mutable data, that is passed across dialog phrases. */&#10;class Context {&#10;    val rawData = mutableMapOf&lt;String, Any&gt;()&#10;}&#10;&#10;class UserLine(val text: String, val updateContext: CtxUpdate = {}) : PhraseLine() {&#10;&#10;}&#10;typealias CtxUpdate = (ctx: Context) -&gt; Unit&#10;&#10;class OutputLine(val checker: (text: String, ctx: Context) -&gt; CheckResult) : PhraseLine()&#10;&#10;/** This function creates a line with user input (our test input).&#10; *&#10; * Unfortunately we can't access the Context, when we adding user text.&#10; * This occurs because of HS test framework limitations:&#10; * we need to pass all inputs first, and then start checking outputs. */&#10;fun user(text: String, updateContext: (ctx: Context) -&gt; Unit = {}) = UserLine(text, updateContext)&#10;&#10;fun anyLine() = OutputLine { _, _ -&gt; CheckResult.TRUE }&#10;&#10;fun containing(&#10;        vararg parts: String,&#10;        ignoreCase: Boolean = true,&#10;        hint: String? = null,&#10;        updateContext: CtxUpdate = {}&#10;) = OutputLine { line, context -&gt;&#10;    fun buildFeedback(): String {&#10;        val feedback = StringBuilder()&#10;        feedback.append(&quot;Your line\n`$line`\nshould contain ${parts.joinToString(&quot;`, `&quot;, &quot;`&quot;, &quot;`&quot;)}&quot;)&#10;        if (ignoreCase) {&#10;            feedback.append(&quot; (ignoring case)&quot;)&#10;        }&#10;        feedback.append(&quot;.&quot;)&#10;        if (hint != null) {&#10;            feedback.append(&quot;\n$hint&quot;)&#10;        }&#10;        return feedback.toString()&#10;    }&#10;&#10;    var startIndex = 0&#10;    for (part in parts) {&#10;        startIndex = line.indexOf(part, startIndex, ignoreCase)&#10;        if (startIndex == -1) {&#10;            return@OutputLine CheckResult.FALSE(buildFeedback())&#10;        }&#10;    }&#10;    updateContext(context) // everything is correct, update context&#10;    CheckResult.TRUE&#10;}&#10;&#10;class DialogClue(private val phrases: List&lt;PhraseLine&gt;) {&#10;&#10;    private val inputPhrases = phrases.filter { it is UserLine }.map { it as UserLine }&#10;    private val outputPhrases = phrases.filter { it is OutputLine }.map { it as OutputLine }&#10;&#10;    fun generateInput() = inputPhrases&#10;            .joinToString(&quot;\n&quot;, postfix = &quot;\n&quot;) { it.text }&#10;&#10;    fun checkOutput(output: String): CheckResult {&#10;        val lines = output.lines()&#10;                .filter { it.isNotBlank() }&#10;&#10;        fun wrongOutputSizeFeedback() = CheckResult.FALSE(&quot;The number of lines in your output is ${lines.size}, &quot; +&#10;                &quot;but it should be ${outputPhrases.size}. &quot; +&#10;                &quot;Check, that you output your lines with println, not print. And there are no extra outputs.\n\n&quot; +&#10;                mergeInputAndOutput(lines))&#10;&#10;// here we store some mutable data from phrase to phrase&#10;        val context = Context()&#10;&#10;        val lineIter = lines.listIterator()&#10;        phrases.forEach { phraseLine -&gt;&#10;            when (phraseLine) {&#10;                is UserLine -&gt; phraseLine.updateContext(context)&#10;                is OutputLine -&gt; {&#10;                    if (!lineIter.hasNext()) {&#10;                        return wrongOutputSizeFeedback()&#10;                    }&#10;&#10;&#10;                    val result = phraseLine.checker(lineIter.next(), context)&#10;                    if (result != CheckResult.TRUE) {&#10;                        // add the test start to output:&#10;                        val trimmedLines = lines.take(lineIter.nextIndex())&#10;                        return CheckResult.FALSE(&quot;${result.feedback}\n\n&quot; +&#10;                                mergeInputAndOutput(trimmedLines))&#10;                    }&#10;                }&#10;            }&#10;        }&#10;&#10;        if (lineIter.hasNext()) {&#10;            return wrongOutputSizeFeedback()&#10;        }&#10;&#10;        return CheckResult.TRUE&#10;    }&#10;&#10;    /** Merge program output lines, and test input lines. */&#10;    private fun mergeInputAndOutput(outputLines: List&lt;String&gt;): String {&#10;        val lineIter = outputLines.iterator()&#10;        val sb = StringBuilder(&quot;Your output with test input (`&gt;` indicates test input):\n&quot;)&#10;        for (phrase in phrases) {&#10;            if (!lineIter.hasNext()) {&#10;                break&#10;            }&#10;            when (phrase) {&#10;                is OutputLine -&gt; {&#10;                    sb.appendln(lineIter.next())&#10;                }&#10;                is UserLine -&gt; {&#10;                    sb.appendln(&quot;&gt; ${phrase.text}&quot;)&#10;                }&#10;            }&#10;        }&#10;// add left output&#10;        while (lineIter.hasNext()) {&#10;            sb.appendln(lineIter.next())&#10;        }&#10;        return sb.toString()&#10;    }&#10;}&#10;&#10;fun dialogTest(vararg phrases: Phrase): TestCase&lt;DialogClue&gt; {&#10;    val dialogClue = DialogClue(phrases.flatMap { it.toPhraseLines() })&#10;    return TestCase&lt;DialogClue&gt;()&#10;            .setInput(dialogClue.generateInput())&#10;            .setAttach(dialogClue)&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/common/FlashcardsStage4Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/FlashcardsStage4Test.kt" />
+                                <option name="text" value="package common&#10;&#10;import flashcards.Main&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;&#10;abstract class FlashcardsStage4Test : BaseStageTest&lt;DialogClue&gt;(Main::class.java) {&#10;&#10;    override fun generate() = listOf(&#10;            dialogTest(&#10;                    anyLine(), user(&quot;2&quot;),&#10;                    anyLine(), user(&quot;black&quot;),&#10;                    anyLine(), user(&quot;white&quot;),&#10;                    anyLine(), user(&quot;black&quot;),&#10;                    containing(&quot;The card \&quot;black\&quot; already exists&quot;),&#10;                    user(&quot;red&quot;),&#10;                    anyLine(), user(&quot;white&quot;),&#10;                    containing(&quot;The definition \&quot;white\&quot; already exists&quot;),&#10;                    user(&quot;green&quot;),&#10;                    // asking&#10;                    askCorrect(&quot;black&quot;, &quot;white&quot;),&#10;                    askCorrect(&quot;red&quot;, &quot;green&quot;)&#10;            ),&#10;            dialogTest(&#10;                    inputNum(2),&#10;                    inputCard(&quot;a brother of one's parent&quot;, &quot;uncle&quot;),&#10;                    inputCard(&quot;a part of the body where the foot and the leg meet&quot;, &quot;ankle&quot;),&#10;                    // asking&#10;                    askWrong(&quot;a brother of one's parent&quot;, userAns = &quot;ankle&quot;, rightAns = &quot;uncle&quot;,&#10;                            isDefFor = &quot;a part of the body where the foot and the leg meet&quot;),&#10;&#10;                    askWrong(&quot;a part of the body where the foot and the leg meet&quot;, &quot;???&quot;, &quot;ankle&quot;)&#10;            ),&#10;            dialogTest(&#10;                    inputNum(4),&#10;                    inputCard(&quot;c1&quot;, &quot;d1&quot;),&#10;                    inputCard(&quot;c2&quot;, &quot;d2&quot;),&#10;                    inputCard(&quot;c3&quot;, &quot;d3&quot;),&#10;                    // repeating three times&#10;                    anyLine(),&#10;                    user(&quot;c3&quot;), containing(&quot;The card \&quot;c3\&quot; already exists&quot;),&#10;                    user(&quot;c2&quot;), containing(&quot;The card \&quot;c2\&quot; already exists&quot;),&#10;                    user(&quot;c1&quot;), containing(&quot;The card \&quot;c1\&quot; already exists&quot;),&#10;                    user(&quot;c4&quot;),&#10;                    anyLine(),&#10;                    user(&quot;d2&quot;), containing(&quot;The definition \&quot;d2\&quot; already exists&quot;),&#10;                    user(&quot;d3&quot;), containing(&quot;The definition \&quot;d3\&quot; already exists&quot;),&#10;                    user(&quot;d1&quot;), containing(&quot;The definition \&quot;d1\&quot; already exists&quot;),&#10;                    user(&quot;d4&quot;),&#10;&#10;                    askCorrect(&quot;c1&quot;, &quot;d1&quot;),&#10;                    askWrong(&quot;c2&quot;, userAns = &quot;d1&quot;, rightAns = &quot;d2&quot;, isDefFor = &quot;c1&quot;),&#10;                    askWrong(&quot;c3&quot;, &quot;d3 ddd3&quot;, &quot;d3&quot;),&#10;                    askWrong(&quot;c4&quot;, &quot;???&quot;, &quot;d4&quot;)&#10;            )&#10;    )&#10;&#10;    /** Asks with a correct answer. */&#10;    private fun askCorrect(quest: String, userAns: String) = compositePhrase {&#10;        listOf(containing(&quot;\&quot;$quest\&quot;&quot;, hint = &quot;This line should ask the definition of `$quest`.&quot;),&#10;                user(userAns), containing(&quot;Correct answer&quot;))&#10;    }&#10;&#10;    /** Asks with a wrong answer. */&#10;    private fun askWrong(quest: String, userAns: String, rightAns: String, isDefFor: String? = null) = compositePhrase {&#10;        val result = mutableListOf(&#10;                containing(&quot;\&quot;$quest\&quot;&quot;, hint = &quot;This line should ask the definition of `$quest`.&quot;),&#10;                user(userAns))&#10;        if (isDefFor == null) {&#10;            result += containing(&quot;Wrong answer&quot;, &quot;The correct one is \&quot;$rightAns\&quot;&quot;)&#10;        } else {&#10;            result += containing(&quot;Wrong answer&quot;, &quot;The correct one is \&quot;$rightAns\&quot;&quot;,&#10;                    &quot;you've just written the definition of \&quot;$isDefFor\&quot;&quot;)&#10;        }&#10;        result&#10;    }&#10;&#10;    private fun inputNum(number: Int) = compositePhrase {&#10;        listOf(anyLine(), user(number.toString()))&#10;    }&#10;&#10;    private fun inputCard(card: String, def: String) = compositePhrase {&#10;        listOf(anyLine(), user(card), anyLine(), user(def))&#10;    }&#10;&#10;&#10;    override fun check(reply: String, clue: DialogClue): CheckResult {&#10;        return clue.checkOutput(reply)&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/FlashcardsTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/FlashcardsTest.java" />
+                                <option name="text" value="import common.FlashcardsStage4Test;&#10;&#10;public class FlashcardsTest extends FlashcardsStage4Test {&#10;    // just empty class, but not abstract so it can be run&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/flashcards/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/flashcards/Main.java" />
+                                <option name="text" value="package flashcards;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1566903885000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage5" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Improve the application's interactivity. Ask the user for action and do it.&lt;br&gt;&#10;&lt;br&gt;&#10;Support these actions:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;&#9;&lt;li&gt;add a card: &lt;code&gt;add&lt;/code&gt;,&lt;/li&gt;&#10;&#9;&lt;li&gt;remove a card: &lt;code&gt;remove&lt;/code&gt;,&lt;/li&gt;&#10;&#9;&lt;li&gt;load cards from file (&quot;deserialization&quot;): &lt;code&gt;import&lt;/code&gt;,&lt;/li&gt;&#10;&#9;&lt;li&gt;save cards to file (&quot;serialization&quot;): &lt;code&gt;export&lt;/code&gt;,&lt;/li&gt;&#10;&#9;&lt;li&gt;ask for a definition of some random cards: &lt;code&gt;ask&lt;/code&gt;,&lt;/li&gt;&#10;&#9;&lt;li&gt;exit the program: &lt;code&gt;exit&lt;/code&gt;.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;You can use the following file format. The file consists of pairs of lines. The first line of each pair is a card, and the second line is a definition of the card.&lt;/p&gt;&#10;&#10;&lt;p&gt;In this stage, if you try to add an existing card or a card with an existing definition you should just reject it, by printing an error message. (See example 1.)&lt;/p&gt;&#10;&#10;&lt;p&gt;When you load cards from file, you shouldn't erase the old ones. If the imported card already exists, it should update the old one. (Look at cards Japan and Moscow in the example 2.) It is guaranteed, that there won't be any conflicts with definitions. &lt;/p&gt;&#10;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Examples&lt;/h2&gt;&#10;&lt;p&gt; The symbol &lt;code&gt;&amp;gt;&lt;/code&gt; represents the user input. Notice that it's not the part of the input.&lt;/p&gt;&#10;Example 1:&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Input the action (add, remove, import, export, ask, exit):&#10;&amp;gt; add&#10;The card:&#10;&amp;gt; France&#10;The definition of the card:&#10;&amp;gt; Paris&#10;The pair (&quot;France&quot;:&quot;Paris&quot;) has been added.&#10;&#9;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&amp;gt; add&#10;The card:&#10;&amp;gt; France&#10;The card &quot;France&quot; already exists.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&amp;gt; add&#10;The card:&#10;&amp;gt; Great Britain&#10;The definition of the card:&#10;&amp;gt; Paris&#10;The definition &quot;Paris&quot; already exists.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&amp;gt; remove&#10;The card:&#10;&amp;gt; France&#10;The card has been removed.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&amp;gt; remove&#10;The card:&#10;&amp;gt; Wakanda&#10;Can't remove &quot;Wakanda&quot;: there is no such card.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;exit&#10;Bye bye!&lt;/code&gt;&lt;/pre&gt;&#10;&#10;Example 2:&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Input the action (add, remove, import, export, ask, exit):&#10;&amp;gt; import&#10;File name:&#10;&amp;gt; ghost_file.txt&#10;File not found.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&amp;gt; add&#10;The card:&#10;&amp;gt; Japan&#10;The definition of the card:&#10;&amp;gt; Tokyo&#10;The pair (&quot;Japan&quot;:&quot;Tokyo&quot;) has been added.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&amp;gt; add&#10;The card:&#10;&amp;gt; Russia&#10;The definition of the card:&#10;&amp;gt; UpdateMeFromFile&#10;The pair (&quot;Russia&quot;:&quot;UpdateMeFromFile&quot;) has been added.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&amp;gt; import&#10;File name:&#10;&amp;gt; capitals.txt&#10;28 cards have been loaded.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;&amp;gt; ask&#10;How many times to ask?&#10;&amp;gt; 1&#10;Print the definition of &quot;Russia&quot;:&#10;&amp;gt; Moscow&#10;Correct answer.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;export&#10;File name:&#10;capitalsNew.txt&#10;29 cards have been saved.&#10;&#10;Input the action (add, remove, import, export, ask, exit):&#10;exit&#10;Bye bye!&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;&lt;i&gt;Note, that all your outputs and user inputs should be on separate lines.&lt;/i&gt;&lt;/p&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/44/stages/236/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5347" />
+                      <option name="index" value="5" />
+                      <option name="name" value="Menu, please!" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/common/DialogClue.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/DialogClue.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;&#10;&#10;// ---- DialogClue ----&#10;&#10;/** May be several lines or just one. */&#10;interface Phrase {&#10;    fun toPhraseLines(): List&lt;PhraseLine&gt;&#10;}&#10;&#10;/** list of input and output lines, combined together. */&#10;fun compositePhrase(block: () -&gt; List&lt;Phrase&gt;) = object : Phrase {&#10;    override fun toPhraseLines() = block().flatMap { it.toPhraseLines() }&#10;}&#10;&#10;fun compositePhrase(vararg phrases: Phrase) = object : Phrase {&#10;    override fun toPhraseLines() = phrases.flatMap { it.toPhraseLines() }&#10;}&#10;&#10;/** Either user (input) or output phrase. Each phrase should be a line. */&#10;sealed class PhraseLine : Phrase {&#10;    override fun toPhraseLines() = listOf(this)&#10;}&#10;&#10;/** Some mutable data, that is passed across dialog phrases. */&#10;class Context {&#10;    val rawData = mutableMapOf&lt;String, Any&gt;()&#10;}&#10;&#10;class UserLine(val text: String, val updateContext: CtxUpdate = {}) : PhraseLine() {&#10;&#10;}&#10;typealias CtxUpdate = (ctx: Context) -&gt; Unit&#10;&#10;class OutputLine(val checker: (text: String, ctx: Context) -&gt; CheckResult) : PhraseLine()&#10;&#10;/** This function creates a line with user input (our test input).&#10; *&#10; * Unfortunately we can't access the Context, when we adding user text.&#10; * This occurs because of HS test framework limitations:&#10; * we need to pass all inputs first, and then start checking outputs. */&#10;fun user(text: String, updateContext: (ctx: Context) -&gt; Unit = {}) = UserLine(text, updateContext)&#10;&#10;fun anyLine() = OutputLine { _, _ -&gt; CheckResult.TRUE }&#10;&#10;fun containing(&#10;        vararg parts: String,&#10;        ignoreCase: Boolean = true,&#10;        hint: String? = null,&#10;        updateContext: CtxUpdate = {}&#10;) = OutputLine { line, context -&gt;&#10;    fun buildFeedback(): String {&#10;        val feedback = StringBuilder()&#10;        feedback.append(&quot;Your line\n`$line`\nshould contain ${parts.joinToString(&quot;`, `&quot;, &quot;`&quot;, &quot;`&quot;)}&quot;)&#10;        if (ignoreCase) {&#10;            feedback.append(&quot; (ignoring case)&quot;)&#10;        }&#10;        feedback.append(&quot;.&quot;)&#10;        if (hint != null) {&#10;            feedback.append(&quot;\n$hint&quot;)&#10;        }&#10;        return feedback.toString()&#10;    }&#10;&#10;    var startIndex = 0&#10;    for (part in parts) {&#10;        startIndex = line.indexOf(part, startIndex, ignoreCase)&#10;        if (startIndex == -1) {&#10;            return@OutputLine CheckResult.FALSE(buildFeedback())&#10;        }&#10;    }&#10;    updateContext(context) // everything is correct, update context&#10;    CheckResult.TRUE&#10;}&#10;&#10;class DialogClue(private val phrases: List&lt;PhraseLine&gt;) {&#10;&#10;    private val inputPhrases = phrases.filter { it is UserLine }.map { it as UserLine }&#10;    private val outputPhrases = phrases.filter { it is OutputLine }.map { it as OutputLine }&#10;&#10;    fun generateInput() = inputPhrases&#10;            .joinToString(&quot;\n&quot;, postfix = &quot;\n&quot;) { it.text }&#10;&#10;    fun checkOutput(output: String): CheckResult {&#10;        val lines = output.lines()&#10;                .filter { it.isNotBlank() }&#10;&#10;        fun wrongOutputSizeFeedback() = CheckResult.FALSE(&quot;The number of lines in your output is ${lines.size}, &quot; +&#10;                &quot;but it should be ${outputPhrases.size}. &quot; +&#10;                &quot;Check, that you output your lines with println, not print. And there are no extra outputs.\n\n&quot; +&#10;                mergeInputAndOutput(lines))&#10;&#10;// here we store some mutable data from phrase to phrase&#10;        val context = Context()&#10;&#10;        val lineIter = lines.listIterator()&#10;        phrases.forEach { phraseLine -&gt;&#10;            when (phraseLine) {&#10;                is UserLine -&gt; phraseLine.updateContext(context)&#10;                is OutputLine -&gt; {&#10;                    if (!lineIter.hasNext()) {&#10;                        return wrongOutputSizeFeedback()&#10;                    }&#10;&#10;&#10;                    val result = phraseLine.checker(lineIter.next(), context)&#10;                    if (result != CheckResult.TRUE) {&#10;                        // add the test start to output:&#10;                        val trimmedLines = lines.take(lineIter.nextIndex())&#10;                        return CheckResult.FALSE(&quot;${result.feedback}\n\n&quot; +&#10;                                mergeInputAndOutput(trimmedLines))&#10;                    }&#10;                }&#10;            }&#10;        }&#10;&#10;        if (lineIter.hasNext()) {&#10;            return wrongOutputSizeFeedback()&#10;        }&#10;&#10;        return CheckResult.TRUE&#10;    }&#10;&#10;    /** Merge program output lines, and test input lines. */&#10;    private fun mergeInputAndOutput(outputLines: List&lt;String&gt;): String {&#10;        val lineIter = outputLines.iterator()&#10;        val sb = StringBuilder(&quot;Your output with test input (`&gt;` indicates test input):\n&quot;)&#10;        for (phrase in phrases) {&#10;            if (!lineIter.hasNext()) {&#10;                break&#10;            }&#10;            when (phrase) {&#10;                is OutputLine -&gt; {&#10;                    sb.appendln(lineIter.next())&#10;                }&#10;                is UserLine -&gt; {&#10;                    sb.appendln(&quot;&gt; ${phrase.text}&quot;)&#10;                }&#10;            }&#10;        }&#10;// add left output&#10;        while (lineIter.hasNext()) {&#10;            sb.appendln(lineIter.next())&#10;        }&#10;        return sb.toString()&#10;    }&#10;}&#10;&#10;fun dialogTest(vararg phrases: Phrase): TestCase&lt;DialogClue&gt; {&#10;    val dialogClue = DialogClue(phrases.flatMap { it.toPhraseLines() })&#10;    return TestCase&lt;DialogClue&gt;()&#10;            .setInput(dialogClue.generateInput())&#10;            .setAttach(dialogClue)&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/common/FlashcardsStage5Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/FlashcardsStage5Test.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;import flashcards.Main&#10;&#10;abstract class FlashcardsStage5Test : BaseStageTest&lt;DialogClue&gt;(Main::class.java) {&#10;&#10;    // how to remove files? Now at least rewrite in the first test:&#10;    override fun generate(): List&lt;TestCase&lt;DialogClue&gt;&gt; {&#10;        val tests = mutableListOf&lt;TestCase&lt;DialogClue&gt;&gt;()&#10;        // old tests:&#10;        tests += dialogTest(&#10;                addCard(&quot;black&quot;, &quot;white&quot;),&#10;                existingCard(&quot;black&quot;),&#10;                existingDef(&quot;red&quot;, &quot;white&quot;),&#10;                askCards(&quot;white&quot;, &quot;green&quot;), // the ask order is random&#10;                exit()&#10;        )&#10;        tests += dialogTest(&#10;                addCard(&quot;a brother of one's parent&quot;, &quot;uncle&quot;),&#10;                addCard(&quot;a part of the body where the foot and the leg meet&quot;, &quot;ankle&quot;),&#10;                askCards(&quot;ankle&quot;, &quot;??&quot;, &quot;uncle&quot;, &quot;ankle&quot;, &quot;??&quot;, &quot;uncle&quot;), // the ask order is random&#10;                exit()&#10;        )&#10;        // stage 5 tests:&#10;&#10;        val capitalList = mutableListOf&lt;Pair&lt;String, String&gt;&gt;()&#10;        fun capitals() = capitalList.toTypedArray()&#10;&#10;        // wrappers for add/remove card, but saving cards to capitalList:&#10;        fun addCapital(card: String, def: String) = addCard(card, def)&#10;                .also { capitalList += card to def }&#10;&#10;        fun removeCapitalCard(card: String) = removeCard(card)&#10;                .also { capitalList.removeIf { it.first == card } }&#10;&#10;        // testing files&#10;        // clear files&#10;        tests += dialogTest(&#10;                exportCards(&quot;capitals.txt&quot;, 0),&#10;                exportCards(&quot;capitalsNew.txt&quot;, 0),&#10;                exit()&#10;        )&#10;        tests += dialogTest(&#10;                importNonExisting(&quot;ghost_file.txt&quot;),&#10;                exit()&#10;        )&#10;        tests += dialogTest(&#10;                addCapital(&quot;Great Britain&quot;, &quot;London&quot;),&#10;                removeNonExisting(&quot;Wakanda&quot;),&#10;                exportCards(&quot;capitals.txt&quot;, 1),&#10;                importCards(&quot;capitals.txt&quot;, *capitals()),&#10;                askCards(&quot;London&quot;),&#10;                exportCards(&quot;capitalsNew.txt&quot;, 1),&#10;                exit()&#10;        )&#10;        tests += dialogTest(&#10;                importCards(&quot;capitalsNew.txt&quot;, *capitals()), // import checks only the amount of cards&#10;                exit()&#10;        )&#10;        tests += dialogTest(&#10;                importCards(&quot;capitalsNew.txt&quot;, *capitals()),&#10;                addCapital(&quot;France&quot;, &quot;Paris&quot;),&#10;                addCapital(&quot;Russia&quot;, &quot;Moscow&quot;),&#10;                removeCapitalCard(&quot;Great Britain&quot;),&#10;                exportCards(&quot;capitalsNew.txt&quot;, 2),&#10;                importCards(&quot;capitalsNew.txt&quot;, *capitals()),&#10;                askCards(&quot;London&quot;, &quot;Paris&quot;, &quot;Moscow&quot;, &quot;Paris&quot;),&#10;                exit()&#10;        )&#10;        // check merge with file import&#10;        tests += dialogTest(&#10;                addCard(&quot;Japan&quot;, &quot;Tokyo&quot;), // should be merged&#10;                addCard(&quot;France&quot;, &quot;UpdateMeFromImport&quot;), // should be updated from import file&#10;                addCard(&quot;Russia&quot;, &quot;UpdateMeFromImport2&quot;), // should be updated from import file&#10;                importCards(&quot;capitalsNew.txt&quot;, *capitals()),&#10;                askCards(&quot;Tokyo&quot;, &quot;Paris&quot;, &quot;Moscow&quot;),&#10;                removeCard(&quot;Japan&quot;),&#10;                removeCapitalCard(&quot;Russia&quot;),&#10;                exportCards(&quot;capitalsNew.txt&quot;, 1), // only France left&#10;                exit()&#10;        )&#10;&#10;        // check reverse map while merge&#10;        tests += dialogTest(&#10;                addCard(&quot;France&quot;, &quot;UpdateMeFromImport&quot;), // should be updated from import file&#10;                importCards(&quot;capitalsNew.txt&quot;, *capitals()),&#10;                askCards(&quot;UpdateMeFromImport&quot;), // check that we removed from reverse map&#10;                exit()&#10;        )&#10;        &#10;        // check remove, add and ask:&#10;        tests += dialogTest(&#10;                addCard(&quot;a&quot;, &quot;1&quot;),&#10;                addCard(&quot;b&quot;, &quot;2&quot;),&#10;                addCard(&quot;c&quot;, &quot;3&quot;),&#10;                existingCard(&quot;b&quot;),&#10;                existingCard(&quot;c&quot;),&#10;                addCard(&quot;d&quot;, &quot;4&quot;),&#10;                removeCard(&quot;c&quot;),&#10;                removeNonExisting(&quot;xxxx&quot;),&#10;                addCard(&quot;c&quot;, &quot;5&quot;),&#10;                existingDef(&quot;new card&quot;, &quot;4&quot;),&#10;                existingDef(&quot;f&quot;, &quot;5&quot;),&#10;                removeCard(&quot;c&quot;),&#10;                removeCard(&quot;d&quot;), // left only a and b&#10;                askCards(&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;3&quot;, &quot;2&quot;, &quot;1&quot;), // try to fit random&#10;                askCards(&quot;2&quot;),&#10;                exit()&#10;        )&#10;        return tests&#10;    }&#10;&#10;    override fun check(reply: String, clue: DialogClue): CheckResult {&#10;        return clue.checkOutput(reply)&#10;    }&#10;&#10;&#10;    // ------ extensions for building a dialog: ------&#10;&#10;    fun inputAction(action: String) = compositePhrase {&#10;        listOf(containing(&quot;action&quot;, hint = &quot;This line should ask the action.&quot;), user(action))&#10;    }&#10;&#10;    // extend dialog context with our own data:&#10;&#10;    @Suppress(&quot;UNCHECKED_CAST&quot;)&#10;    private val Context.cardToDef&#10;        get() = rawData.getOrPut(&quot;cardToDef&quot;) { mutableMapOf&lt;String, String&gt;() } as MutableMap&lt;String, String&gt;&#10;&#10;    @Suppress(&quot;UNCHECKED_CAST&quot;)&#10;    private val Context.defToCard&#10;        get() = rawData.getOrPut(&quot;defToCard&quot;) { mutableMapOf&lt;String, String&gt;() } as MutableMap&lt;String, String&gt;&#10;&#10;    private fun Context.addCard(card: String, definition: String) {&#10;        cardToDef[card] = definition&#10;        defToCard[definition] = card&#10;    }&#10;&#10;    private fun Context.removeCard(card: String) {&#10;        val def = cardToDef.remove(card)&#10;        if (def != null) {&#10;            defToCard.remove(def)&#10;        }&#10;    }&#10;&#10;&#10;    private fun addCard(card: String, def: String) = compositePhrase(&#10;            inputAction(&quot;add&quot;),&#10;            anyLine(), user(card),&#10;            anyLine(), user(def),&#10;            containing(&quot;has been added&quot;,&#10;                    hint = &quot;This line should add the pair (\&quot;$card\&quot;:\&quot;$def\&quot;).&quot;,&#10;                    updateContext = { ctx -&gt; ctx.addCard(card, def) })&#10;    )&#10;&#10;&#10;    private fun existingDef(card: String, def: String) = compositePhrase(&#10;            inputAction(&quot;add&quot;),&#10;            anyLine(), user(card),&#10;            anyLine(), user(def),&#10;            containing(&quot;definition&quot;, &quot;exists&quot;, hint = &quot;This line should reject the existing definition `$def`.&quot;)&#10;    )&#10;&#10;&#10;    private fun existingCard(card: String) = compositePhrase(&#10;            inputAction(&quot;add&quot;),&#10;            anyLine(), user(card),&#10;            containing(&quot;card&quot;, &quot;exists&quot;, hint = &quot;This line should reject the existing card `$card`.&quot;)&#10;    )&#10;&#10;    private fun removeCard(card: String) = compositePhrase(&#10;            inputAction(&quot;remove&quot;),&#10;            anyLine(), user(card),&#10;            containing(&quot;has been removed&quot;, hint = &quot;This line should remove the card `$card`.&quot;,&#10;                    updateContext = { ctx -&gt; ctx.removeCard(card) })&#10;    )&#10;&#10;    private fun removeNonExisting(card: String) = compositePhrase(&#10;            inputAction(&quot;remove&quot;),&#10;            anyLine(), user(card),&#10;            containing(&quot;Can't remove \&quot;$card\&quot;&quot;, hint = &quot;This line should reject removing non existing card `$card`.&quot;)&#10;    )&#10;&#10;&#10;    private fun importCards(fileName: String, vararg cards: Pair&lt;String, String&gt;) = compositePhrase(&#10;            inputAction(&quot;import&quot;),&#10;            anyLine(), user(fileName),&#10;            containing(&quot;${cards.size} cards have been loaded&quot;,&#10;                    updateContext = { ctx -&gt;&#10;                        val cardToDef = ctx.cardToDef&#10;                        val defToCard = ctx.defToCard&#10;                        cards.forEach { (card, def) -&gt;&#10;                            if (card in cardToDef) {&#10;                                defToCard.remove(cardToDef[card]) // erase wrong reverse link&#10;                            }&#10;                            ctx.addCard(card, def) // with update!!&#10;                        }&#10;                    })&#10;    )&#10;&#10;    private fun importNonExisting(fileName: String) = compositePhrase(&#10;            inputAction(&quot;import&quot;),&#10;            anyLine(), user(fileName),&#10;            containing(&quot;not found&quot;, hint = &quot;This line should say, that the file $fileName does not exist.&quot;)&#10;    )&#10;&#10;    private fun exportCards(fileName: String, cardsSize: Int) = compositePhrase(&#10;            inputAction(&quot;export&quot;),&#10;            anyLine(), user(fileName),&#10;            containing(&quot;$cardsSize cards have been saved&quot;)&#10;    )&#10;&#10;    private fun exit() = compositePhrase(&#10;            inputAction(&quot;exit&quot;),&#10;            anyLine()&#10;    )&#10;&#10;    /** Perform ask action. [ansDefs] are our test answers with definitions.&#10;     * We don't know are they wrong or correct, because the test is random. */&#10;    private fun askCards(vararg ansDefs: String) = compositePhrase {&#10;        val startPhrases = listOf(&#10;                inputAction(&quot;ask&quot;),&#10;                anyLine(), user(ansDefs.size.toString())&#10;        )&#10;        // here we add the dialog logic, by creating base OutputLine class with a custom checker&#10;        // we use context to connect with neighbor checkers&#10;&#10;        // iterate test answered definitions:&#10;        val repeatingPhrases = ansDefs.map { ansDef -&gt;&#10;            compositePhrase(&#10;                    OutputLine { text, ctx -&gt;&#10;                        val askedCard = text.dropWhile { it != '&quot;' }.dropLastWhile { it != '&quot;' }.trim('&quot;')&#10;                        if (askedCard.isEmpty()) {&#10;                            return@OutputLine CheckResult.FALSE(&quot;Not found card in quotes. &quot; +&#10;                                    &quot;This line should ask the definition of a random card.&quot;)&#10;                        }&#10;                        if (askedCard !in ctx.cardToDef) {&#10;                            return@OutputLine CheckResult.FALSE(&quot;You asked the definition of the non existing card: `$askedCard`.&quot;)&#10;                        }&#10;                        ctx.rawData[&quot;lastAskedCard&quot;] = askedCard&#10;                        CheckResult.TRUE&#10;                    },&#10;                    // unfortunately we can't access the Context in user action, see documentation of user()&#10;                    user(ansDef),&#10;                    // check the answer:&#10;                    OutputLine { text, ctx -&gt;&#10;                        val askedCard = ctx.rawData[&quot;lastAskedCard&quot;]&#10;                                ?: throw IllegalStateException(&quot;Not found lastAskedCard in the `ask` checker.&quot;)&#10;                        val cardToDef = ctx.cardToDef&#10;                        val defToCard = ctx.defToCard&#10;                        val rightAns = cardToDef[askedCard]&#10;&#10;                        val hint = &quot;The asked card was `$askedCard`, the answer was `$ansDef`.&quot;&#10;                        if (cardToDef[askedCard] == ansDef)&#10;                            containing(&quot;Correct answer&quot;, hint = hint).checker(text, ctx)&#10;                        else {&#10;                            val isDefFor = defToCard[ansDef]&#10;                            if (isDefFor != null) {&#10;                                containing(&quot;Wrong answer&quot;, &quot;The correct one is \&quot;$rightAns\&quot;&quot;,&#10;                                        &quot;you've just written the definition of \&quot;$isDefFor\&quot;&quot;, hint = hint).checker(text, ctx)&#10;                            } else {&#10;                                // should not contain definition hint!!&#10;                                if (text.contains(&quot;you've just written the definition of&quot;)) {&#10;                                    CheckResult.FALSE(&quot;Your line\n`$text`\nshould NOT contain &quot; +&#10;                                            &quot;`you've just written the definition of`.\n$hint&quot;)&#10;                                } else {&#10;                                    containing(&quot;Wrong answer&quot;, &quot;The correct one is \&quot;$rightAns\&quot;&quot;, hint = hint).checker(text, ctx)&#10;                                }&#10;                                &#10;                            }&#10;                        }&#10;                    }&#10;            )&#10;        }&#10;        (startPhrases + repeatingPhrases)&#10;    }&#10;&#10;}&#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/FlashcardsTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/FlashcardsTest.java" />
+                                <option name="text" value="import common.FlashcardsStage5Test;&#10;&#10;public class FlashcardsTest extends FlashcardsStage5Test {&#10;    // just empty class, but not abstract so it can be run&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/flashcards/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/flashcards/Main.java" />
+                                <option name="text" value="package flashcards;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1566903886000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage6" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Add some statistics features. We suggest you implement the following:&lt;/p&gt;&#10;&#10;&lt;ul&gt;&#10;  &lt;li&gt;Action &lt;code&gt;log&lt;/code&gt; saves the application log to the given file. For example, the program uses &lt;code&gt;ArrayList&lt;/code&gt; to store all lines that have been input or output in the console and then saves them to the file.&lt;/li&gt;&#10;  &lt;li&gt;Action &lt;code&gt;hardest card&lt;/code&gt; prints the card that has the most mistakes. You can store the mistake count in &lt;code&gt;Map&amp;lt;String, Integer&amp;gt;&lt;/code&gt;. If there are no cards with mistakes, you should print &lt;code&gt;There are no cards with errors.&lt;/code&gt;. And for multiple hardest cards, you should list them all, like in the example below.&lt;/li&gt;&#10;  &lt;li&gt;Action &lt;code&gt;reset stats&lt;/code&gt; erases the mistake counts for all cards.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;Also you should update serialization/deserialization to store sets of three lines (card, definition, mistakes) instead of pairs (card, definition).&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Example&lt;/h2&gt;&#10;&lt;p&gt; The symbol &lt;code&gt;&amp;gt;&lt;/code&gt; represents the user input. Notice that it's not the part of the input.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):&#10;&amp;gt; hardest card&#10;There are no cards with errors.&#10;&#10;Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):&#10;&amp;gt; import&#10;File name:&#10;&amp;gt; capitals.txt&#10;28 cards have been loaded.&#10;&#10;Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):&#10;&amp;gt; hardest card&#10;The hardest card is &quot;France&quot;. You have 10 errors answering it.&#10;&#10;Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):&#10;&amp;gt; ask&#10;How many times to ask?&#10;&amp;gt; 1&#10;Print the definition of &quot;Russia&quot;:&#10;&amp;gt; Paris&#10;Wrong answer. (The correct one is &quot;Moscow&quot;, you've just written the definition of &quot;France&quot; card.)&#10;&#10;Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):&#10;&amp;gt; hardest card&#10;The hardest cards are &quot;Russia&quot;, &quot;France&quot;. You have 10 errors answering them.&#10;&#10;Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):&#10;&amp;gt; reset stats&#10;Card statistics has been reset.&#10;&#10;Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):&#10;&amp;gt; hardest card&#10;There are no cards with errors.&#10;&#10;Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):&#10;&amp;gt; log&#10;File name:&#10;&amp;gt; todayLog.txt&#10;The log has been saved.&#10;&#10;Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):&#10;&amp;gt; exit&#10;Bye bye!&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;&lt;i&gt;Note, that all your outputs and user inputs should be on separate lines.&lt;/i&gt;&lt;/p&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/44/stages/237/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5348" />
+                      <option name="index" value="6" />
+                      <option name="name" value="Statistics" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/common/DialogClue.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/DialogClue.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;&#10;&#10;// ---- DialogClue ----&#10;&#10;/** May be several lines or just one. */&#10;interface Phrase {&#10;    fun toPhraseLines(): List&lt;PhraseLine&gt;&#10;}&#10;&#10;/** list of input and output lines, combined together. */&#10;fun compositePhrase(block: () -&gt; List&lt;Phrase&gt;) = object : Phrase {&#10;    override fun toPhraseLines() = block().flatMap { it.toPhraseLines() }&#10;}&#10;&#10;fun compositePhrase(vararg phrases: Phrase) = object : Phrase {&#10;    override fun toPhraseLines() = phrases.flatMap { it.toPhraseLines() }&#10;}&#10;&#10;/** Either user (input) or output phrase. Each phrase should be a line. */&#10;sealed class PhraseLine : Phrase {&#10;    override fun toPhraseLines() = listOf(this)&#10;}&#10;&#10;/** Some mutable data, that is passed across dialog phrases. */&#10;class Context {&#10;    val rawData = mutableMapOf&lt;String, Any&gt;()&#10;}&#10;&#10;class UserLine(val text: String, val updateContext: CtxUpdate = {}) : PhraseLine() {&#10;&#10;}&#10;typealias CtxUpdate = (ctx: Context) -&gt; Unit&#10;&#10;class OutputLine(val checker: (text: String, ctx: Context) -&gt; CheckResult) : PhraseLine()&#10;&#10;/** This function creates a line with user input (our test input).&#10; *&#10; * Unfortunately we can't access the Context, when we adding user text.&#10; * This occurs because of HS test framework limitations:&#10; * we need to pass all inputs first, and then start checking outputs. */&#10;fun user(text: String, updateContext: (ctx: Context) -&gt; Unit = {}) = UserLine(text, updateContext)&#10;&#10;fun anyLine(updateContext: CtxUpdate = {}) = OutputLine { _, ctx -&gt; CheckResult.TRUE.also { updateContext(ctx) } }&#10;&#10;fun containing(&#10;        vararg parts: String,&#10;        ignoreCase: Boolean = true,&#10;        hint: String? = null,&#10;        updateContext: CtxUpdate = {}&#10;) = OutputLine { line, context -&gt;&#10;    fun buildFeedback(): String {&#10;        val feedback = StringBuilder()&#10;        feedback.append(&quot;Your line\n`$line`\nshould contain ${parts.joinToString(&quot;`, `&quot;, &quot;`&quot;, &quot;`&quot;)}&quot;)&#10;        if (ignoreCase) {&#10;            feedback.append(&quot; (ignoring case)&quot;)&#10;        }&#10;        feedback.append(&quot;.&quot;)&#10;        if (hint != null) {&#10;            feedback.append(&quot;\n$hint&quot;)&#10;        }&#10;        return feedback.toString()&#10;    }&#10;&#10;    var startIndex = 0&#10;    for (part in parts) {&#10;        startIndex = line.indexOf(part, startIndex, ignoreCase)&#10;        if (startIndex == -1) {&#10;            return@OutputLine CheckResult.FALSE(buildFeedback())&#10;        }&#10;    }&#10;    updateContext(context) // everything is correct, update context&#10;    CheckResult.TRUE&#10;}&#10;&#10;class DialogClue(private val phrases: List&lt;PhraseLine&gt;) {&#10;&#10;    private val inputPhrases = phrases.filter { it is UserLine }.map { it as UserLine }&#10;    private val outputPhrases = phrases.filter { it is OutputLine }.map { it as OutputLine }&#10;&#10;    fun generateInput() = inputPhrases&#10;            .joinToString(&quot;\n&quot;, postfix = &quot;\n&quot;) { it.text }&#10;&#10;    fun checkOutput(output: String): CheckResult {&#10;        val lines = output.lines()&#10;                .filter { it.isNotBlank() }&#10;&#10;        fun wrongOutputSizeFeedback() = CheckResult.FALSE(&quot;The number of lines in your output is ${lines.size}, &quot; +&#10;                &quot;but it should be ${outputPhrases.size}. &quot; +&#10;                &quot;Check, that you output your lines with println, not print. And there are no extra outputs.\n\n&quot; +&#10;                mergeInputAndOutput(lines))&#10;&#10;// here we store some mutable data from phrase to phrase&#10;        val context = Context()&#10;&#10;        val lineIter = lines.listIterator()&#10;        phrases.forEach { phraseLine -&gt;&#10;            when (phraseLine) {&#10;                is UserLine -&gt; phraseLine.updateContext(context)&#10;                is OutputLine -&gt; {&#10;                    if (!lineIter.hasNext()) {&#10;                        return wrongOutputSizeFeedback()&#10;                    }&#10;&#10;&#10;                    val result = phraseLine.checker(lineIter.next(), context)&#10;                    if (result != CheckResult.TRUE) {&#10;                        // add the test start to output:&#10;                        val trimmedLines = lines.take(lineIter.nextIndex())&#10;                        return CheckResult.FALSE(&quot;${result.feedback}\n\n&quot; +&#10;                                mergeInputAndOutput(trimmedLines))&#10;                    }&#10;                }&#10;            }&#10;        }&#10;&#10;        if (lineIter.hasNext()) {&#10;            return wrongOutputSizeFeedback()&#10;        }&#10;&#10;        return CheckResult.TRUE&#10;    }&#10;&#10;    /** Merge program output lines, and test input lines. */&#10;    private fun mergeInputAndOutput(outputLines: List&lt;String&gt;): String {&#10;        val lineIter = outputLines.iterator()&#10;        val sb = StringBuilder(&quot;Your output with test input (`&gt;` indicates test input):\n&quot;)&#10;        for (phrase in phrases) {&#10;            if (!lineIter.hasNext()) {&#10;                break&#10;            }&#10;            when (phrase) {&#10;                is OutputLine -&gt; {&#10;                    sb.appendln(lineIter.next())&#10;                }&#10;                is UserLine -&gt; {&#10;                    sb.appendln(&quot;&gt; ${phrase.text}&quot;)&#10;                }&#10;            }&#10;        }&#10;// add left output&#10;        while (lineIter.hasNext()) {&#10;            sb.appendln(lineIter.next())&#10;        }&#10;        return sb.toString()&#10;    }&#10;}&#10;&#10;fun dialogTest(vararg phrases: Phrase): TestCase&lt;DialogClue&gt; {&#10;    val dialogClue = DialogClue(phrases.flatMap { it.toPhraseLines() })&#10;    return TestCase&lt;DialogClue&gt;()&#10;            .setInput(dialogClue.generateInput())&#10;            .setAttach(dialogClue)&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/common/FlashcardsStage6Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/FlashcardsStage6Test.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;import flashcards.Main&#10;import java.io.File&#10;&#10;abstract class FlashcardsStage6Test : BaseStageTest&lt;DialogClue&gt;(Main::class.java) {&#10;&#10;    override fun generate(): List&lt;TestCase&lt;DialogClue&gt;&gt; {&#10;        File(&quot;capitals.txt&quot;).delete()&#10;        File(&quot;testLog.txt&quot;).delete()&#10;        val tests = mutableListOf&lt;TestCase&lt;DialogClue&gt;&gt;()&#10;&#10;        val capitalList = mutableListOf&lt;Pair&lt;String, String&gt;&gt;()&#10;        fun capitals() = capitalList.toTypedArray()&#10;&#10;        // wrappers for add/remove card, but saving cards to capitalList:&#10;        fun addCapital(card: String, def: String) = addCard(card, def)&#10;                .also { capitalList += card to def }&#10;&#10;        fun removeCapital(card: String) = removeCard(card)&#10;                .also { capitalList.removeIf { it.first == card } }&#10;&#10;        // clear files&#10;        tests += dialogTest(&#10;                exportCards(&quot;capitals.txt&quot;, 0),&#10;                exit()&#10;        )&#10;        tests += dialogTest(&#10;                hardestCards(),&#10;                addCapital(&quot;France&quot;, &quot;Paris&quot;),&#10;                askCards(&quot;France&quot;, &quot;??&quot;),&#10;                hardestCards(),// wrong cards for test are updated in the previous line&#10;                resetStats(),&#10;                hardestCards(),&#10;                addCapital(&quot;Russia&quot;, &quot;Moscow&quot;),&#10;                askCards(&quot;??&quot;, &quot;??&quot;),&#10;                hardestCards(),&#10;                askCards(&quot;??&quot;, &quot;??&quot;),&#10;                hardestCards(),&#10;                askCards(&quot;??&quot;, &quot;??&quot;),&#10;                hardestCards(),&#10;                askCards(&quot;??&quot;, &quot;??&quot;),&#10;                hardestCards(),&#10;                askCards(&quot;??&quot;, &quot;??&quot;, saveWrongAnsweredCapitals = true),&#10;                hardestCards(),&#10;                exportCards(&quot;capitals.txt&quot;, 2),&#10;                log(&quot;testLog.txt&quot;),&#10;                exit()&#10;        )&#10;        tests += dialogTest(&#10;                hardestCards(),&#10;                addCard(&quot;France&quot;, &quot;UpdateMeFromImport&quot;),&#10;                askCards(&quot;??&quot;, &quot;??&quot;),&#10;                importCards(&quot;capitals.txt&quot;, *capitals()),&#10;                hardestCards(wrongAnsweredCapitals), // restored from the previous test&#10;                removeCapital(&quot;France&quot;),&#10;                removeCapital(&quot;Russia&quot;),&#10;                hardestCards(), // empty&#10;                exit()&#10;        )&#10;        return tests&#10;    }&#10;&#10;    override fun check(reply: String, clue: DialogClue): CheckResult {&#10;        return clue.checkOutput(reply)&#10;    }&#10;&#10;&#10;    // ------ extensions for building a dialog: ------&#10;&#10;    fun inputAction(action: String) = compositePhrase {&#10;        listOf(containing(&quot;action&quot;, hint = &quot;This line should ask the action.&quot;), user(action))&#10;    }&#10;&#10;    inner class LogPhrase(val fileName: String) : Phrase {&#10;        override fun toPhraseLines() = compositePhrase(&#10;                inputAction(&quot;log&quot;),&#10;                anyLine(),&#10;                user(fileName),&#10;                OutputLine { text, ctx -&gt;&#10;                    val result = containing(&quot;saved&quot;, hint = &quot;This line should indicate, that the log has been saved.&quot;).checker(text, ctx)&#10;                    if (!result.isCorrect) {&#10;                        return@OutputLine result&#10;                    }&#10;                    if (!File(fileName).exists()) {&#10;                        return@OutputLine CheckResult.FALSE(&quot;The log file $fileName does not exist.&quot;)&#10;                    }&#10;                    CheckResult.TRUE&#10;                }&#10;        ).toPhraseLines()&#10;    }&#10;&#10;    private fun log(fileName: String) = LogPhrase(fileName)&#10;&#10;    private fun resetStats() = compositePhrase(&#10;            inputAction(&quot;reset stats&quot;), containing(&quot;reset&quot;, hint = &quot;This line should confirm card statistics reset.&quot;,&#10;            updateContext = { ctx -&gt; ctx.wrongCards.clear() })&#10;    )&#10;&#10;    /** Between tests we cache wrong answered capitals to check hardest cards, when we restore them from file. */&#10;    private val wrongAnsweredCapitals: MutableList&lt;String&gt; = mutableListOf()&#10;&#10;    /** [customWrongCards] are used to load saved wrong cards from the previous test. */&#10;    fun hardestCards(customWrongCards: List&lt;String&gt;? = null) = compositePhrase(&#10;            inputAction(&quot;hardest card&quot;),&#10;            OutputLine { text, ctx -&gt;&#10;                if (customWrongCards != null) {&#10;                    ctx.wrongCards.clear()&#10;                    ctx.wrongCards.addAll(customWrongCards)&#10;                }&#10;                val groupedCards = ctx.wrongCards&#10;                        .groupBy { it }.mapValues { (_, v) -&gt; v.size }&#10;                val maxMistakes = groupedCards.values.max() ?: 0&#10;                val hardestCards = groupedCards.filterValues { it == maxMistakes }.keys.toList()&#10;&#10;                when (hardestCards.size) {&#10;                    0 -&gt; return@OutputLine containing(&quot;There are no cards with errors&quot;).checker(text, ctx)&#10;                    1 -&gt; return@OutputLine containing(&quot;The hardest card is \&quot;${hardestCards[0]}\&quot;&quot;,&#10;                            &quot;$maxMistakes&quot;).checker(text, ctx)&#10;                    else -&gt; {&#10;                        hardestCards.forEach { card -&gt;&#10;                            if (card !in text) {&#10;                                return@OutputLine CheckResult.FALSE(&quot;Your line `$text`\n&quot; +&#10;                                        &quot;should contain the hardest cards &quot; +&#10;                                        &quot;${hardestCards.joinToString(&quot;\&quot;, \&quot;&quot;, &quot;\&quot;&quot;, &quot;\&quot;&quot;)} with $maxMistakes mistakes.&quot;)&#10;                            }&#10;                        }&#10;                        val numberOfHardestCards = text.count { it == '&quot;' }&#10;                        if (numberOfHardestCards != hardestCards.size * 2) {&#10;                            return@OutputLine CheckResult.FALSE(&quot;Your line `$text`\n&quot; +&#10;                                    &quot;contains more hardest cards, than expected. Expected: $hardestCards.&quot;)&#10;                        }&#10;                        if (maxMistakes.toString() !in text) {&#10;                            if (numberOfHardestCards != hardestCards.size) {&#10;                                return@OutputLine CheckResult.FALSE(&quot;Your line `$text`\n&quot; +&#10;                                        &quot;should contain $maxMistakes mistakes for your hardest cards.&quot;)&#10;                            }&#10;                        }&#10;                    }&#10;                }&#10;                CheckResult.TRUE&#10;            }&#10;    )&#10;&#10;&#10;    // extend dialog context with our own data:&#10;&#10;    @Suppress(&quot;UNCHECKED_CAST&quot;)&#10;    private val Context.cardToDef&#10;        get() = rawData.getOrPut(&quot;cardToDef&quot;) { mutableMapOf&lt;String, String&gt;() } as MutableMap&lt;String, String&gt;&#10;&#10;    @Suppress(&quot;UNCHECKED_CAST&quot;)&#10;    /** All cards, that were answered wrong. */&#10;    private val Context.wrongCards&#10;        get() = rawData.getOrPut(&quot;wrongCards&quot;) { mutableListOf&lt;String&gt;() } as MutableList&lt;String&gt;&#10;&#10;&#10;    @Suppress(&quot;UNCHECKED_CAST&quot;)&#10;    private val Context.defToCard&#10;        get() = rawData.getOrPut(&quot;defToCard&quot;) { mutableMapOf&lt;String, String&gt;() } as MutableMap&lt;String, String&gt;&#10;&#10;    private fun Context.addCard(card: String, definition: String) {&#10;        cardToDef[card] = definition&#10;        defToCard[definition] = card&#10;    }&#10;&#10;    private fun Context.removeCard(card: String) {&#10;        val def = cardToDef.remove(card)&#10;        if (def != null) {&#10;            defToCard.remove(def)&#10;        }&#10;    }&#10;&#10;&#10;    private fun addCard(card: String, def: String) = compositePhrase(&#10;            inputAction(&quot;add&quot;),&#10;            anyLine(), user(card),&#10;            anyLine(), user(def),&#10;            containing(&quot;has been added&quot;,&#10;                    hint = &quot;This line should add the pair (\&quot;$card\&quot;:\&quot;$def\&quot;).&quot;,&#10;                    updateContext = { ctx -&gt; ctx.addCard(card, def) })&#10;    )&#10;&#10;&#10;    private fun existingDef(card: String, def: String) = compositePhrase(&#10;            inputAction(&quot;add&quot;),&#10;            anyLine(), user(card),&#10;            anyLine(), user(def),&#10;            containing(&quot;definition&quot;, &quot;exists&quot;, hint = &quot;This line should reject the existing definition `$def`.&quot;)&#10;    )&#10;&#10;&#10;    private fun existingCard(card: String) = compositePhrase(&#10;            inputAction(&quot;add&quot;),&#10;            anyLine(), user(card),&#10;            containing(&quot;card&quot;, &quot;exists&quot;, hint = &quot;This line should reject the existing card `$card`.&quot;)&#10;    )&#10;&#10;    private fun removeCard(card: String) = compositePhrase(&#10;            inputAction(&quot;remove&quot;),&#10;            anyLine(), user(card),&#10;            containing(&quot;has been removed&quot;, hint = &quot;This line should remove the card `$card`.&quot;,&#10;                    updateContext = { ctx -&gt;&#10;                        ctx.removeCard(card)&#10;                        ctx.wrongCards.removeAll(listOf(card))&#10;                    })&#10;    )&#10;&#10;    private fun removeNonExisting(card: String) = compositePhrase(&#10;            inputAction(&quot;remove&quot;),&#10;            anyLine(), user(card),&#10;            containing(&quot;Can't remove \&quot;$card\&quot;&quot;, hint = &quot;This line should reject removing non existing card `$card`.&quot;)&#10;    )&#10;&#10;&#10;    private fun importCards(fileName: String, vararg cards: Pair&lt;String, String&gt;) = compositePhrase(&#10;            inputAction(&quot;import&quot;),&#10;            anyLine(), user(fileName),&#10;            containing(&quot;${cards.size} cards have been loaded&quot;,&#10;                    updateContext = { ctx -&gt;&#10;                        val cardToDef = ctx.cardToDef&#10;                        val defToCard = ctx.defToCard&#10;                        cards.forEach { (card, def) -&gt;&#10;                            if (card in cardToDef) {&#10;                                defToCard.remove(cardToDef[card]) // erase wrong reverse link&#10;                            }&#10;                            ctx.addCard(card, def) // with update!!&#10;                        }&#10;                    })&#10;    )&#10;&#10;    private fun importNonExisting(fileName: String) = compositePhrase(&#10;            inputAction(&quot;import&quot;),&#10;            anyLine(), user(fileName),&#10;            containing(&quot;not found&quot;, hint = &quot;This line should say, that the file $fileName does not exist.&quot;)&#10;    )&#10;&#10;    private fun exportCards(fileName: String, cardsSize: Int) = compositePhrase(&#10;            inputAction(&quot;export&quot;),&#10;            anyLine(), user(fileName),&#10;            containing(&quot;$cardsSize cards have been saved&quot;)&#10;    )&#10;&#10;    private fun exit() = compositePhrase(&#10;            inputAction(&quot;exit&quot;),&#10;            anyLine()&#10;    )&#10;&#10;    /** Perform ask action. [ansDefs] are our test answers with definitions.&#10;     * We don't know are they wrong or correct, because the test is random. */&#10;    private fun askCards(vararg ansDefs: String, saveWrongAnsweredCapitals: Boolean = false) = compositePhrase {&#10;        val startPhrases = listOf(&#10;                inputAction(&quot;ask&quot;),&#10;                anyLine(), user(ansDefs.size.toString())&#10;        )&#10;        // here we add the dialog logic, by creating base OutputLine class with a custom checker&#10;        // we use context to connect with neighbor checkers&#10;&#10;        // iterate test answered definitions:&#10;        val repeatingPhrases = ansDefs.map { ansDef -&gt;&#10;            compositePhrase(&#10;                    OutputLine { text, ctx -&gt;&#10;                        val askedCard = text.dropWhile { it != '&quot;' }.dropLastWhile { it != '&quot;' }.trim('&quot;')&#10;                        if (askedCard.isEmpty()) {&#10;                            return@OutputLine CheckResult.FALSE(&quot;Not found card in quotes. &quot; +&#10;                                    &quot;This line should ask the definition of a random card.&quot;)&#10;                        }&#10;                        if (askedCard !in ctx.cardToDef) {&#10;                            return@OutputLine CheckResult.FALSE(&quot;You asked the definition of the non existing card: `$askedCard`.&quot;)&#10;                        }&#10;                        ctx.rawData[&quot;lastAskedCard&quot;] = askedCard&#10;                        CheckResult.TRUE&#10;                    },&#10;                    // unfortunately we can't access the Context in user action, see documentation of user()&#10;                    user(ansDef),&#10;                    // check the answer:&#10;                    OutputLine { text, ctx -&gt;&#10;                        val askedCard = ctx.rawData[&quot;lastAskedCard&quot;]?.toString()&#10;                                ?: throw IllegalStateException(&quot;Not found lastAskedCard in the `ask` checker.&quot;)&#10;                        val cardToDef = ctx.cardToDef&#10;                        val defToCard = ctx.defToCard&#10;                        val rightAns = cardToDef[askedCard]&#10;&#10;                        val hint = &quot;The asked card was `$askedCard`, the answer was `$ansDef`.&quot;&#10;                        if (cardToDef[askedCard] == ansDef)&#10;                            containing(&quot;Correct answer&quot;, hint = hint).checker(text, ctx)&#10;                        else {&#10;                            ctx.wrongCards += askedCard&#10;&#10;                            val isDefFor = defToCard[ansDef]&#10;                            if (isDefFor != null) {&#10;                                containing(&quot;Wrong answer&quot;, &quot;The correct one is \&quot;$rightAns\&quot;&quot;,&#10;                                        &quot;you've just written the definition of \&quot;$isDefFor\&quot;&quot;, hint = hint).checker(text, ctx)&#10;                            } else {&#10;                                // should not contain definition hint!!&#10;                                if (text.contains(&quot;you've just written the definition of&quot;)) {&#10;                                    CheckResult.FALSE(&quot;Your line\n`$text`\nshould NOT contain &quot; +&#10;                                            &quot;`you've just written the definition of`.\n$hint&quot;)&#10;                                } else {&#10;                                    containing(&quot;Wrong answer&quot;, &quot;The correct one is \&quot;$rightAns\&quot;&quot;, hint = hint).checker(text, ctx)&#10;                                }&#10;&#10;                            }&#10;                        }.also {&#10;                            // only for these tests. To test restoring wrong capitals from file.&#10;                            if (saveWrongAnsweredCapitals) {&#10;                                wrongAnsweredCapitals.clear()&#10;                                wrongAnsweredCapitals.addAll(ctx.wrongCards)&#10;                            }&#10;                        }&#10;                    }&#10;            )&#10;        }&#10;        (startPhrases + repeatingPhrases)&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/FlashcardsTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/FlashcardsTest.java" />
+                                <option name="text" value="import common.FlashcardsStage6Test;&#10;&#10;public class FlashcardsTest extends FlashcardsStage6Test {&#10;    // just empty class, but not abstract so it can be run&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/flashcards/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/flashcards/Main.java" />
+                                <option name="text" value="package flashcards;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1566903888000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" value="stage7" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Users often use files to save their progress and restore it the next time they run the program. It's tedious to print the actions manually. Sometimes you can just forget to do it! So let's add run arguments that define which file to read at the start and which file to save at the exit.&lt;/p&gt;&#10;&#10;&lt;p&gt;For the program to read from an external file, you should pass the argument &lt;code&gt;-import&lt;/code&gt; and follow it with the file name. If the argument is present, the first line of your program output should be &lt;code&gt;10 cards have been loaded.&lt;/code&gt;. (Replace 10 with the number of cards). If such argument is not set, the set of cards should be initially empty.&lt;/p&gt;&#10;&#10;&lt;p&gt;If &lt;code&gt;-export&lt;/code&gt; argument is set and it is followed by the file name, you should write all the cards that are in the program memory into this file after the user has entered exit, and the last line of your program should be &lt;code&gt;10 cards have been saved.&lt;/code&gt;. (Replace 10 with the number of cards).&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Run arguments examples&lt;/h2&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java Flashcards -import derivatives.txt&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java Flashcards -export animals.txt&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java Flashcards -import words13june.txt -export words14june.txt&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;java Flashcards -export vocab.txt -import vocab.txt &lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/44/stages/238/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="5349" />
+                      <option name="index" value="7" />
+                      <option name="name" value="IMPORTant" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/common/DialogClue.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/DialogClue.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;&#10;&#10;// ---- DialogClue ----&#10;&#10;/** May be several lines or just one. */&#10;interface Phrase {&#10;    fun toPhraseLines(): List&lt;PhraseLine&gt;&#10;}&#10;&#10;/** list of input and output lines, combined together. */&#10;fun compositePhrase(block: () -&gt; List&lt;Phrase&gt;) = object : Phrase {&#10;    override fun toPhraseLines() = block().flatMap { it.toPhraseLines() }&#10;}&#10;&#10;fun compositePhrase(vararg phrases: Phrase) = object : Phrase {&#10;    override fun toPhraseLines() = phrases.flatMap { it.toPhraseLines() }&#10;}&#10;&#10;/** Either user (input) or output phrase. Each phrase should be a line. */&#10;sealed class PhraseLine : Phrase {&#10;    override fun toPhraseLines() = listOf(this)&#10;}&#10;&#10;/** Some mutable data, that is passed across dialog phrases. */&#10;class Context {&#10;    val rawData = mutableMapOf&lt;String, Any&gt;()&#10;}&#10;&#10;class UserLine(val text: String, val updateContext: CtxUpdate = {}) : PhraseLine() {&#10;&#10;}&#10;typealias CtxUpdate = (ctx: Context) -&gt; Unit&#10;&#10;class OutputLine(val checker: (text: String, ctx: Context) -&gt; CheckResult) : PhraseLine()&#10;&#10;/** This function creates a line with user input (our test input).&#10; *&#10; * Unfortunately we can't access the Context, when we adding user text.&#10; * This occurs because of HS test framework limitations:&#10; * we need to pass all inputs first, and then start checking outputs. */&#10;fun user(text: String, updateContext: (ctx: Context) -&gt; Unit = {}) = UserLine(text, updateContext)&#10;&#10;fun anyLine(updateContext: CtxUpdate = {}) = OutputLine { _, ctx -&gt; CheckResult.TRUE.also { updateContext(ctx) } }&#10;&#10;fun containing(&#10;        vararg parts: String,&#10;        ignoreCase: Boolean = true,&#10;        hint: String? = null,&#10;        updateContext: CtxUpdate = {}&#10;) = OutputLine { line, context -&gt;&#10;    fun buildFeedback(): String {&#10;        val feedback = StringBuilder()&#10;        feedback.append(&quot;Your line\n`$line`\nshould contain ${parts.joinToString(&quot;`, `&quot;, &quot;`&quot;, &quot;`&quot;)}&quot;)&#10;        if (ignoreCase) {&#10;            feedback.append(&quot; (ignoring case)&quot;)&#10;        }&#10;        feedback.append(&quot;.&quot;)&#10;        if (hint != null) {&#10;            feedback.append(&quot;\n$hint&quot;)&#10;        }&#10;        return feedback.toString()&#10;    }&#10;&#10;    var startIndex = 0&#10;    for (part in parts) {&#10;        startIndex = line.indexOf(part, startIndex, ignoreCase)&#10;        if (startIndex == -1) {&#10;            return@OutputLine CheckResult.FALSE(buildFeedback())&#10;        }&#10;    }&#10;    updateContext(context) // everything is correct, update context&#10;    CheckResult.TRUE&#10;}&#10;&#10;class DialogClue(private val phrases: List&lt;PhraseLine&gt;) {&#10;&#10;    private val inputPhrases = phrases.filter { it is UserLine }.map { it as UserLine }&#10;    private val outputPhrases = phrases.filter { it is OutputLine }.map { it as OutputLine }&#10;&#10;    fun generateInput() = inputPhrases&#10;            .joinToString(&quot;\n&quot;, postfix = &quot;\n&quot;) { it.text }&#10;&#10;    fun checkOutput(output: String): CheckResult {&#10;        val lines = output.lines()&#10;                .filter { it.isNotBlank() }&#10;&#10;        fun wrongOutputSizeFeedback() = CheckResult.FALSE(&quot;The number of lines in your output is ${lines.size}, &quot; +&#10;                &quot;but it should be ${outputPhrases.size}. &quot; +&#10;                &quot;Check, that you output your lines with println, not print. And there are no extra outputs.\n\n&quot; +&#10;                mergeInputAndOutput(lines))&#10;&#10;// here we store some mutable data from phrase to phrase&#10;        val context = Context()&#10;&#10;        val lineIter = lines.listIterator()&#10;        phrases.forEach { phraseLine -&gt;&#10;            when (phraseLine) {&#10;                is UserLine -&gt; phraseLine.updateContext(context)&#10;                is OutputLine -&gt; {&#10;                    if (!lineIter.hasNext()) {&#10;                        return wrongOutputSizeFeedback()&#10;                    }&#10;&#10;&#10;                    val result = phraseLine.checker(lineIter.next(), context)&#10;                    if (result != CheckResult.TRUE) {&#10;                        // add the test start to output:&#10;                        val trimmedLines = lines.take(lineIter.nextIndex())&#10;                        return CheckResult.FALSE(&quot;${result.feedback}\n\n&quot; +&#10;                                mergeInputAndOutput(trimmedLines))&#10;                    }&#10;                }&#10;            }&#10;        }&#10;&#10;        if (lineIter.hasNext()) {&#10;            return wrongOutputSizeFeedback()&#10;        }&#10;&#10;        return CheckResult.TRUE&#10;    }&#10;&#10;    /** Merge program output lines, and test input lines. */&#10;    private fun mergeInputAndOutput(outputLines: List&lt;String&gt;): String {&#10;        val lineIter = outputLines.iterator()&#10;        val sb = StringBuilder(&quot;Your output with test input (`&gt;` indicates test input):\n&quot;)&#10;        for (phrase in phrases) {&#10;            if (!lineIter.hasNext()) {&#10;                break&#10;            }&#10;            when (phrase) {&#10;                is OutputLine -&gt; {&#10;                    sb.appendln(lineIter.next())&#10;                }&#10;                is UserLine -&gt; {&#10;                    sb.appendln(&quot;&gt; ${phrase.text}&quot;)&#10;                }&#10;            }&#10;        }&#10;// add left output&#10;        while (lineIter.hasNext()) {&#10;            sb.appendln(lineIter.next())&#10;        }&#10;        return sb.toString()&#10;    }&#10;}&#10;&#10;fun dialogTest(vararg phrases: Phrase, consoleArgs: Array&lt;String&gt; = emptyArray()): TestCase&lt;DialogClue&gt; {&#10;    val dialogClue = DialogClue(phrases.flatMap { it.toPhraseLines() })&#10;    return TestCase&lt;DialogClue&gt;()&#10;            .setInput(dialogClue.generateInput())&#10;            .setAttach(dialogClue)&#10;            .addArguments(*consoleArgs)&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/common/FlashcardsStage7Test.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/common/FlashcardsStage7Test.kt" />
+                                <option name="text" value="package common&#10;&#10;import org.hyperskill.hstest.v5.stage.BaseStageTest&#10;import org.hyperskill.hstest.v5.testcase.CheckResult&#10;import org.hyperskill.hstest.v5.testcase.TestCase&#10;import flashcards.Main&#10;import java.io.File&#10;&#10;&#10;abstract class FlashcardsStage7Test : BaseStageTest&lt;DialogClue&gt;(Main::class.java) {&#10;&#10;    override fun generate(): List&lt;TestCase&lt;DialogClue&gt;&gt; {&#10;        File(&quot;capitals.txt&quot;).delete()&#10;        File(&quot;capitalsNew.txt&quot;).delete()&#10;        val tests = mutableListOf&lt;TestCase&lt;DialogClue&gt;&gt;()&#10;&#10;        val capitalList = mutableListOf&lt;Pair&lt;String, String&gt;&gt;()&#10;        fun capitals() = capitalList.toTypedArray()&#10;&#10;        // wrappers for add/remove card, but saving cards to capitalList:&#10;        fun addCapital(card: String, def: String) = addCard(card, def)&#10;                .also { capitalList += card to def }&#10;&#10;        fun removeCapital(card: String) = removeCard(card)&#10;                .also { capitalList.removeIf { it.first == card } }&#10;&#10;        // clear files&#10;        tests += dialogTest(&#10;                exportCards(&quot;capitals.txt&quot;, 0),&#10;                exportCards(&quot;capitalsNew.txt&quot;, 0),&#10;                exit()&#10;        )&#10;        tests += dialogTest(&#10;                addCapital(&quot;France&quot;, &quot;Paris&quot;),&#10;                addCapital(&quot;Russia&quot;, &quot;Moscow&quot;),&#10;                askCards(&quot;France&quot;, &quot;??&quot;, &quot;&quot;),&#10;                exit(),&#10;                exportArg(2),&#10;                consoleArgs = arrayOf(&quot;-export&quot;, &quot;capitals.txt&quot;)&#10;        )&#10;        tests += dialogTest(&#10;                importArg(2, *capitals()),&#10;                addCapital(&quot;Japan&quot;, &quot;Tokyo&quot;),&#10;                askCards(&quot;Moscow&quot;, &quot;Paris&quot;, &quot;Tokyo&quot;),&#10;                exit(),&#10;                exportArg(3),&#10;                consoleArgs = arrayOf(&quot;-import&quot;, &quot;capitals.txt&quot;, &quot;-export&quot;, &quot;capitalsNew.txt&quot;)&#10;        )&#10;        tests += dialogTest(&#10;                importArg(3, *capitals()),&#10;                askCards(&quot;Moscow&quot;, &quot;Paris&quot;, &quot;Tokyo&quot;),&#10;                removeCapital(&quot;Japan&quot;),&#10;                exit(),&#10;                exportArg(2),&#10;                consoleArgs = arrayOf(&quot;-export&quot;, &quot;capitals.txt&quot;, &quot;-import&quot;, &quot;capitalsNew.txt&quot;)&#10;        )&#10;        tests += dialogTest(&#10;                importArg(2, *capitals()),&#10;                exit(),&#10;                consoleArgs = arrayOf(&quot;-import&quot;, &quot;capitals.txt&quot;)&#10;        )&#10;&#10;        return tests&#10;    }&#10;&#10;    override fun check(reply: String, clue: DialogClue): CheckResult {&#10;        return clue.checkOutput(reply)&#10;    }&#10;&#10;&#10;    // ------ extensions for building a dialog: ------&#10;&#10;    fun importArg(count: Int, vararg cards: Pair&lt;String, String&gt;) =&#10;            containing(&quot;$count cards have been loaded&quot;,&#10;                    updateContext = { ctx -&gt;&#10;                        cards.forEach { (card, def) -&gt;&#10;                            ctx.addCard(card, def)&#10;                            ctx.wrongCards.removeAll(listOf(card))&#10;                        }&#10;                    })&#10;&#10;    fun exportArg(count: Int) = containing(&quot;$count cards have been saved&quot;)&#10;&#10;&#10;    fun inputAction(action: String) = compositePhrase {&#10;        listOf(containing(&quot;action&quot;, hint = &quot;This line should ask the action.&quot;), user(action))&#10;    }&#10;&#10;    inner class LogPhrase(val fileName: String) : Phrase {&#10;        override fun toPhraseLines() = compositePhrase(&#10;                inputAction(&quot;log&quot;),&#10;                anyLine(),&#10;                user(fileName),&#10;                OutputLine { text, ctx -&gt;&#10;                    val result = containing(&quot;saved&quot;, hint = &quot;This line should indicate, that the log has been saved.&quot;).checker(text, ctx)&#10;                    if (!result.isCorrect) {&#10;                        return@OutputLine result&#10;                    }&#10;                    if (!File(fileName).exists()) {&#10;                        return@OutputLine CheckResult.FALSE(&quot;The log file $fileName does not exist.&quot;)&#10;                    }&#10;                    CheckResult.TRUE&#10;                }&#10;        ).toPhraseLines()&#10;    }&#10;&#10;    private fun log(fileName: String) = LogPhrase(fileName)&#10;&#10;    private fun resetStats() = compositePhrase(&#10;            inputAction(&quot;reset stats&quot;), containing(&quot;reset&quot;, hint = &quot;This line should confirm card statistics reset.&quot;,&#10;            updateContext = { ctx -&gt; ctx.wrongCards.clear() })&#10;    )&#10;&#10;    /** Between tests we cache wrong answered capitals to check hardest cards, when we restore them from file. */&#10;    private val wrongAnweredCapitals: MutableList&lt;String&gt; = mutableListOf()&#10;&#10;    /** [customWrongCards] are used to load saved wrong cards from the previous test. */&#10;    fun hardestCards(customWrongCards: List&lt;String&gt;? = null) = compositePhrase(&#10;            inputAction(&quot;hardest card&quot;),&#10;            OutputLine { text, ctx -&gt;&#10;                if (customWrongCards != null) {&#10;                    ctx.wrongCards.clear()&#10;                    ctx.wrongCards.addAll(customWrongCards)&#10;                }&#10;                val groupedCards = ctx.wrongCards&#10;                        .groupBy { it }.mapValues { (_, v) -&gt; v.size }&#10;                val maxMistakes = groupedCards.values.max() ?: 0&#10;                val hardestCards = groupedCards.filterValues { it == maxMistakes }.keys.toList()&#10;&#10;                when (hardestCards.size) {&#10;                    0 -&gt; return@OutputLine containing(&quot;There are no cards with errors&quot;).checker(text, ctx)&#10;                    1 -&gt; return@OutputLine containing(&quot;The hardest card is \&quot;${hardestCards[0]}\&quot;&quot;,&#10;                            &quot;$maxMistakes&quot;).checker(text, ctx)&#10;                    else -&gt; {&#10;                        hardestCards.forEach { card -&gt;&#10;                            if (card !in text) {&#10;                                return@OutputLine CheckResult.FALSE(&quot;Your line `$text`\n&quot; +&#10;                                        &quot;should contain the hardest cards &quot; +&#10;                                        &quot;${hardestCards.joinToString(&quot;\&quot;, \&quot;&quot;, &quot;\&quot;&quot;, &quot;\&quot;&quot;)} with $maxMistakes mistakes.&quot;)&#10;                            }&#10;                        }&#10;                        val numberOfHardestCards = text.count { it == '&quot;' }&#10;                        if (numberOfHardestCards != hardestCards.size * 2) {&#10;                            return@OutputLine CheckResult.FALSE(&quot;Your line `$text`\n&quot; +&#10;                                    &quot;contains more hardest cards, than expected. Expected: $hardestCards.&quot;)&#10;                        }&#10;                        if (maxMistakes.toString() !in text) {&#10;                            if (numberOfHardestCards != hardestCards.size) {&#10;                                return@OutputLine CheckResult.FALSE(&quot;Your line `$text`\n&quot; +&#10;                                        &quot;should contain $maxMistakes mistakes for your hardest cards.&quot;)&#10;                            }&#10;                        }&#10;                    }&#10;                }&#10;                CheckResult.TRUE&#10;            }&#10;    )&#10;&#10;&#10;    // extend dialog context with our own data:&#10;&#10;    @Suppress(&quot;UNCHECKED_CAST&quot;)&#10;    private val Context.cardToDef&#10;        get() = rawData.getOrPut(&quot;cardToDef&quot;) { mutableMapOf&lt;String, String&gt;() } as MutableMap&lt;String, String&gt;&#10;&#10;    @Suppress(&quot;UNCHECKED_CAST&quot;)&#10;    /** All cards, that were answered wrong. */&#10;    private val Context.wrongCards&#10;        get() = rawData.getOrPut(&quot;wrongCards&quot;) { mutableListOf&lt;String&gt;() } as MutableList&lt;String&gt;&#10;&#10;&#10;    @Suppress(&quot;UNCHECKED_CAST&quot;)&#10;    private val Context.defToCard&#10;        get() = rawData.getOrPut(&quot;defToCard&quot;) { mutableMapOf&lt;String, String&gt;() } as MutableMap&lt;String, String&gt;&#10;&#10;    private fun Context.addCard(card: String, definition: String) {&#10;        cardToDef[card] = definition&#10;        defToCard[definition] = card&#10;    }&#10;&#10;    private fun Context.removeCard(card: String) {&#10;        val def = cardToDef.remove(card)&#10;        if (def != null) {&#10;            defToCard.remove(def)&#10;        }&#10;    }&#10;&#10;&#10;    private fun addCard(card: String, def: String) = compositePhrase(&#10;            inputAction(&quot;add&quot;),&#10;            anyLine(), user(card),&#10;            anyLine(), user(def),&#10;            containing(&quot;has been added&quot;,&#10;                    hint = &quot;This line should add the pair (\&quot;$card\&quot;:\&quot;$def\&quot;).&quot;,&#10;                    updateContext = { ctx -&gt; ctx.addCard(card, def) })&#10;    )&#10;&#10;&#10;    private fun existingDef(card: String, def: String) = compositePhrase(&#10;            inputAction(&quot;add&quot;),&#10;            anyLine(), user(card),&#10;            anyLine(), user(def),&#10;            containing(&quot;definition&quot;, &quot;exists&quot;, hint = &quot;This line should reject the existing definition `$def`.&quot;)&#10;    )&#10;&#10;&#10;    private fun existingCard(card: String) = compositePhrase(&#10;            inputAction(&quot;add&quot;),&#10;            anyLine(), user(card),&#10;            containing(&quot;card&quot;, &quot;exists&quot;, hint = &quot;This line should reject the existing card `$card`.&quot;)&#10;    )&#10;&#10;    private fun removeCard(card: String) = compositePhrase(&#10;            inputAction(&quot;remove&quot;),&#10;            anyLine(), user(card),&#10;            containing(&quot;has been removed&quot;, hint = &quot;This line should remove the card `$card`.&quot;,&#10;                    updateContext = { ctx -&gt; ctx.removeCard(card) })&#10;    )&#10;&#10;    private fun removeNonExisting(card: String) = compositePhrase(&#10;            inputAction(&quot;remove&quot;),&#10;            anyLine(), user(card),&#10;            containing(&quot;Can't remove \&quot;$card\&quot;&quot;, hint = &quot;This line should reject removing non existing card `$card`.&quot;)&#10;    )&#10;&#10;&#10;    private fun importCards(fileName: String, vararg cards: Pair&lt;String, String&gt;) = compositePhrase(&#10;            inputAction(&quot;import&quot;),&#10;            anyLine(), user(fileName),&#10;            containing(&quot;${cards.size} cards have been loaded&quot;,&#10;                    updateContext = { ctx -&gt;&#10;                        val cardToDef = ctx.cardToDef&#10;                        val defToCard = ctx.defToCard&#10;                        cards.forEach { (card, def) -&gt;&#10;                            if (card in cardToDef) {&#10;                                defToCard.remove(cardToDef[card]) // erase wrong reverse link&#10;                            }&#10;                            ctx.addCard(card, def) // with update!!&#10;                        }&#10;                    })&#10;    )&#10;&#10;    private fun importNonExisting(fileName: String) = compositePhrase(&#10;            inputAction(&quot;import&quot;),&#10;            anyLine(), user(fileName),&#10;            containing(&quot;not found&quot;, hint = &quot;This line should say, that the file $fileName does not exist.&quot;)&#10;    )&#10;&#10;    private fun exportCards(fileName: String, cardsSize: Int) = compositePhrase(&#10;            inputAction(&quot;export&quot;),&#10;            anyLine(), user(fileName),&#10;            containing(&quot;$cardsSize cards have been saved&quot;)&#10;    )&#10;&#10;    private fun exit() = compositePhrase(&#10;            inputAction(&quot;exit&quot;),&#10;            anyLine()&#10;    )&#10;&#10;    /** Perform ask action. [ansDefs] are our test answers with definitions.&#10;     * We don't know are they wrong or correct, because the test is random. */&#10;    private fun askCards(vararg ansDefs: String, saveWrongAnsweredCapitals: Boolean = false) = compositePhrase {&#10;        val startPhrases = listOf(&#10;                inputAction(&quot;ask&quot;),&#10;                anyLine(), user(ansDefs.size.toString())&#10;        )&#10;        // here we add the dialog logic, by creating base OutputLine class with a custom checker&#10;        // we use context to connect with neighbor checkers&#10;&#10;        // iterate test answered definitions:&#10;        val repeatingPhrases = ansDefs.map { ansDef -&gt;&#10;            compositePhrase(&#10;                    OutputLine { text, ctx -&gt;&#10;                        val askedCard = text.dropWhile { it != '&quot;' }.dropLastWhile { it != '&quot;' }.trim('&quot;')&#10;                        if (askedCard.isEmpty()) {&#10;                            return@OutputLine CheckResult.FALSE(&quot;Not found card in quotes. &quot; +&#10;                                    &quot;This line should ask the definition of a random card.&quot;)&#10;                        }&#10;                        if (askedCard !in ctx.cardToDef) {&#10;                            return@OutputLine CheckResult.FALSE(&quot;You asked the definition of the non existing card: `$askedCard`.&quot;)&#10;                        }&#10;                        ctx.rawData[&quot;lastAskedCard&quot;] = askedCard&#10;                        CheckResult.TRUE&#10;                    },&#10;                    // unfortunately we can't access the Context in user action, see documentation of user()&#10;                    user(ansDef),&#10;                    // check the answer:&#10;                    OutputLine { text, ctx -&gt;&#10;                        val askedCard = ctx.rawData[&quot;lastAskedCard&quot;]?.toString()&#10;                                ?: throw IllegalStateException(&quot;Not found lastAskedCard in the `ask` checker.&quot;)&#10;                        val cardToDef = ctx.cardToDef&#10;                        val defToCard = ctx.defToCard&#10;                        val rightAns = cardToDef[askedCard]&#10;&#10;                        val hint = &quot;The asked card was `$askedCard`, the answer was `$ansDef`.&quot;&#10;                        if (cardToDef[askedCard] == ansDef)&#10;                            containing(&quot;Correct answer&quot;, hint = hint).checker(text, ctx)&#10;                        else {&#10;                            ctx.wrongCards += askedCard&#10;&#10;                            val isDefFor = defToCard[ansDef]&#10;                            if (isDefFor != null) {&#10;                                containing(&quot;Wrong answer&quot;, &quot;The correct one is \&quot;$rightAns\&quot;&quot;,&#10;                                        &quot;you've just written the definition of \&quot;$isDefFor\&quot;&quot;, hint = hint).checker(text, ctx)&#10;                            } else {&#10;                                // should not contain definition hint!!&#10;                                if (text.contains(&quot;you've just written the definition of&quot;)) {&#10;                                    CheckResult.FALSE(&quot;Your line\n`$text`\nshould NOT contain &quot; +&#10;                                            &quot;`you've just written the definition of`.\n$hint&quot;)&#10;                                } else {&#10;                                    containing(&quot;Wrong answer&quot;, &quot;The correct one is \&quot;$rightAns\&quot;&quot;, hint = hint).checker(text, ctx)&#10;                                }&#10;&#10;                            }&#10;                        }.also {&#10;                            // only for these tests. To test restoring wrong capitals from file.&#10;                            if (saveWrongAnsweredCapitals) {&#10;                                wrongAnweredCapitals.clear()&#10;                                wrongAnweredCapitals.addAll(ctx.wrongCards)&#10;                            }&#10;                        }&#10;                    }&#10;            )&#10;        }&#10;        (startPhrases + repeatingPhrases)&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/FlashcardsTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/FlashcardsTest.java" />
+                                <option name="text" value="import common.FlashcardsStage7Test;&#10;&#10;public class FlashcardsTest extends FlashcardsStage7Test {&#10;    // just empty class, but not abstract so it can be run&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/flashcards/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/flashcards/Main.java" />
+                                <option name="text" value="package flashcards;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1566903889000" />
+                    </EduTask>
+                  </list>
+                </option>
+              </FrameworkLesson>
+            </list>
+          </option>
+        </HyperskillCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-04T10:34:00" hostname="DESKTOP-IVHFBFK" time="0.338">
+  <properties/>
+  <testcase name="start" classname="FlashcardsTest" time="0.338"/>
+  <system-out><![CDATA[Card:
+Metagraph
+Definition:
+Objects: a, b, c,...Arrows: f, g, h,...Domain: for each arrow, f, there is an object a = dom f...Codomain: for each arrow, f, there is an object b = cod f
+]]></system-out>
+  <system-err><![CDATA[Start test 1
+]]></system-err>
+</testsuite>
