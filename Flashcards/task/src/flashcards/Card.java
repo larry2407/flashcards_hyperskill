@@ -45,6 +45,9 @@ public class Card {
         this.definition = definition;
     }
 
+    public Card() {
+    }
+
     @Override
     public String toString() {
         return "Card{" +

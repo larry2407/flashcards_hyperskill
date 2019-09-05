@@ -420,7 +420,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="1" />
+                <option name="currentTaskIndex" value="4" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -519,8 +519,8 @@
                       <option name="id" value="5344" />
                       <option name="index" value="2" />
                       <option name="name" value="What’s on the card?" />
-                      <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="record" value="2" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/FlashcardsTest.java">
@@ -596,8 +596,8 @@
                       <option name="id" value="5345" />
                       <option name="index" value="3" />
                       <option name="name" value="Make it your own" />
-                      <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="record" value="3" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/common/FlashcardsStage3Test.kt">
@@ -634,9 +634,23 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/flashcards/Main.java" />
                                 <option name="text" value="package flashcards;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/flashcards/Card.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/flashcards/Card.java" />
+                                <option name="text" value="package flashcards;&#10;&#10;public class Card {&#10;    private String name;&#10;    private String subject;&#10;    private String theme;&#10;    private String definition;&#10;&#10;    public String getName() {&#10;        return name;&#10;    }&#10;&#10;    public void setName(String name) {&#10;        this.name = name;&#10;    }&#10;&#10;    public String getSubject() {&#10;        return subject;&#10;    }&#10;&#10;    public void setSubject(String subject) {&#10;        this.subject = subject;&#10;    }&#10;&#10;    public String getTheme() {&#10;        return theme;&#10;    }&#10;&#10;    public void setTheme(String theme) {&#10;        this.theme = theme;&#10;    }&#10;&#10;    public String getDefinition() {&#10;        return definition;&#10;    }&#10;&#10;    public void setDefinition(String definition) {&#10;        this.definition = definition;&#10;    }&#10;&#10;    public Card(String name, String subject, String theme, String definition) {&#10;        this.name = name;&#10;        this.subject = subject;&#10;        this.theme = theme;&#10;        this.definition = definition;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return &quot;Card{&quot; +&#10;                &quot;name='&quot; + name + '\'' +&#10;                &quot;, subject='&quot; + subject + '\'' +&#10;                &quot;, theme='&quot; + theme + '\'' +&#10;                &quot;, definition='&quot; + definition + '\'' +&#10;                '}';&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
@@ -659,8 +673,8 @@
                       <option name="id" value="5346" />
                       <option name="index" value="4" />
                       <option name="name" value="A good stack" />
-                      <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="record" value="4" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/common/DialogClue.kt">
@@ -711,9 +725,23 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/flashcards/Main.java" />
                                 <option name="text" value="package flashcards;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/flashcards/Card.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/flashcards/Card.java" />
+                                <option name="text" value="package flashcards;&#10;&#10;public class Card {&#10;    private String name;&#10;    private String subject;&#10;    private String theme;&#10;    private String definition;&#10;&#10;    public String getName() {&#10;        return name;&#10;    }&#10;&#10;    public void setName(String name) {&#10;        this.name = name;&#10;    }&#10;&#10;    public String getSubject() {&#10;        return subject;&#10;    }&#10;&#10;    public void setSubject(String subject) {&#10;        this.subject = subject;&#10;    }&#10;&#10;    public String getTheme() {&#10;        return theme;&#10;    }&#10;&#10;    public void setTheme(String theme) {&#10;        this.theme = theme;&#10;    }&#10;&#10;    public String getDefinition() {&#10;        return definition;&#10;    }&#10;&#10;    public void setDefinition(String definition) {&#10;        this.definition = definition;&#10;    }&#10;&#10;    public Card(String name, String subject, String theme, String definition) {&#10;        this.name = name;&#10;        this.subject = subject;&#10;        this.theme = theme;&#10;        this.definition = definition;&#10;    }&#10;&#10;    public Card() {&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return &quot;Card{&quot; +&#10;                &quot;name='&quot; + name + '\'' +&#10;                &quot;, subject='&quot; + subject + '\'' +&#10;                &quot;, theme='&quot; + theme + '\'' +&#10;                &quot;, definition='&quot; + definition + '\'' +&#10;                '}';&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
@@ -736,7 +764,7 @@
                       <option name="id" value="5347" />
                       <option name="index" value="5" />
                       <option name="name" value="Menu, please!" />
-                      <option name="record" value="-1" />
+                      <option name="record" value="5" />
                       <option name="status" value="Unchecked" />
                       <option name="files">
                         <map>
@@ -791,6 +819,20 @@
                                 <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/flashcards/Main.java" />
                                 <option name="text" value="package flashcards;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/flashcards/Card.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/flashcards/Card.java" />
+                                <option name="text" value="package flashcards;&#10;&#10;public class Card {&#10;    private String name;&#10;    private String subject;&#10;    private String theme;&#10;    private String definition;&#10;&#10;    public String getName() {&#10;        return name;&#10;    }&#10;&#10;    public void setName(String name) {&#10;        this.name = name;&#10;    }&#10;&#10;    public String getSubject() {&#10;        return subject;&#10;    }&#10;&#10;    public void setSubject(String subject) {&#10;        this.subject = subject;&#10;    }&#10;&#10;    public String getTheme() {&#10;        return theme;&#10;    }&#10;&#10;    public void setTheme(String theme) {&#10;        this.theme = theme;&#10;    }&#10;&#10;    public String getDefinition() {&#10;        return definition;&#10;    }&#10;&#10;    public void setDefinition(String definition) {&#10;        this.definition = definition;&#10;    }&#10;&#10;    public Card(String name, String subject, String theme, String definition) {&#10;        this.name = name;&#10;        this.subject = subject;&#10;        this.theme = theme;&#10;        this.definition = definition;&#10;    }&#10;&#10;    public Card() {&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return &quot;Card{&quot; +&#10;                &quot;name='&quot; + name + '\'' +&#10;                &quot;, subject='&quot; + subject + '\'' +&#10;                &quot;, theme='&quot; + theme + '\'' +&#10;                &quot;, definition='&quot; + definition + '\'' +&#10;                '}';&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
@@ -957,6 +999,53 @@
                   </list>
                 </option>
               </FrameworkLesson>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="2" />
+                <option name="name" value="Problems" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Check prefix ignoring the case&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2717&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;&lt;span&gt;Write a program that checks a given string starts with the prefix &lt;/span&gt;&lt;b&gt;&quot;J&quot;&lt;/b&gt;&lt;span&gt; ignoring the case.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&#10;  &lt;p&gt;The program should output &lt;b&gt;true&lt;/b&gt; or &lt;b&gt;false&lt;/b&gt;.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;Java&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;true&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;Kotlin&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;false&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3523&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2717" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2717" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Check prefix ignoring the case" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088462000" />
+                    </CodeTask>
+                  </list>
+                </option>
+              </Lesson>
             </list>
           </option>
         </HyperskillCourse>

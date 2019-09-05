@@ -1,12 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-04T10:34:00" hostname="DESKTOP-IVHFBFK" time="0.338">
+<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-05T14:47:45" hostname="DESKTOP-IVHFBFK" time="0.51">
   <properties/>
-  <testcase name="start" classname="FlashcardsTest" time="0.338"/>
-  <system-out><![CDATA[Card:
-Metagraph
-Definition:
-Objects: a, b, c,...Arrows: f, g, h,...Domain: for each arrow, f, there is an object a = dom f...Codomain: for each arrow, f, there is an object b = cod f
+  <testcase name="start" classname="FlashcardsTest" time="0.51"/>
+  <system-out><![CDATA[Input the number of cards:
+The card #1:)
+The definition of the card #1:)
+The card #2:)
+The card "black" already exists. Try again:
+The definition of the card #2:)
+The definition "white" already exists. Try again:
+Print the definition of "black"
+Correct answer.
+Print the definition of "red"
+Correct answer.
+Input the number of cards:
+The card #1:)
+The definition of the card #1:)
+The card #2:)
+The definition of the card #2:)
+Print the definition of "a brother of one's parent"
+Wrong answer. (The correct one is "uncle", you've just written the definition of "a part of the body where the foot and the leg meet".)
+Print the definition of "a part of the body where the foot and the leg meet"
+Wrong answer. (The correct one is "ankle".)
+Input the number of cards:
+The card #1:)
+The definition of the card #1:)
+The card #2:)
+The definition of the card #2:)
+The card #3:)
+The definition of the card #3:)
+The card #4:)
+The card "c3" already exists. Try again:
+The card "c2" already exists. Try again:
+The card "c1" already exists. Try again:
+The definition of the card #4:)
+The definition "d2" already exists. Try again:
+The definition "d3" already exists. Try again:
+The definition "d1" already exists. Try again:
+Print the definition of "c1"
+Correct answer.
+Print the definition of "c2"
+Wrong answer. (The correct one is "d2", you've just written the definition of "c1".)
+Print the definition of "c3"
+Wrong answer. (The correct one is "d3".)
+Print the definition of "c4"
+Wrong answer. (The correct one is "d4".)
 ]]></system-out>
   <system-err><![CDATA[Start test 1
+Start test 2
+Start test 3
 ]]></system-err>
 </testsuite>
