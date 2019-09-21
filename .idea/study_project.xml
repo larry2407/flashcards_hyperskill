@@ -765,7 +765,7 @@
                       <option name="index" value="5" />
                       <option name="name" value="Menu, please!" />
                       <option name="record" value="5" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Failed" />
                       <option name="files">
                         <map>
                           <entry key="test/common/DialogClue.kt">
@@ -816,7 +816,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/flashcards/Main.java" />
                                 <option name="text" value="package flashcards;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -830,9 +830,37 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/flashcards/Card.java" />
                                 <option name="text" value="package flashcards;&#10;&#10;public class Card {&#10;    private String name;&#10;    private String subject;&#10;    private String theme;&#10;    private String definition;&#10;&#10;    public String getName() {&#10;        return name;&#10;    }&#10;&#10;    public void setName(String name) {&#10;        this.name = name;&#10;    }&#10;&#10;    public String getSubject() {&#10;        return subject;&#10;    }&#10;&#10;    public void setSubject(String subject) {&#10;        this.subject = subject;&#10;    }&#10;&#10;    public String getTheme() {&#10;        return theme;&#10;    }&#10;&#10;    public void setTheme(String theme) {&#10;        this.theme = theme;&#10;    }&#10;&#10;    public String getDefinition() {&#10;        return definition;&#10;    }&#10;&#10;    public void setDefinition(String definition) {&#10;        this.definition = definition;&#10;    }&#10;&#10;    public Card(String name, String subject, String theme, String definition) {&#10;        this.name = name;&#10;        this.subject = subject;&#10;        this.theme = theme;&#10;        this.definition = definition;&#10;    }&#10;&#10;    public Card() {&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return &quot;Card{&quot; +&#10;                &quot;name='&quot; + name + '\'' +&#10;                &quot;, subject='&quot; + subject + '\'' +&#10;                &quot;, theme='&quot; + theme + '\'' +&#10;                &quot;, definition='&quot; + definition + '\'' +&#10;                '}';&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="capitalsNew.txt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="capitalsNew.txt" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="capitals.txt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="capitals.txt" />
+                                <option name="text" value="" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
@@ -1042,6 +1070,76 @@
                         </map>
                       </option>
                       <option name="updateDate" value="1541088462000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Number of decompositions&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/3126&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Read the integer &lt;span class=&quot;math-tex&quot;&gt;\( N \)&lt;/span&gt; (&lt;span class=&quot;math-tex&quot;&gt;\( 1 \leq N \leq 40 \)&lt;/span&gt;) from the standard input and list all the decompositions of NN into a sum of positive integers. The addends should go in non-ascending order within each decomposition.&lt;/p&gt; &#10;  &lt;p&gt;Output all decompositions in the lexicographical order.&lt;/p&gt; &#10;  &lt;p&gt;Please, use a recursive method to write your solution.&lt;/p&gt; &#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1 1 1 1 1&lt;br&gt;2 1 1 1&lt;br&gt;2 2 1&lt;br&gt;3 1 1&lt;br&gt;3 2&lt;br&gt;4 1&lt;br&gt;5&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3550&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/3126" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="3126" />
+                      <option name="index" value="2" />
+                      <option name="name" value="Number of decompositions" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1553519529000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Numbers filter&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2528&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;div&gt;&#10;   &lt;span&gt;Write a class with the name &lt;/span&gt;&#10;   &lt;b&gt;&lt;/b&gt;&#10;   &lt;b&gt;NumbersFilter&lt;/b&gt;&#10;   &lt;span&gt; that extends the &lt;/span&gt;&#10;   &lt;b&gt;Thread &lt;/b&gt;&#10;   &lt;span&gt;class and overrides method &lt;/span&gt;&#10;   &lt;b&gt;run&lt;/b&gt;&#10;   &lt;span&gt;. It should read integer numbers from the standard input (line by line). If a number is 0, the worker must stop; otherwise, if the number is even, the worker must print it to the standard output (each number on a new line).&lt;/span&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   Use the provided template for your class.&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;The testing system will start your class as a regular thread.&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;2&lt;br&gt;3&lt;br&gt;4&lt;br&gt;0&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;2&lt;br&gt;4&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/4876&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2528" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2528" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Numbers filter" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class NumbersFilter extends Thread {&#10;&#10;    /* use it to read numbers from the standard input */&#10;    private final Scanner scanner = new Scanner(System.in);&#10;&#10;    @Override&#10;    public void run() {&#10;        // implement this method&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088455000" />
                     </CodeTask>
                   </list>
                 </option>

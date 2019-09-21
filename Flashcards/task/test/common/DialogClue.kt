@@ -44,7 +44,7 @@ class OutputLine(val checker: (text: String, ctx: Context) -> CheckResult) : Phr
  * we need to pass all inputs first, and then start checking outputs. */
 fun user(text: String, updateContext: (ctx: Context) -> Unit = {}) = UserLine(text, updateContext)
 
-fun anyLine() = OutputLine { _, _ -> CheckResult.TRUE }
+fun anyLine(updateContext: CtxUpdate = {}) = OutputLine { _, ctx -> CheckResult.TRUE.also { updateContext(ctx) } }
 
 fun containing(
         vararg parts: String,

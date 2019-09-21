@@ -6,6 +6,10 @@
       <module name="Flashcards-task_test" target="11" />
       <module name="Problems-Check_prefix_ignoring_the_case_main" target="11" />
       <module name="Problems-Check_prefix_ignoring_the_case_test" target="11" />
+      <module name="Problems-Number_of_decompositions_main" target="11" />
+      <module name="Problems-Number_of_decompositions_test" target="11" />
+      <module name="Problems-Numbers_filter_main" target="11" />
+      <module name="Problems-Numbers_filter_test" target="11" />
       <module name="util_main" target="11" />
       <module name="util_test" target="11" />
     </bytecodeTargetLevel>

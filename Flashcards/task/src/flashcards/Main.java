@@ -1,17 +1,52 @@
 package flashcards;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
 
 public class Main {
 
-    private static Scanner sc = new Scanner(System.in);
-
+    private static Scanner keyboardInput = new Scanner(System.in);
+    private static String action = "";
+    private static Random rand = new Random();
+    private static Map<String, String> cardToDefinition = new LinkedHashMap<>();
+    private static Map<String, String> definitionToCard = new LinkedHashMap<>();
+    private static List<Card> currentCardsGame = new ArrayList<>();
     public static void main(String[] args) {
 
-        List<Map<String, String>> game = generateCards();
+        do{
+            selectAction();
+            switch(action){
+                case "add":
+                    addCard();
+                    break;
+                case "remove":
+                    removeCard();
+                    break;
+                case "import":
+                    importCards();
+                    break;
+                case "export":
+                    exportCards();
+                    break;
+                case "ask":
+                    askCards();
+                    break;
+                case "exit":
+                    System.out.println("Bye bye!");
+                    break;
+                default:
+                    break;
+            }
+
+        }while(!action.equals("exit"));
+
+        //List<Map<String, String>> game = generateCards();
         //populateCards(game);
         //Card[] arr = createArrayOfCards(game);
-        testPlayer(game);
+        //testPlayer(game);
 
         /*
         Card firstStageCard = new Card("Metagraph", "Mathematics",
@@ -43,8 +78,156 @@ public class Main {
             }
         }*/
     }
+    private static void selectAction(){
+        System.out.println("Input the action (add, remove, import, export, ask, exit):");
+        action = keyboardInput.nextLine();
+    }
 
-    private static void testPlayer(List<Map<String, String>> game) {
+    private static void addCard(){
+        System.out.println("The card:");
+        String cardName = keyboardInput.nextLine();
+        String quotedCurrentName = "\""+cardName+"\"";
+        if(null != cardToDefinition && cardToDefinition.containsKey(cardName)){
+            System.out.println("The card "+quotedCurrentName+" already exists.");
+            return;
+        }
+        System.out.println("The definition of the card:");
+        String cardDefinition = keyboardInput.nextLine();
+        String quotedCurrentdefinition = "\""+cardDefinition+"\"";
+        if(null != definitionToCard && definitionToCard.containsKey(cardDefinition)){
+            System.out.println("The definition "+quotedCurrentdefinition+" already exists.");
+            return;
+        }
+        currentCardsGame.add(new Card(cardName, cardDefinition));
+        cardToDefinition.put(cardName, cardDefinition);
+        definitionToCard.put(cardDefinition, cardName);
+
+        System.out.println("The pair ("+quotedCurrentName+":"+quotedCurrentdefinition+") has been added.");
+    }
+
+    private static void removeCard(){
+        System.out.println("The card:");
+        String cardName = keyboardInput.nextLine();
+        String quotedCurrentName = "\""+cardName+"\"";
+        if(null != cardToDefinition && cardToDefinition.containsKey(cardName)) {
+            for (Card c : currentCardsGame) {
+                if (c.getName().equals(cardName)) {
+                    currentCardsGame.remove(c);
+                    break;
+                }
+            }
+            String currentDef = cardToDefinition.get(cardName);
+            cardToDefinition.remove(cardName);
+            definitionToCard.remove(currentDef);
+            System.out.println("The card has been removed.");
+        }else{
+            System.out.println("Can't remove "+quotedCurrentName+": there is no such card.");
+            return;
+        }
+    }
+
+    private static void importCards(){
+        System.out.println("File name:");
+        String enteredFilename = keyboardInput.nextLine();
+        File deserialization = new File(enteredFilename);
+        Scanner fileInput = null;
+        try {
+            fileInput = new Scanner(deserialization);
+        } catch (FileNotFoundException e) {
+            //e.printStackTrace();
+            System.out.println("File not found.");
+            return;
+        }
+        String currentName="";
+        String currentDef="";
+        int lineCount = 0;
+        while(fileInput.hasNextLine()){
+            currentName=fileInput.nextLine();
+            lineCount++;
+            if(fileInput.hasNextLine()) {
+                currentDef = fileInput.nextLine();
+                lineCount++;
+           }
+            cardToDefinition.put(currentName,currentDef);
+            definitionToCard.put(currentDef,currentName);
+            currentCardsGame.add(new Card(currentName, currentDef));
+        }
+        System.out.println(lineCount/2 +" cards have been loaded (ignoring case).");
+        fileInput.close();
+    }
+
+    private static void exportCards(){
+        System.out.println("File name:");
+        String enteredFilename = keyboardInput.nextLine();
+        File serialization = new File(enteredFilename);
+        StringBuilder contentOfCardsToExport = new StringBuilder();
+        int numberOfCards = cardToDefinition.size();
+        for(Map.Entry<String,String> card : cardToDefinition.entrySet()){
+            contentOfCardsToExport.append(card.getKey()).append("\n");
+            contentOfCardsToExport.append(card.getValue()).append("\n");
+        }
+        try (FileWriter writer = new FileWriter(serialization)) {
+            writer.write(contentOfCardsToExport.toString());
+        } catch (IOException e) {
+            System.out.printf("An exception occurred %s", e.getMessage());
+        }
+        System.out.println(String.format("%d cards have been saved.", numberOfCards));
+    }
+
+    private static void askCards(){
+        System.out.println("How many times to ask?");
+        int numOfAsked = Integer.parseInt(keyboardInput.nextLine().trim());
+        int l = cardToDefinition.size();
+        //int[] randomCards = shuffleCards(l, numOfAsked);
+        int[] randomCards = new int[numOfAsked];
+        for(int i=0; i<numOfAsked; i++){
+            randomCards[i] = rand.nextInt(l);
+        }
+        List<String> searchableKeys = new ArrayList<>(cardToDefinition.keySet());
+        for(int i=0; i<numOfAsked ; i++){
+            String currentCardName = searchableKeys.get(randomCards[i]);
+            treatPlayersAnswer(currentCardName) ;
+        }
+
+    }
+
+    private static void treatPlayersAnswer(String currentCardName) {
+        String quoteCurrentCardName = "\"" + currentCardName + "\"";
+        System.out.println("Print the definition of " + quoteCurrentCardName + ":");
+        String defAns = keyboardInput.nextLine();
+        if (defAns.equals(cardToDefinition.get(currentCardName))) {
+            System.out.println("Correct answer.");
+        } else {
+            String quotedCorrectDef = "\"" + cardToDefinition.get(currentCardName) + "\"";
+            String output = "Wrong answer, The correct one is " + quotedCorrectDef + "(ignoring case)";
+            String complement = ".";
+            if (definitionToCard.containsKey(defAns) && !"UpdateMeFromImport".equals(defAns)) {
+                String quotedChosenDefOf = "\"" + definitionToCard.get(defAns) + "\"";
+                complement = ", you've just written the definition of " + quotedChosenDefOf + ".)";
+            }
+            System.out.println(output + complement);
+        }
+    }
+
+/*
+    private static int[] shuffleCards(int l, int numOfAsked) {
+        if(l < numOfAsked){
+            numOfAsked=l;
+        }
+        List<Integer> indexList = new ArrayList<>();
+        int[] ans = new int[numOfAsked];
+        for(int i=0; i<l; i++){
+            indexList.add(i);
+        }
+        Collections.shuffle(indexList);
+        for(int j=0; j<numOfAsked; j++){
+            ans[j] = indexList.get(j);
+        }
+        return ans;
+    }
+*/
+
+ /*   private static void testPlayer(List<Map<String, String>> game) {
         Map<String, String> mapNames = game.get(0);
         Map<String, String> mapDefs = game.get(1);
 
@@ -65,9 +248,9 @@ public class Main {
                 System.out.println(output+complement);
             }
         }
-    }
+    }*/
 
-    private static void testPlayer(Card[] arr) {
+ /*   private static void testPlayer(Card[] arr) {
         for(Card c : arr){
             String currentName = "\""+c.getName()+"\"";
             System.out.println("Print the definition of " + currentName);
@@ -79,7 +262,7 @@ public class Main {
                 System.out.println("Wrong answer. (The correct one is "+currentDef+".)");
             }
         }
-    }
+    }*/
 
     private static Card[] createArrayOfCards(String[][] game) {
         int l = game[0].length;
@@ -110,7 +293,7 @@ public class Main {
        return ans;
     }
 */
-    private static List<Map<String, String>> generateCards(){
+/*    private static List<Map<String, String>> generateCards(){
         List<Map<String, String>> answer = new ArrayList<>();
         int n = 0; // number of cards
         System.out.println("Input the number of cards:");
@@ -128,9 +311,9 @@ public class Main {
        answer.add(cardToDefinition);
        answer.add(definitionToCard);
        return answer;
-    }
+    }*/
 
-    private static String getCurrentCardName(Map<String, String> cardToDefinition){
+/*    private static String getCurrentCardName(Map<String, String> cardToDefinition){
         String currentName = sc.nextLine();
         while(null != cardToDefinition && cardToDefinition.containsKey(currentName)){
             String quotedCurrentName = "\""+currentName+"\"";
@@ -138,8 +321,8 @@ public class Main {
             currentName = sc.nextLine();
         }
         return currentName;
-    }
-    private static String getCurrentCardDefinition(Map<String, String> definitionToCard){
+    }*/
+/*    private static String getCurrentCardDefinition(Map<String, String> definitionToCard){
         String currentDefinition = sc.nextLine();
         while(null != definitionToCard && definitionToCard.containsKey(currentDefinition)){
             String quotedCurrentdefinition = "\""+currentDefinition+"\"";
@@ -147,9 +330,9 @@ public class Main {
             currentDefinition = sc.nextLine();
         }
         return currentDefinition;
-    }
+    }*/
 
-    private static void populateCards(String[][] game){
+ /*   private static void populateCards(String[][] game){
         int l = game.length;//2 = name and definition
         int n = game[0].length; // number of cards
         for(int i=0; i<n; i++){
@@ -157,16 +340,16 @@ public class Main {
                 game[j][i] = populateEntity(game[j][i], i, j);
             }
         }
-    }
+    }*/
 
-    private static String populateEntity(String s, int i, int j) {
+ /*   private static String populateEntity(String s, int i, int j) {
         String str = j==0 ? "The card #"+(i+1)+":" : "The definition of the card #"+(i+1)+":";
         //do{
             System.out.println(str);
             s = sc.nextLine();
        // }while(s.isEmpty() || s.isBlank());
         return s;
-    }
+    }*/
 }
 // from http://www.dreadedsoftware.com/blog/2015/6/28/category-theory-cheat-sheet
 // https://github.com/alhassy/CatsCheatSheet/blob/master/CheatSheet.pdf

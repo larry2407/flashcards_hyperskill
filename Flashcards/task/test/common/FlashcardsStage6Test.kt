@@ -4,27 +4,14 @@ import org.hyperskill.hstest.v5.stage.BaseStageTest
 import org.hyperskill.hstest.v5.testcase.CheckResult
 import org.hyperskill.hstest.v5.testcase.TestCase
 import flashcards.Main
+import java.io.File
 
-abstract class FlashcardsStage5Test : BaseStageTest<DialogClue>(Main::class.java) {
+abstract class FlashcardsStage6Test : BaseStageTest<DialogClue>(Main::class.java) {
 
-    // how to remove files? Now at least rewrite in the first test:
     override fun generate(): List<TestCase<DialogClue>> {
+        File("capitals.txt").delete()
+        File("testLog.txt").delete()
         val tests = mutableListOf<TestCase<DialogClue>>()
-        // old tests:
-        tests += dialogTest(
-                addCard("black", "white"),
-                existingCard("black"),
-                existingDef("red", "white"),
-                askCards("white", "green"), // the ask order is random
-                exit()
-        )
-        tests += dialogTest(
-                addCard("a brother of one's parent", "uncle"),
-                addCard("a part of the body where the foot and the leg meet", "ankle"),
-                askCards("ankle", "??", "uncle", "ankle", "??", "uncle"), // the ask order is random
-                exit()
-        )
-        // stage 5 tests:
 
         val capitalList = mutableListOf<Pair<String, String>>()
         fun capitals() = capitalList.toTypedArray()
@@ -33,81 +20,45 @@ abstract class FlashcardsStage5Test : BaseStageTest<DialogClue>(Main::class.java
         fun addCapital(card: String, def: String) = addCard(card, def)
                 .also { capitalList += card to def }
 
-        fun removeCapitalCard(card: String) = removeCard(card)
+        fun removeCapital(card: String) = removeCard(card)
                 .also { capitalList.removeIf { it.first == card } }
 
-        // testing files
         // clear files
         tests += dialogTest(
                 exportCards("capitals.txt", 0),
-                exportCards("capitalsNew.txt", 0),
                 exit()
         )
         tests += dialogTest(
-                importNonExisting("ghost_file.txt"),
-                exit()
-        )
-        tests += dialogTest(
-                addCapital("Great Britain", "London"),
-                removeNonExisting("Wakanda"),
-                exportCards("capitals.txt", 1),
-                importCards("capitals.txt", *capitals()),
-                askCards("London"),
-                exportCards("capitalsNew.txt", 1),
-                exit()
-        )
-        tests += dialogTest(
-                importCards("capitalsNew.txt", *capitals()), // import checks only the amount of cards
-                exit()
-        )
-        tests += dialogTest(
-                importCards("capitalsNew.txt", *capitals()),
+                hardestCards(),
                 addCapital("France", "Paris"),
+                askCards("France", "??"),
+                hardestCards(),// wrong cards for test are updated in the previous line
+                resetStats(),
+                hardestCards(),
                 addCapital("Russia", "Moscow"),
-                removeCapitalCard("Great Britain"),
-                exportCards("capitalsNew.txt", 2),
-                importCards("capitalsNew.txt", *capitals()),
-                askCards("London", "Paris", "Moscow", "Paris"),
+                askCards("??", "??"),
+                hardestCards(),
+                askCards("??", "??"),
+                hardestCards(),
+                askCards("??", "??"),
+                hardestCards(),
+                askCards("??", "??"),
+                hardestCards(),
+                askCards("??", "??", saveWrongAnsweredCapitals = true),
+                hardestCards(),
+                exportCards("capitals.txt", 2),
+                log("testLog.txt"),
                 exit()
         )
-        // check merge with file import
         tests += dialogTest(
-                addCard("Japan", "Tokyo"), // should be merged
-                addCard("France", "UpdateMeFromImport"), // should be updated from import file
-                addCard("Russia", "UpdateMeFromImport2"), // should be updated from import file
-                importCards("capitalsNew.txt", *capitals()),
-                askCards("Tokyo", "Paris", "Moscow"),
-                removeCard("Japan"),
-                removeCapitalCard("Russia"),
-                exportCards("capitalsNew.txt", 1), // only France left
-                exit()
-        )
-
-        // check reverse map while merge
-        tests += dialogTest(
-                addCard("France", "UpdateMeFromImport"), // should be updated from import file
-                importCards("capitalsNew.txt", *capitals()),
-                askCards("UpdateMeFromImport"), // check that we removed from reverse map
-                exit()
-        )
-        
-        // check remove, add and ask:
-        tests += dialogTest(
-                addCard("a", "1"),
-                addCard("b", "2"),
-                addCard("c", "3"),
-                existingCard("b"),
-                existingCard("c"),
-                addCard("d", "4"),
-                removeCard("c"),
-                removeNonExisting("xxxx"),
-                addCard("c", "5"),
-                existingDef("new card", "4"),
-                existingDef("f", "5"),
-                removeCard("c"),
-                removeCard("d"), // left only a and b
-                askCards("1", "2", "3", "4", "3", "2", "1"), // try to fit random
-                askCards("2"),
+                hardestCards(),
+                addCard("France", "UpdateMeFromImport"),
+                askCards("??", "??"),
+                importCards("capitals.txt", *capitals()),
+                hardestCards(wrongAnsweredCapitals), // restored from the previous test
+                removeCapital("France"),
+                removeCapital("Russia"),
+                hardestCards(), // empty
                 exit()
         )
         return tests
@@ -124,11 +75,88 @@ abstract class FlashcardsStage5Test : BaseStageTest<DialogClue>(Main::class.java
         listOf(containing("action", hint = "This line should ask the action."), user(action))
     }
 
+    inner class LogPhrase(val fileName: String) : Phrase {
+        override fun toPhraseLines() = compositePhrase(
+                inputAction("log"),
+                anyLine(),
+                user(fileName),
+                OutputLine { text, ctx ->
+                    val result = containing("saved", hint = "This line should indicate, that the log has been saved.").checker(text, ctx)
+                    if (!result.isCorrect) {
+                        return@OutputLine result
+                    }
+                    if (!File(fileName).exists()) {
+                        return@OutputLine CheckResult.FALSE("The log file $fileName does not exist.")
+                    }
+                    CheckResult.TRUE
+                }
+        ).toPhraseLines()
+    }
+
+    private fun log(fileName: String) = LogPhrase(fileName)
+
+    private fun resetStats() = compositePhrase(
+            inputAction("reset stats"), containing("reset", hint = "This line should confirm card statistics reset.",
+            updateContext = { ctx -> ctx.wrongCards.clear() })
+    )
+
+    /** Between tests we cache wrong answered capitals to check hardest cards, when we restore them from file. */
+    private val wrongAnsweredCapitals: MutableList<String> = mutableListOf()
+
+    /** [customWrongCards] are used to load saved wrong cards from the previous test. */
+    fun hardestCards(customWrongCards: List<String>? = null) = compositePhrase(
+            inputAction("hardest card"),
+            OutputLine { text, ctx ->
+                if (customWrongCards != null) {
+                    ctx.wrongCards.clear()
+                    ctx.wrongCards.addAll(customWrongCards)
+                }
+                val groupedCards = ctx.wrongCards
+                        .groupBy { it }.mapValues { (_, v) -> v.size }
+                val maxMistakes = groupedCards.values.max() ?: 0
+                val hardestCards = groupedCards.filterValues { it == maxMistakes }.keys.toList()
+
+                when (hardestCards.size) {
+                    0 -> return@OutputLine containing("There are no cards with errors").checker(text, ctx)
+                    1 -> return@OutputLine containing("The hardest card is \"${hardestCards[0]}\"",
+                            "$maxMistakes").checker(text, ctx)
+                    else -> {
+                        hardestCards.forEach { card ->
+                            if (card !in text) {
+                                return@OutputLine CheckResult.FALSE("Your line `$text`\n" +
+                                        "should contain the hardest cards " +
+                                        "${hardestCards.joinToString("\", \"", "\"", "\"")} with $maxMistakes mistakes.")
+                            }
+                        }
+                        val numberOfHardestCards = text.count { it == '"' }
+                        if (numberOfHardestCards != hardestCards.size * 2) {
+                            return@OutputLine CheckResult.FALSE("Your line `$text`\n" +
+                                    "contains more hardest cards, than expected. Expected: $hardestCards.")
+                        }
+                        if (maxMistakes.toString() !in text) {
+                            if (numberOfHardestCards != hardestCards.size) {
+                                return@OutputLine CheckResult.FALSE("Your line `$text`\n" +
+                                        "should contain $maxMistakes mistakes for your hardest cards.")
+                            }
+                        }
+                    }
+                }
+                CheckResult.TRUE
+            }
+    )
+
+
     // extend dialog context with our own data:
 
     @Suppress("UNCHECKED_CAST")
     private val Context.cardToDef
         get() = rawData.getOrPut("cardToDef") { mutableMapOf<String, String>() } as MutableMap<String, String>
+
+    @Suppress("UNCHECKED_CAST")
+    /** All cards, that were answered wrong. */
+    private val Context.wrongCards
+        get() = rawData.getOrPut("wrongCards") { mutableListOf<String>() } as MutableList<String>
+
 
     @Suppress("UNCHECKED_CAST")
     private val Context.defToCard
@@ -175,7 +203,10 @@ abstract class FlashcardsStage5Test : BaseStageTest<DialogClue>(Main::class.java
             inputAction("remove"),
             anyLine(), user(card),
             containing("has been removed", hint = "This line should remove the card `$card`.",
-                    updateContext = { ctx -> ctx.removeCard(card) })
+                    updateContext = { ctx ->
+                        ctx.removeCard(card)
+                        ctx.wrongCards.removeAll(listOf(card))
+                    })
     )
 
     private fun removeNonExisting(card: String) = compositePhrase(
@@ -220,7 +251,7 @@ abstract class FlashcardsStage5Test : BaseStageTest<DialogClue>(Main::class.java
 
     /** Perform ask action. [ansDefs] are our test answers with definitions.
      * We don't know are they wrong or correct, because the test is random. */
-    private fun askCards(vararg ansDefs: String) = compositePhrase {
+    private fun askCards(vararg ansDefs: String, saveWrongAnsweredCapitals: Boolean = false) = compositePhrase {
         val startPhrases = listOf(
                 inputAction("ask"),
                 anyLine(), user(ansDefs.size.toString())
@@ -247,7 +278,7 @@ abstract class FlashcardsStage5Test : BaseStageTest<DialogClue>(Main::class.java
                     user(ansDef),
                     // check the answer:
                     OutputLine { text, ctx ->
-                        val askedCard = ctx.rawData["lastAskedCard"]
+                        val askedCard = ctx.rawData["lastAskedCard"]?.toString()
                                 ?: throw IllegalStateException("Not found lastAskedCard in the `ask` checker.")
                         val cardToDef = ctx.cardToDef
                         val defToCard = ctx.defToCard
@@ -257,6 +288,8 @@ abstract class FlashcardsStage5Test : BaseStageTest<DialogClue>(Main::class.java
                         if (cardToDef[askedCard] == ansDef)
                             containing("Correct answer", hint = hint).checker(text, ctx)
                         else {
+                            ctx.wrongCards += askedCard
+
                             val isDefFor = defToCard[ansDef]
                             if (isDefFor != null) {
                                 containing("Wrong answer", "The correct one is \"$rightAns\"",
@@ -269,7 +302,13 @@ abstract class FlashcardsStage5Test : BaseStageTest<DialogClue>(Main::class.java
                                 } else {
                                     containing("Wrong answer", "The correct one is \"$rightAns\"", hint = hint).checker(text, ctx)
                                 }
-                                
+
+                            }
+                        }.also {
+                            // only for these tests. To test restoring wrong capitals from file.
+                            if (saveWrongAnsweredCapitals) {
+                                wrongAnsweredCapitals.clear()
+                                wrongAnsweredCapitals.addAll(ctx.wrongCards)
                             }
                         }
                     }
@@ -277,6 +316,4 @@ abstract class FlashcardsStage5Test : BaseStageTest<DialogClue>(Main::class.java
         }
         (startPhrases + repeatingPhrases)
     }
-
 }
-

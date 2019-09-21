@@ -38,11 +38,15 @@ public class Card {
         this.definition = definition;
     }
 
-    public Card(String name, String subject, String theme, String definition) {
+    public Card(String name, String definition){
         this.name = name;
+        this.definition = definition;
+    }
+
+    public Card(String name, String subject, String theme, String definition) {
+        this(name,definition);
         this.subject = subject;
         this.theme = theme;
-        this.definition = definition;
     }
 
     public Card() {
