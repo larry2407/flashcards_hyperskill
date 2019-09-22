@@ -5,6 +5,7 @@ public class Card {
     private String subject;
     private String theme;
     private String definition;
+    private int mistakes;
 
     public String getName() {
         return name;
@@ -34,17 +35,26 @@ public class Card {
         return definition;
     }
 
+    public int getMistakes() {
+        return mistakes;
+    }
+
+    public void setMistakes(int mistakes) {
+        this.mistakes = mistakes;
+    }
+
     public void setDefinition(String definition) {
         this.definition = definition;
     }
 
-    public Card(String name, String definition){
+    public Card(String name, String definition, int mistakes){
         this.name = name;
         this.definition = definition;
+        this.mistakes = mistakes;
     }
 
-    public Card(String name, String subject, String theme, String definition) {
-        this(name,definition);
+    public Card(String name, String subject, String theme, String definition, int mistakes) {
+        this(name, definition, mistakes);
         this.subject = subject;
         this.theme = theme;
     }
@@ -59,6 +69,7 @@ public class Card {
                 ", subject='" + subject + '\'' +
                 ", theme='" + theme + '\'' +
                 ", definition='" + definition + '\'' +
+                ", mistakes=" + mistakes +
                 '}';
     }
 }

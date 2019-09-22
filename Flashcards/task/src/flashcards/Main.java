@@ -14,6 +14,10 @@ public class Main {
     private static Map<String, String> cardToDefinition = new LinkedHashMap<>();
     private static Map<String, String> definitionToCard = new LinkedHashMap<>();
     private static List<Card> currentCardsGame = new ArrayList<>();
+    private static List<String> logLines = new ArrayList<>();
+    private static Map<String, Integer> mapMistakes = new HashMap<>();
+
+
     public static void main(String[] args) {
 
         do{
@@ -33,6 +37,15 @@ public class Main {
                     break;
                 case "ask":
                     askCards();
+                    break;
+                case "log":
+                    logCards();
+                    break;
+                case "hardest card":
+                    hardestCards();
+                    break;
+                case "reset stats":
+                    resetStatsCards();
                     break;
                 case "exit":
                     System.out.println("Bye bye!");
@@ -78,36 +91,92 @@ public class Main {
             }
         }*/
     }
+
+    private static void resetStatsCards() {
+        for(Card c : currentCardsGame){
+            c.setMistakes(0);
+        }
+        for (Map.Entry<String, Integer> entry : mapMistakes.entrySet()) {
+            mapMistakes.put(entry.getKey(), 0);
+        }
+        saveAndPrintln("Card statistics has been reset.");
+    }
+
+    private static void hardestCards() {
+        int max = -1;
+        for(Integer m : mapMistakes.values()){
+            max = m>max ? m : max;
+        }
+        if(null == mapMistakes || mapMistakes.isEmpty() || max==0){
+            saveAndPrintln("There are no cards with errors (ignoring case).");
+        }else{
+            List<String> hardestCardsList = new ArrayList<>();
+            for(String name : mapMistakes.keySet()){
+                if(mapMistakes.get(name) == max){
+                    hardestCardsList.add(name);
+                }
+            }
+            int hardestListSize = hardestCardsList.size();
+            if(hardestListSize == 1){
+                String quotedName = "\""+hardestCardsList.get(0)+"\"";
+                String hardestC = "The hardest card is "+quotedName+". You have "+max+" errors answering it.";
+                saveAndPrintln(hardestC);
+            }else if(hardestListSize >1){
+                String output="";
+                for(int i=0; i<hardestListSize-1; i++){
+                    output+= "\""+hardestCardsList.get(i)+"\", ";
+                }
+                output+="\""+hardestCardsList.get(hardestListSize-1)+"\". ";
+                String hardestC = "The hardest cards are "+output+"You have "+max+" errors answering it.";
+                saveAndPrintln(hardestC);
+            }
+        }
+    }
+
     private static void selectAction(){
-        System.out.println("Input the action (add, remove, import, export, ask, exit):");
+        //System.out.println("Input the action (add, remove, import, export, ask, exit):");
+        saveAndPrintln("Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):");
         action = keyboardInput.nextLine();
+        logLines.add(action+"\n");
     }
 
     private static void addCard(){
-        System.out.println("The card:");
+        //System.out.println("The card:");
+        saveAndPrintln("The card:");
         String cardName = keyboardInput.nextLine();
+        logLines.add(cardName+"\n");
+
+        int mistakes = 0;
         String quotedCurrentName = "\""+cardName+"\"";
         if(null != cardToDefinition && cardToDefinition.containsKey(cardName)){
-            System.out.println("The card "+quotedCurrentName+" already exists.");
+            //System.out.println("The card "+quotedCurrentName+" already exists.");
+            saveAndPrintln("The card "+quotedCurrentName+" already exists.");
             return;
         }
-        System.out.println("The definition of the card:");
+        //System.out.println("The definition of the card:");
+        saveAndPrintln("The definition of the card:");
         String cardDefinition = keyboardInput.nextLine();
+        logLines.add(cardDefinition+"\n");
         String quotedCurrentdefinition = "\""+cardDefinition+"\"";
         if(null != definitionToCard && definitionToCard.containsKey(cardDefinition)){
-            System.out.println("The definition "+quotedCurrentdefinition+" already exists.");
+            //System.out.println("The definition "+quotedCurrentdefinition+" already exists.");
+            saveAndPrintln("The definition "+quotedCurrentdefinition+" already exists.");
             return;
         }
-        currentCardsGame.add(new Card(cardName, cardDefinition));
+        currentCardsGame.add(new Card(cardName, cardDefinition, mistakes));
         cardToDefinition.put(cardName, cardDefinition);
         definitionToCard.put(cardDefinition, cardName);
+        mapMistakes.put(cardName, mistakes);
 
-        System.out.println("The pair ("+quotedCurrentName+":"+quotedCurrentdefinition+") has been added.");
+        //System.out.println("The pair ("+quotedCurrentName+":"+quotedCurrentdefinition+") has been added.");
+        saveAndPrintln("The pair ("+quotedCurrentName+":"+quotedCurrentdefinition+") has been added.");
     }
 
     private static void removeCard(){
-        System.out.println("The card:");
+        //System.out.println("The card:");
+        saveAndPrintln("The card:");
         String cardName = keyboardInput.nextLine();
+        logLines.add(cardName+"\n");
         String quotedCurrentName = "\""+cardName+"\"";
         if(null != cardToDefinition && cardToDefinition.containsKey(cardName)) {
             for (Card c : currentCardsGame) {
@@ -119,59 +188,99 @@ public class Main {
             String currentDef = cardToDefinition.get(cardName);
             cardToDefinition.remove(cardName);
             definitionToCard.remove(currentDef);
-            System.out.println("The card has been removed.");
+            mapMistakes.remove(cardName);
+            //System.out.println("The card has been removed.");
+            saveAndPrintln("The card has been removed.");
         }else{
-            System.out.println("Can't remove "+quotedCurrentName+": there is no such card.");
+            //System.out.println("Can't remove "+quotedCurrentName+": there is no such card.");
+            saveAndPrintln("Can't remove "+quotedCurrentName+": there is no such card.");
             return;
         }
     }
 
     private static void importCards(){
-        System.out.println("File name:");
+        //System.out.println("File name:");
+       saveAndPrintln("File name:");
         String enteredFilename = keyboardInput.nextLine();
+        logLines.add(enteredFilename+"\n");
         File deserialization = new File(enteredFilename);
         Scanner fileInput = null;
         try {
             fileInput = new Scanner(deserialization);
         } catch (FileNotFoundException e) {
             //e.printStackTrace();
-            System.out.println("File not found.");
+            //System.out.println("File not found.");
+            saveAndPrintln("File not found.");
             return;
         }
         String currentName="";
         String currentDef="";
+        int currentMistakes = 0;
         int lineCount = 0;
         while(fileInput.hasNextLine()){
-            currentName=fileInput.nextLine();
-            lineCount++;
-            if(fileInput.hasNextLine()) {
-                currentDef = fileInput.nextLine();
-                lineCount++;
-           }
+            currentName = fileInput.nextLine();
+            currentDef = fileInput.nextLine();
+            currentMistakes = Integer.parseInt(fileInput.nextLine());
+            lineCount+=3;
+           // if(fileInput.hasNextLine()) {
+
+            //    lineCount++;
+           //}
             cardToDefinition.put(currentName,currentDef);
             definitionToCard.put(currentDef,currentName);
-            currentCardsGame.add(new Card(currentName, currentDef));
+            currentCardsGame.add(new Card(currentName, currentDef, currentMistakes));
+            mapMistakes.put(currentName, currentMistakes);
         }
-        System.out.println(lineCount/2 +" cards have been loaded (ignoring case).");
+        //System.out.println(lineCount/3 +" cards have been loaded (ignoring case).");
+       saveAndPrintln(lineCount/3 +" cards have been loaded (ignoring case).");
         fileInput.close();
     }
 
     private static void exportCards(){
-        System.out.println("File name:");
+        //System.out.println("File name:");
+        saveAndPrintln("File name:");
         String enteredFilename = keyboardInput.nextLine();
+        logLines.add(enteredFilename+"\n");
         File serialization = new File(enteredFilename);
         StringBuilder contentOfCardsToExport = new StringBuilder();
         int numberOfCards = cardToDefinition.size();
         for(Map.Entry<String,String> card : cardToDefinition.entrySet()){
             contentOfCardsToExport.append(card.getKey()).append("\n");
             contentOfCardsToExport.append(card.getValue()).append("\n");
+            contentOfCardsToExport.append(mapMistakes.get(card.getKey())).append("\n");
         }
         try (FileWriter writer = new FileWriter(serialization)) {
             writer.write(contentOfCardsToExport.toString());
         } catch (IOException e) {
             System.out.printf("An exception occurred %s", e.getMessage());
+            logLines.add("An exception occurred\n");
+            logLines.add(e.getMessage()+"\n");
         }
-        System.out.println(String.format("%d cards have been saved.", numberOfCards));
+        //System.out.println(String.format("%d cards have been saved.", numberOfCards));
+        saveAndPrintln(String.format("%d cards have been saved.", numberOfCards));
+    }
+
+    private static void saveAndPrintln(String logElement) {
+        System.out.println(logElement);
+        logLines.add(logElement+"\n");
+    }
+
+    private static void logCards(){
+        System.out.println("File name:");
+        logLines.add("File name:"+"\n");
+        String enteredFilename = keyboardInput.nextLine();
+        File fullLog = new File(enteredFilename);
+        StringBuilder contentOfCardsToExport = new StringBuilder();
+        int numberOfCards = cardToDefinition.size();
+        for(String line : logLines){
+            contentOfCardsToExport.append(line);
+        }
+        try (FileWriter writer = new FileWriter(fullLog)) {
+            writer.write(contentOfCardsToExport.toString());
+        } catch (IOException e) {
+            System.out.printf("An exception occurred %s", e.getMessage());
+        }
+        System.out.println("The log has been saved");
     }
 
     private static void askCards(){
@@ -198,6 +307,8 @@ public class Main {
         if (defAns.equals(cardToDefinition.get(currentCardName))) {
             System.out.println("Correct answer.");
         } else {
+            int currMist = mapMistakes.get(currentCardName);
+            mapMistakes.put(currentCardName, currMist+1);
             String quotedCorrectDef = "\"" + cardToDefinition.get(currentCardName) + "\"";
             String output = "Wrong answer, The correct one is " + quotedCorrectDef + "(ignoring case)";
             String complement = ".";

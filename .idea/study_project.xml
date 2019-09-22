@@ -420,7 +420,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="4" />
+                <option name="currentTaskIndex" value="5" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -765,7 +765,7 @@
                       <option name="index" value="5" />
                       <option name="name" value="Menu, please!" />
                       <option name="record" value="5" />
-                      <option name="status" value="Failed" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/common/DialogClue.kt">
@@ -884,7 +884,7 @@
                       <option name="index" value="6" />
                       <option name="name" value="Statistics" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/common/DialogClue.kt">
@@ -935,9 +935,65 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/flashcards/Main.java" />
                                 <option name="text" value="package flashcards;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello World!&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="capitals.txt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="capitals.txt" />
+                                <option name="text" value="Great Britain&#10;London&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="capitalsNew.txt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="capitalsNew.txt" />
+                                <option name="text" value="France&#10;Paris&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/flashcards/Card.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/flashcards/Card.java" />
+                                <option name="text" value="package flashcards;&#10;&#10;public class Card {&#10;    private String name;&#10;    private String subject;&#10;    private String theme;&#10;    private String definition;&#10;&#10;    public String getName() {&#10;        return name;&#10;    }&#10;&#10;    public void setName(String name) {&#10;        this.name = name;&#10;    }&#10;&#10;    public String getSubject() {&#10;        return subject;&#10;    }&#10;&#10;    public void setSubject(String subject) {&#10;        this.subject = subject;&#10;    }&#10;&#10;    public String getTheme() {&#10;        return theme;&#10;    }&#10;&#10;    public void setTheme(String theme) {&#10;        this.theme = theme;&#10;    }&#10;&#10;    public String getDefinition() {&#10;        return definition;&#10;    }&#10;&#10;    public void setDefinition(String definition) {&#10;        this.definition = definition;&#10;    }&#10;&#10;    public Card(String name, String definition){&#10;        this.name = name;&#10;        this.definition = definition;&#10;    }&#10;&#10;    public Card(String name, String subject, String theme, String definition) {&#10;        this(name,definition);&#10;        this.subject = subject;&#10;        this.theme = theme;&#10;    }&#10;&#10;    public Card() {&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return &quot;Card{&quot; +&#10;                &quot;name='&quot; + name + '\'' +&#10;                &quot;, subject='&quot; + subject + '\'' +&#10;                &quot;, theme='&quot; + theme + '\'' +&#10;                &quot;, definition='&quot; + definition + '\'' +&#10;                '}';&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="testLog.txt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="testLog.txt" />
+                                <option name="text" value="" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
