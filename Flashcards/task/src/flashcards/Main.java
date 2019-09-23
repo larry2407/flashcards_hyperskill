@@ -20,6 +20,10 @@ public class Main {
 
     public static void main(String[] args) {
 
+       String[] arguments = getCommandLineArgumentsSeventhStage(args);
+       if(null != arguments[0] && !arguments[0].isEmpty()){
+           importCards(arguments[0]);
+       }
         do{
             selectAction();
             switch(action){
@@ -49,6 +53,9 @@ public class Main {
                     break;
                 case "exit":
                     System.out.println("Bye bye!");
+                    if(null != arguments[1] && !arguments[1].isEmpty()) {
+                        exportCards(arguments[1]);
+                    }
                     break;
                 default:
                     break;
@@ -235,6 +242,43 @@ public class Main {
        saveAndPrintln(lineCount/3 +" cards have been loaded (ignoring case).");
         fileInput.close();
     }
+    private static void importCards(String importFileName){
+        //System.out.println("File name:");
+       //saveAndPrintln("File name:");
+       // String enteredFilename = keyboardInput.nextLine();
+        logLines.add(importFileName+"\n");
+        File deserialization = new File(importFileName);
+        Scanner fileInput = null;
+        try {
+            fileInput = new Scanner(deserialization);
+        } catch (FileNotFoundException e) {
+            //e.printStackTrace();
+            //System.out.println("File not found.");
+            saveAndPrintln("File not found.");
+            return;
+        }
+        String currentName="";
+        String currentDef="";
+        int currentMistakes = 0;
+        int lineCount = 0;
+        while(fileInput.hasNextLine()){
+            currentName = fileInput.nextLine();
+            currentDef = fileInput.nextLine();
+            currentMistakes = Integer.parseInt(fileInput.nextLine());
+            lineCount+=3;
+           // if(fileInput.hasNextLine()) {
+
+            //    lineCount++;
+           //}
+            cardToDefinition.put(currentName,currentDef);
+            definitionToCard.put(currentDef,currentName);
+            currentCardsGame.add(new Card(currentName, currentDef, currentMistakes));
+            mapMistakes.put(currentName, currentMistakes);
+        }
+        //System.out.println(lineCount/3 +" cards have been loaded (ignoring case).");
+       saveAndPrintln(lineCount/3 +" cards have been loaded (ignoring case).");
+        fileInput.close();
+    }
 
     private static void exportCards(){
         //System.out.println("File name:");
@@ -242,6 +286,29 @@ public class Main {
         String enteredFilename = keyboardInput.nextLine();
         logLines.add(enteredFilename+"\n");
         File serialization = new File(enteredFilename);
+        StringBuilder contentOfCardsToExport = new StringBuilder();
+        int numberOfCards = cardToDefinition.size();
+        for(Map.Entry<String,String> card : cardToDefinition.entrySet()){
+            contentOfCardsToExport.append(card.getKey()).append("\n");
+            contentOfCardsToExport.append(card.getValue()).append("\n");
+            contentOfCardsToExport.append(mapMistakes.get(card.getKey())).append("\n");
+        }
+        try (FileWriter writer = new FileWriter(serialization)) {
+            writer.write(contentOfCardsToExport.toString());
+        } catch (IOException e) {
+            System.out.printf("An exception occurred %s", e.getMessage());
+            logLines.add("An exception occurred\n");
+            logLines.add(e.getMessage()+"\n");
+        }
+        //System.out.println(String.format("%d cards have been saved.", numberOfCards));
+        saveAndPrintln(String.format("%d cards have been saved.", numberOfCards));
+    }
+    private static void exportCards(String exportFileName){
+        //System.out.println("File name:");
+        //saveAndPrintln("File name:");
+        //String enteredFilename = keyboardInput.nextLine();
+        logLines.add(exportFileName+"\n");
+        File serialization = new File(exportFileName);
         StringBuilder contentOfCardsToExport = new StringBuilder();
         int numberOfCards = cardToDefinition.size();
         for(Map.Entry<String,String> card : cardToDefinition.entrySet()){
@@ -319,7 +386,19 @@ public class Main {
             System.out.println(output + complement);
         }
     }
-
+    private static String[] getCommandLineArgumentsSeventhStage(String [] argsInput){
+        String[] results = new String[2];
+        for(int i=0; i<argsInput.length; i++){
+            if(argsInput[i].equals("-import")){
+                String importFile = argsInput[i+1].isEmpty() || argsInput[i+1].isBlank() || !argsInput[i+1].endsWith(".txt") ? "" : argsInput[i+1];
+                results[0] = importFile;
+            }else if(argsInput[i].equals("-export")) {
+                String exportFile = argsInput[i + 1].isEmpty() || argsInput[i + 1].isBlank() || !argsInput[i + 1].endsWith(".txt") ? "" : argsInput[i + 1];
+                results[1] = exportFile;
+            }
+        }
+        return results;
+    }
 /*
     private static int[] shuffleCards(int l, int numOfAsked) {
         if(l < numOfAsked){

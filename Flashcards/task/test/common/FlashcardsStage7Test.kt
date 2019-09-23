@@ -6,11 +6,12 @@ import org.hyperskill.hstest.v5.testcase.TestCase
 import flashcards.Main
 import java.io.File
 
-abstract class FlashcardsStage6Test : BaseStageTest<DialogClue>(Main::class.java) {
+
+abstract class FlashcardsStage7Test : BaseStageTest<DialogClue>(Main::class.java) {
 
     override fun generate(): List<TestCase<DialogClue>> {
         File("capitals.txt").delete()
-        File("testLog.txt").delete()
+        File("capitalsNew.txt").delete()
         val tests = mutableListOf<TestCase<DialogClue>>()
 
         val capitalList = mutableListOf<Pair<String, String>>()
@@ -26,41 +27,39 @@ abstract class FlashcardsStage6Test : BaseStageTest<DialogClue>(Main::class.java
         // clear files
         tests += dialogTest(
                 exportCards("capitals.txt", 0),
+                exportCards("capitalsNew.txt", 0),
                 exit()
         )
         tests += dialogTest(
-                hardestCards(),
                 addCapital("France", "Paris"),
-                askCards("France", "??"),
-                hardestCards(),// wrong cards for test are updated in the previous line
-                resetStats(),
-                hardestCards(),
                 addCapital("Russia", "Moscow"),
-                askCards("??", "??"),
-                hardestCards(),
-                askCards("??", "??"),
-                hardestCards(),
-                askCards("??", "??"),
-                hardestCards(),
-                askCards("??", "??"),
-                hardestCards(),
-                askCards("??", "??", saveWrongAnsweredCapitals = true),
-                hardestCards(),
-                exportCards("capitals.txt", 2),
-                log("testLog.txt"),
-                exit()
+                askCards("France", "??", ""),
+                exit(),
+                exportArg(2),
+                consoleArgs = arrayOf("-export", "capitals.txt")
         )
         tests += dialogTest(
-                hardestCards(),
-                addCard("France", "UpdateMeFromImport"),
-                askCards("??", "??"),
-                importCards("capitals.txt", *capitals()),
-                hardestCards(wrongAnsweredCapitals), // restored from the previous test
-                removeCapital("France"),
-                removeCapital("Russia"),
-                hardestCards(), // empty
-                exit()
+                importArg(2, *capitals()),
+                addCapital("Japan", "Tokyo"),
+                askCards("Moscow", "Paris", "Tokyo"),
+                exit(),
+                exportArg(3),
+                consoleArgs = arrayOf("-import", "capitals.txt", "-export", "capitalsNew.txt")
         )
+        tests += dialogTest(
+                importArg(3, *capitals()),
+                askCards("Moscow", "Paris", "Tokyo"),
+                removeCapital("Japan"),
+                exit(),
+                exportArg(2),
+                consoleArgs = arrayOf("-export", "capitals.txt", "-import", "capitalsNew.txt")
+        )
+        tests += dialogTest(
+                importArg(2, *capitals()),
+                exit(),
+                consoleArgs = arrayOf("-import", "capitals.txt")
+        )
+
         return tests
     }
 
@@ -70,6 +69,18 @@ abstract class FlashcardsStage6Test : BaseStageTest<DialogClue>(Main::class.java
 
 
     // ------ extensions for building a dialog: ------
+
+    fun importArg(count: Int, vararg cards: Pair<String, String>) =
+            containing("$count cards have been loaded",
+                    updateContext = { ctx ->
+                        cards.forEach { (card, def) ->
+                            ctx.addCard(card, def)
+                            ctx.wrongCards.removeAll(listOf(card))
+                        }
+                    })
+
+    fun exportArg(count: Int) = containing("$count cards have been saved")
+
 
     fun inputAction(action: String) = compositePhrase {
         listOf(containing("action", hint = "This line should ask the action."), user(action))
@@ -101,7 +112,7 @@ abstract class FlashcardsStage6Test : BaseStageTest<DialogClue>(Main::class.java
     )
 
     /** Between tests we cache wrong answered capitals to check hardest cards, when we restore them from file. */
-    private val wrongAnsweredCapitals: MutableList<String> = mutableListOf()
+    private val wrongAnweredCapitals: MutableList<String> = mutableListOf()
 
     /** [customWrongCards] are used to load saved wrong cards from the previous test. */
     fun hardestCards(customWrongCards: List<String>? = null) = compositePhrase(
@@ -203,10 +214,7 @@ abstract class FlashcardsStage6Test : BaseStageTest<DialogClue>(Main::class.java
             inputAction("remove"),
             anyLine(), user(card),
             containing("has been removed", hint = "This line should remove the card `$card`.",
-                    updateContext = { ctx ->
-                        ctx.removeCard(card)
-                        ctx.wrongCards.removeAll(listOf(card))
-                    })
+                    updateContext = { ctx -> ctx.removeCard(card) })
     )
 
     private fun removeNonExisting(card: String) = compositePhrase(
@@ -307,8 +315,8 @@ abstract class FlashcardsStage6Test : BaseStageTest<DialogClue>(Main::class.java
                         }.also {
                             // only for these tests. To test restoring wrong capitals from file.
                             if (saveWrongAnsweredCapitals) {
-                                wrongAnsweredCapitals.clear()
-                                wrongAnsweredCapitals.addAll(ctx.wrongCards)
+                                wrongAnweredCapitals.clear()
+                                wrongAnweredCapitals.addAll(ctx.wrongCards)
                             }
                         }
                     }

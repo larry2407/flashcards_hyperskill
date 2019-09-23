@@ -1,112 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-22T11:11:22" hostname="DESKTOP-IVHFBFK" time="1.442">
+<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-23T16:02:22" hostname="DESKTOP-IVHFBFK" time="1.534">
   <properties/>
-  <testcase name="start" classname="FlashcardsTest" time="1.442"/>
+  <testcase name="start" classname="FlashcardsTest" time="1.534"/>
   <system-out><![CDATA[Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+File name:
+0 cards have been saved.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
 File name:
 0 cards have been saved.
 Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
 Bye bye!
 Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-There are no cards with errors (ignoring case).
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
 The card:
 The definition of the card:
 The pair ("France":"Paris") has been added.
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-How many times to ask?
-Print the definition of "France":
-Wrong answer, The correct one is "Paris"(ignoring case).
-Print the definition of "France":
-Wrong answer, The correct one is "Paris"(ignoring case).
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-The hardest card is "France". You have 2 errors answering it.
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-Card statistics has been reset.
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-There are no cards with errors (ignoring case).
 Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
 The card:
 The definition of the card:
 The pair ("Russia":"Moscow") has been added.
 Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
 How many times to ask?
-Print the definition of "Russia":
-Wrong answer, The correct one is "Moscow"(ignoring case).
-Print the definition of "Russia":
-Wrong answer, The correct one is "Moscow"(ignoring case).
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-The hardest card is "Russia". You have 2 errors answering it.
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-How many times to ask?
-Print the definition of "Russia":
-Wrong answer, The correct one is "Moscow"(ignoring case).
-Print the definition of "Russia":
-Wrong answer, The correct one is "Moscow"(ignoring case).
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-The hardest card is "Russia". You have 4 errors answering it.
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-How many times to ask?
 Print the definition of "France":
 Wrong answer, The correct one is "Paris"(ignoring case).
 Print the definition of "Russia":
 Wrong answer, The correct one is "Moscow"(ignoring case).
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-The hardest card is "Russia". You have 5 errors answering it.
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-How many times to ask?
-Print the definition of "Russia":
-Wrong answer, The correct one is "Moscow"(ignoring case).
-Print the definition of "Russia":
-Wrong answer, The correct one is "Moscow"(ignoring case).
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-The hardest card is "Russia". You have 7 errors answering it.
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-How many times to ask?
-Print the definition of "Russia":
-Wrong answer, The correct one is "Moscow"(ignoring case).
-Print the definition of "Russia":
-Wrong answer, The correct one is "Moscow"(ignoring case).
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-The hardest card is "Russia". You have 9 errors answering it.
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-File name:
-2 cards have been saved.
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-File name:
-The log has been saved
+Print the definition of "France":
+Wrong answer, The correct one is "Paris"(ignoring case).
 Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
 Bye bye!
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-There are no cards with errors (ignoring case).
+2 cards have been saved.
+2 cards have been loaded (ignoring case).
 Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
 The card:
 The definition of the card:
-The pair ("France":"UpdateMeFromImport") has been added.
+The pair ("Japan":"Tokyo") has been added.
 Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
 How many times to ask?
 Print the definition of "France":
-Wrong answer, The correct one is "UpdateMeFromImport"(ignoring case).
+Wrong answer, The correct one is "Paris"(ignoring case), you've just written the definition of "Russia".)
+Print the definition of "Japan":
+Wrong answer, The correct one is "Tokyo"(ignoring case), you've just written the definition of "France".)
+Print the definition of "Japan":
+Correct answer.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+Bye bye!
+3 cards have been saved.
+3 cards have been loaded (ignoring case).
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+How many times to ask?
 Print the definition of "France":
-Wrong answer, The correct one is "UpdateMeFromImport"(ignoring case).
+Wrong answer, The correct one is "Paris"(ignoring case), you've just written the definition of "Russia".)
+Print the definition of "Japan":
+Wrong answer, The correct one is "Tokyo"(ignoring case), you've just written the definition of "France".)
+Print the definition of "Japan":
+Correct answer.
 Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-File name:
+The card:
+The card has been removed.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+Bye bye!
+2 cards have been saved.
 2 cards have been loaded (ignoring case).
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-The hardest card is "Russia". You have 9 errors answering it.
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-The card:
-The card has been removed.
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-The card:
-The card has been removed.
-Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
-There are no cards with errors (ignoring case).
 Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
 Bye bye!
 ]]></system-out>
   <system-err><![CDATA[Start test 1
 Start test 2
 Start test 3
+Start test 4
+Start test 5
 ]]></system-err>
 </testsuite>

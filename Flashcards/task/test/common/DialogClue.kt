@@ -149,9 +149,10 @@ class DialogClue(private val phrases: List<PhraseLine>) {
     }
 }
 
-fun dialogTest(vararg phrases: Phrase): TestCase<DialogClue> {
+fun dialogTest(vararg phrases: Phrase, consoleArgs: Array<String> = emptyArray()): TestCase<DialogClue> {
     val dialogClue = DialogClue(phrases.flatMap { it.toPhraseLines() })
     return TestCase<DialogClue>()
             .setInput(dialogClue.generateInput())
             .setAttach(dialogClue)
+            .addArguments(*consoleArgs)
 }
