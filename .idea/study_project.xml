@@ -1017,7 +1017,7 @@
                       <option name="index" value="7" />
                       <option name="name" value="IMPORTant" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Failed" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/common/DialogClue.kt">
@@ -1238,6 +1238,216 @@
                         </map>
                       </option>
                       <option name="updateDate" value="1541088455000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Some hours and minutes ago&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2871&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Write a program that reads a point in time and prints another point before this at the specified number of hours and minutes.&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;b&gt;Input data format&lt;/b&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   The first line contains a point in time like &#10;   &lt;b&gt;18:10 (&lt;/b&gt;&#10;   &lt;b&gt;hours:minute&lt;/b&gt;&#10;   &lt;b&gt;s)&lt;/b&gt;. The second line contains two numbers - hours and minutes separated by a space.&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;b&gt;Output data format&lt;/b&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   The single output line should contain a point in time before the input time in the same format.&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;18:10&lt;br&gt;2 30&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;15:40&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3593&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2871" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2871" />
+                      <option name="index" value="4" />
+                      <option name="name" value="Some hours and minutes ago" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088471000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Remove seconds from a point in time&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2872&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Write a program that reads a point in time and outputs the same time without seconds. Note, sometimes input time doesn't contain seconds.&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;18:10:55&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;18:10&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;19:30:30&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;19:30&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3593&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2872" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2872" />
+                      <option name="index" value="5" />
+                      <option name="name" value="Remove seconds from a point in time" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088472000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;How many seconds between two time points&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2875&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Implement a method that takes two instances of &#10;  &lt;code class=&quot;java&quot;&gt;LocalTime&lt;/code&gt; and determines how many seconds between them.&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;00:00:01&lt;br&gt;00:00:05&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;4&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;02:00:03&lt;br&gt;00:00:01&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;7202&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3593&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2875" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2875" />
+                      <option name="index" value="6" />
+                      <option name="name" value="How many seconds between two time points" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="import java.time.LocalTime;&#10;import java.util.Scanner;&#10;&#10;public class Main {&#10;&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        // write your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1557506286000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Add days and subtract hours&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2858&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  Write a program that reads date-time, number of days to add, and number of hours to subtract and performs the operations. The for input and output date-time like &quot;&#10;  &lt;b&gt;2017-12-31T22:30&quot;&lt;/b&gt;.&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;b&gt;Input data format&lt;/b&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;span&gt;The single line contains date-time and two numbers: days to add and hours to subtract. All input elements are separated by spaces.&lt;/span&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;b&gt;Output data format&lt;/b&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;span&gt;The output must contain only a date-time in the described format.&lt;/span&gt;&#10;   &lt;br&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;2017-12-31T22:30 10 5&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;2018-01-10T17:30&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3617&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2858" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2858" />
+                      <option name="index" value="7" />
+                      <option name="name" value="Add days and subtract hours" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088472000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;The passed hours since the beginning of year&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2863&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;b&gt;The problem statement&lt;/b&gt;&#10;  &lt;br&gt;Write a program that reads a date-time pair and calculates how many hours have passed since the beginning of the year (1st January, 00:00).&#10;  &lt;br&gt;&#10;  &lt;br&gt;&#10;  &lt;b&gt;Input data format&lt;/b&gt;&#10;  &lt;br&gt;The first line contains a date-time pair in the format &#10;  &lt;b&gt;year-month-dayThour:minute:second&lt;/b&gt;.&#10;  &lt;br&gt;&#10;  &lt;br&gt;&#10;  &lt;b&gt;Output data format&lt;/b&gt;&#10;  &lt;br&gt;The line containing an integer number.&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;2017-12-31T23:59:59&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;8759&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3617&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2863" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2863" />
+                      <option name="index" value="8" />
+                      <option name="name" value="The passed hours since the beginning of year" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088473000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Whole hours between two date-time pairs&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2864&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;b&gt;The problem statement&lt;/b&gt;&#10;  &lt;br&gt;Write a program that reads two date-time pairs in the same year and calculates how many whole hours between them.&#10;  &lt;br&gt;&#10;  &lt;br&gt;&#10;  &lt;b&gt;Input data format&lt;/b&gt;&#10;  &lt;br&gt;The first and the second lines contains a date-time pair &#10;  &lt;b&gt;year-month-dayThour:minute &lt;/b&gt;(without seconds and nanoseconds).&#10;  &lt;br&gt;&#10;  &lt;br&gt;&#10;  &lt;b&gt;Output data format&lt;/b&gt;&#10;  &lt;br&gt;The line containing a integer non-negative number.&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;2017-06-15T01:50&lt;br&gt;2017-06-16T01:10&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;23&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;2017-06-15T01:50&lt;br&gt;2017-06-15T02:50&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3617&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2864" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2864" />
+                      <option name="index" value="9" />
+                      <option name="name" value="Whole hours between two date-time pairs" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088473000" />
                     </CodeTask>
                   </list>
                 </option>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-Remove_seconds_from_a_point_in_time" external.linked.project.path="$MODULE_DIR$/../../../../Problems/Remove seconds from a point in time" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Flashcards" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/Remove seconds from a point in time">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/Remove seconds from a point in time/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/Remove seconds from a point in time/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
