@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Problems-Count_the_number_of_times__ab__occur_in_a_string" external.linked.project.path="$MODULE_DIR$/../../../../Problems/Count the number of times  ab  occur in a string" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Flashcards" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Problems/Count the number of times  ab  occur in a string">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/Count the number of times  ab  occur in a string/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Problems/Count the number of times  ab  occur in a string/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

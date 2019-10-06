@@ -13,10 +13,15 @@
             <option value="$PROJECT_DIR$/Flashcards/task" />
             <option value="$PROJECT_DIR$/Problems/Add days and subtract hours" />
             <option value="$PROJECT_DIR$/Problems/Check prefix ignoring the case" />
+            <option value="$PROJECT_DIR$/Problems/Count the number of times  ab  occur in a string" />
             <option value="$PROJECT_DIR$/Problems/How many seconds between two time points" />
+            <option value="$PROJECT_DIR$/Problems/Implementing the EntrySet method" />
             <option value="$PROJECT_DIR$/Problems/Number of decompositions" />
             <option value="$PROJECT_DIR$/Problems/Numbers filter" />
+            <option value="$PROJECT_DIR$/Problems/Phone Book" />
+            <option value="$PROJECT_DIR$/Problems/Rehashing" />
             <option value="$PROJECT_DIR$/Problems/Remove seconds from a point in time" />
+            <option value="$PROJECT_DIR$/Problems/Removing" />
             <option value="$PROJECT_DIR$/Problems/Some hours and minutes ago" />
             <option value="$PROJECT_DIR$/Problems/The passed hours since the beginning of year" />
             <option value="$PROJECT_DIR$/Problems/Whole hours between two date-time pairs" />

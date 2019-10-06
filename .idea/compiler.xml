@@ -8,14 +8,24 @@
       <module name="Problems-Add_days_and_subtract_hours_test" target="11" />
       <module name="Problems-Check_prefix_ignoring_the_case_main" target="11" />
       <module name="Problems-Check_prefix_ignoring_the_case_test" target="11" />
+      <module name="Problems-Count_the_number_of_times__ab__occur_in_a_string_main" target="11" />
+      <module name="Problems-Count_the_number_of_times__ab__occur_in_a_string_test" target="11" />
       <module name="Problems-How_many_seconds_between_two_time_points_main" target="11" />
       <module name="Problems-How_many_seconds_between_two_time_points_test" target="11" />
+      <module name="Problems-Implementing_the_EntrySet_method_main" target="11" />
+      <module name="Problems-Implementing_the_EntrySet_method_test" target="11" />
       <module name="Problems-Number_of_decompositions_main" target="11" />
       <module name="Problems-Number_of_decompositions_test" target="11" />
       <module name="Problems-Numbers_filter_main" target="11" />
       <module name="Problems-Numbers_filter_test" target="11" />
+      <module name="Problems-Phone_Book_main" target="11" />
+      <module name="Problems-Phone_Book_test" target="11" />
+      <module name="Problems-Rehashing_main" target="11" />
+      <module name="Problems-Rehashing_test" target="11" />
       <module name="Problems-Remove_seconds_from_a_point_in_time_main" target="11" />
       <module name="Problems-Remove_seconds_from_a_point_in_time_test" target="11" />
+      <module name="Problems-Removing_main" target="11" />
+      <module name="Problems-Removing_test" target="11" />
       <module name="Problems-Some_hours_and_minutes_ago_main" target="11" />
       <module name="Problems-Some_hours_and_minutes_ago_test" target="11" />
       <module name="Problems-The_passed_hours_since_the_beginning_of_year_main" target="11" />

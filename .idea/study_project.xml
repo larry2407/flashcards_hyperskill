@@ -1449,6 +1449,181 @@
                       </option>
                       <option name="updateDate" value="1541088473000" />
                     </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" value="Count the number of times &quot;ab&quot; occur in a string" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Count the number of times &quot;ab&quot; occur in a string&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/2284&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;div&gt;&#10;   Write a program that reads a string from the standard input and outputs&#10;   &lt;span&gt; the number of times that &quot;ab&quot; occurs in the string.&lt;/span&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;span&gt;&lt;br&gt;&lt;/span&gt;&#10;  &lt;/div&gt;&#10;  &lt;div&gt;&#10;   &lt;span&gt;&lt;span&gt;Note, check&lt;/span&gt;&lt;span&gt; how you program works, when the string ends with &quot;ab&quot;.&lt;/span&gt;&lt;/span&gt;&#10;  &lt;/div&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;abc&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;1&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/3551&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/2284" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="2284" />
+                      <option name="index" value="10" />
+                      <option name="name" value="Count the number of times  ab  occur in a string" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="class Main {&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1541088438000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Implementing the EntrySet method&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/7147&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;The Java standard Hashtable class has a method called&amp;nbsp;&lt;a href=&quot;https://docs.oracle.com/javase/8/docs/api/java/util/Hashtable.html#entrySet--&quot; rel=&quot;noopener noreferrer nofollow&quot;&gt;entrySet&lt;/a&gt;&amp;nbsp;that allows users to iterate over the entries of a&amp;nbsp;table. Your task here is to implement a simplified version of the method for the described hash table.&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;Input:&amp;nbsp;&lt;/strong&gt;the first line contains an integer $n$ -- the number of queries. Each of the next $n$ lines contains two records separates by space: the first&amp;nbsp;represents an integer key, the other&amp;nbsp;corresponds to&amp;nbsp;a string value.&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;Output:&amp;nbsp;&lt;/strong&gt;for each unique id, print all entries associated&amp;nbsp;with&amp;nbsp;the id. All ids can be printed in arbitrary order, entries should be printed in the same order as they were inserted into a table.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5&lt;br&gt;513 Alice&lt;br&gt;401 Bob&lt;br&gt;513 Mike&lt;br&gt;401 Kate&lt;br&gt;513 John&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;513: Alice Mike John&lt;br&gt;401: Bob Kate&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 256 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 5s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/6945&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/7147" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="7147" />
+                      <option name="index" value="11" />
+                      <option name="name" value="Implementing the EntrySet method" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="public class Main {&#10;    private static class TableEntry&lt;T&gt; {&#10;        private final int key;&#10;        private final T value;&#10;&#10;        public TableEntry(int key, T value) {&#10;            this.key = key;&#10;            this.value = value;&#10;        }&#10;&#10;        public int getKey() {&#10;            return key;&#10;        }&#10;&#10;        public T getValue() {&#10;            return value;&#10;        }&#10;    }&#10;&#10;    private static class HashTable&lt;T&gt; {&#10;        private int size;&#10;        private TableEntry[] table;&#10;&#10;        public HashTable(int size) {&#10;            this.size = size;&#10;            table = new TableEntry[size];&#10;        }&#10;&#10;        public boolean put(int key, T value) {&#10;            // put your code here&#10;        }&#10;&#10;        public T get(int key) {&#10;            // put your code here          &#10;        }&#10;&#10;        public ??? entrySet() {&#10;            // put your code here&#10;        }&#10;&#10;        private int findKey(int key) {&#10;            // put your code here&#10;        }&#10;&#10;        private void rehash() {&#10;            // put your code here&#10;        }&#10;    }&#10;&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1566913740000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Rehashing&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/6949&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;One limitation of the described hash table is that it can store only a fixed number of entries. Your task here is to address the limitation and implement a &lt;code&gt;rehash&lt;/code&gt; method. It should work as follows: when a current table is full, it allocates a new array of a larger size, iterates through the old array and puts each element&amp;nbsp;to the new array. Then, the new array is used to insert new entries. Assume that the initial size of a table is 5 and the scaling factor is 2.&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;Input:&amp;nbsp;&lt;/strong&gt;the first line contains an integer $n$,&amp;nbsp;the number of insertions. Each of the following lines contains an entry: an integer key and a string value.&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;Output: &lt;/strong&gt;the state of the&amp;nbsp;table after all insertions. Use the &lt;code&gt;toString&lt;/code&gt;&amp;nbsp;method&amp;nbsp;to produce an output.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;7&lt;br&gt;33 John&lt;br&gt;12 Alice&lt;br&gt;13 Kate&lt;br&gt;44 Tom&lt;br&gt;21 Ann&lt;br&gt;17 Steve&lt;br&gt;18 Brown&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;0: null&lt;br&gt;1: key=21, value=Ann&lt;br&gt;2: key=12, value=Alice&lt;br&gt;3: key=33, value=John&lt;br&gt;4: key=44, value=Tom&lt;br&gt;5: key=13, value=Kate&lt;br&gt;6: null&lt;br&gt;7: key=17, value=Steve&lt;br&gt;8: key=18, value=Brown&lt;br&gt;9: null&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 64 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 2s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/6945&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/6949" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="6949" />
+                      <option name="index" value="12" />
+                      <option name="name" value="Rehashing" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="public class Main {&#10;    private static class TableEntry&lt;T&gt; {&#10;        private final int key;&#10;        private final T value;&#10;&#10;        public TableEntry(int key, T value) {&#10;            this.key = key;&#10;            this.value = value;&#10;        }&#10;&#10;        public int getKey() {&#10;            return key;&#10;        }&#10;&#10;        public T getValue() {&#10;            return value;&#10;        }&#10;    }&#10;&#10;    private static class HashTable&lt;T&gt; {&#10;        private int size;&#10;        private TableEntry[] table;&#10;&#10;        public HashTable(int size) {&#10;            this.size = size;&#10;            table = new TableEntry[size];&#10;        }&#10;&#10;        public boolean put(int key, T value) {&#10;            // put your code here&#10;        }&#10;&#10;        public T get(int key) {&#10;            int idx = findKey(key);&#10;&#10;            if (idx == -1 || table[idx] == null) {&#10;                return null;&#10;            }&#10;&#10;            return (T) table[idx].getValue();          &#10;        }&#10;&#10;        private int findKey(int key) {&#10;            int hash = key % size;&#10;&#10;            while (!(table[hash] == null || table[hash].getKey() == key)) {&#10;                hash = (hash + 1) % size;&#10;&#10;                if (hash == key % size) {&#10;                    return -1;&#10;                }&#10;            }&#10;&#10;            return hash;&#10;        }&#10;&#10;        private void rehash() {&#10;            // put your code here&#10;        }&#10;&#10;        @Override&#10;        public String toString() {&#10;            StringBuilder tableStringBuilder = new StringBuilder();&#10;&#10;            for (int i = 0; i &lt; table.length; i++) {&#10;                if (table[i] == null) {&#10;                    tableStringBuilder.append(i + &quot;: null&quot;);&#10;                } else {&#10;                    tableStringBuilder.append(i + &quot;: key=&quot; + table[i].getKey()&#10;                                                + &quot;, value=&quot; + table[i].getValue());&#10;                }&#10;&#10;                if (i &lt; table.length - 1) {&#10;                    tableStringBuilder.append(&quot;\n&quot;);&#10;                }&#10;            }&#10;&#10;            return tableStringBuilder.toString();&#10;        }&#10;    }&#10;&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1568989188000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Phone Book&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/6951&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Let's&amp;nbsp;sum up and put all the implementation details together.&amp;nbsp;The task is&amp;nbsp;to use the described hash table to implement a simple phone book.&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;Input:&lt;/strong&gt; the first line contains an integer&amp;nbsp;$n$, the number of queries. Each of the next $n$ lines contains a query in one of the following formats:&lt;/p&gt; &#10;  &lt;ul&gt; &#10;   &lt;li&gt;&lt;em&gt;put&lt;/em&gt;&amp;nbsp;id&amp;nbsp;number&amp;nbsp;— put an entry (id, number) to a table;&lt;/li&gt; &#10;   &lt;li&gt;&lt;em&gt;get&lt;/em&gt;&amp;nbsp;id&amp;nbsp;— get a phone number with a specified id;&lt;/li&gt; &#10;   &lt;li&gt;&lt;em&gt;remove&lt;/em&gt;&amp;nbsp;id&amp;nbsp;— remove a phone number with a specified id.&lt;/li&gt; &#10;  &lt;/ul&gt; &#10;  &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; for each &lt;em&gt;get&lt;/em&gt;&amp;nbsp;query, print either the phone number&amp;nbsp;that corresponds to the id&amp;nbsp;or -1&amp;nbsp;if no number&amp;nbsp;with the given id exists.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;11&lt;br&gt;put 1 0001&lt;br&gt;put 4 0004&lt;br&gt;put 3 0003&lt;br&gt;get 1&lt;br&gt;get 4&lt;br&gt;get 3&lt;br&gt;remove 1&lt;br&gt;remove 4&lt;br&gt;get 1&lt;br&gt;get 4&lt;br&gt;get 3&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;0001&lt;br&gt;0004&lt;br&gt;0003&lt;br&gt;-1&lt;br&gt;-1&lt;br&gt;0003&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 64 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 2s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/6945&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/6951" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="6951" />
+                      <option name="index" value="13" />
+                      <option name="name" value="Phone Book" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Failed" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="// write your answer here &#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1564137608000" />
+                    </CodeTask>
+                    <CodeTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;b&gt;Removing&lt;/b&gt; &lt;a class=&quot;right&quot; href=&quot;https://hyperskill.org/learn/step/6950&quot;&gt;Open on Hyperskill&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;html&gt;&#10; &lt;head&gt;&lt;/head&gt;&#10; &lt;body&gt;&#10;  &lt;p&gt;Another limitation of the described hash table is that it does not support removing data. Your task here is to implement a&amp;nbsp;&lt;code&gt;remove&lt;/code&gt; method that removes&amp;nbsp;an element with a specified key from a hash table.&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;Input&lt;/strong&gt;: the first line contains two numbers $n$ and $m$ separated by a space. Each of the next $n$ lines contains an entry: an integer key and a string value. Each of the following&amp;nbsp;$m$ lines contains&amp;nbsp;an integer key to remove.&lt;/p&gt; &#10;  &lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;: A state of a hash table after $n$ insertions and $m$ removings. Assume that the initial size of a table is 5, the scaling factor is 2. Use the &lt;code&gt;toString&lt;/code&gt;&amp;nbsp;method to produce an output.&lt;/p&gt;&#10; &lt;/body&gt;&#10;&lt;/html&gt;&lt;br&gt;&lt;b&gt;Sample Input:&lt;/b&gt;&lt;br&gt;5 2&lt;br&gt;10 John&lt;br&gt;20 Alice&lt;br&gt;30 Kate&lt;br&gt;40 Ann&lt;br&gt;50 Bob&lt;br&gt;10&lt;br&gt;40&lt;br&gt;&lt;br&gt;&lt;b&gt;Sample Output:&lt;/b&gt;&lt;br&gt;0: key=10, value=John, removed=true&lt;br&gt;1: key=20, value=Alice, removed=false&lt;br&gt;2: key=30, value=Kate, removed=false&lt;br&gt;3: key=40, value=Ann, removed=true&lt;br&gt;4: key=50, value=Bob, removed=false&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Memory limit: 64 Mb&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;gray&quot;&gt;Time limit: 2s&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br/&gt;&lt;a href=&quot;https://hyperskill.org/learn/step/6945&quot;&gt;Show topic summary&lt;/a&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/learn/step/6950" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="6950" />
+                      <option name="index" value="14" />
+                      <option name="name" value="Removing" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Main.java" />
+                                <option name="text" value="public class Main {&#10;    private static class TableEntry&lt;T&gt; {&#10;        private final int key;&#10;        private final T value;&#10;        private boolean removed;&#10;&#10;        public TableEntry(int key, T value) {&#10;            this.key = key;&#10;            this.value = value;&#10;        }&#10;&#10;        public int getKey() {&#10;            return key;&#10;        }&#10;&#10;        public T getValue() {&#10;            return value;&#10;        }&#10;&#10;        public void remove() {&#10;             removed = true;   &#10;        }&#10;&#10;        public boolean isRemoved() {&#10;             return removed;   &#10;        }&#10;    }&#10;&#10;    private static class HashTable&lt;T&gt; {&#10;        private int size;&#10;        private TableEntry[] table;&#10;&#10;        public HashTable(int size) {&#10;            this.size = size;&#10;            table = new TableEntry[size];&#10;        }&#10;&#10;        public boolean put(int key, T value) {&#10;            // put your code here&#10;        }&#10;&#10;        public T get(int key) {&#10;            // put your code here&#10;        }&#10;&#10;        public void remove(int key) {&#10;            // put your code here&#10;        }&#10;&#10;        private int findKey(int key) {&#10;            // put your code here&#10;        }&#10;&#10;        private void rehash() {&#10;            // put your code here&#10;        }&#10;&#10;        @Override&#10;        public String toString() {&#10;            StringBuilder tableStringBuilder = new StringBuilder();&#10;&#10;            for (int i = 0; i &lt; table.length; i++) {&#10;                if (table[i] == null) {&#10;                    tableStringBuilder.append(i + &quot;: null&quot;);&#10;                } else {&#10;                    tableStringBuilder.append(i + &quot;: key=&quot; + table[i].getKey()&#10;                                                + &quot;, value=&quot; + table[i].getValue()&#10;                                                + &quot;, removed=&quot; + table[i].isRemoved());&#10;                }&#10;&#10;                if (i &lt; table.length - 1) {&#10;                    tableStringBuilder.append(&quot;\n&quot;);&#10;                }&#10;            }&#10;&#10;            return tableStringBuilder.toString();&#10;        }&#10;    }&#10;&#10;    public static void main(String[] args) {&#10;        // put your code here&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1566640452000" />
+                    </CodeTask>
                   </list>
                 </option>
               </Lesson>
